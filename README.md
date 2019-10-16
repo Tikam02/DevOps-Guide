@@ -1,5 +1,11 @@
 # DevOps_Cheatsheet
-![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) 
+
+![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)
+
+![GitHub](https://img.shields.io/github/license/Tikam02/DevOps_Cheatsheet?style=for-the-badge)
+
 *******
 - Docker
 - Kubernetes
