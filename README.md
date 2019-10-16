@@ -1,5 +1,5 @@
 # DevOps_Cheatsheet
-DevOps CheatSheets - Docker , Kubernetes, CI/CD
+![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)
 *******
 - Docker
 - Kubernetes
