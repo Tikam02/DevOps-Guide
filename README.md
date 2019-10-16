@@ -29,7 +29,7 @@ DevOps CheatSheets - Docker , Kubernetes, CI/CD
 
 ``` docker run -p 8080:80 image-name ```
 
-Run “image-name” mapping port 8080 to 80, but in detached mode
+- Run “image-name” mapping port 8080 to 80, but in detached mode
 
 ``` docker run -d -p 8080:80 image-name ```
 
@@ -201,11 +201,9 @@ Run “image-name” mapping port 8080 to 80, but in detached mode
 
 
 ******************************
-### Kubernetes 
+## Kubernetes 
 
-##############################################################################
-# CLIENT CONFIGURATION
-##############################################################################
+### CLIENT CONFIGURATION
 
 
 - Setup autocomplete in bash; bash-completion package should be installed first
@@ -221,9 +219,7 @@ Run “image-name” mapping port 8080 to 80, but in detached mode
 ``` kubectl config set-credentials kubeuser/foo.kubernetes.com --username=kubeuser --password=kubepassword ```
 
 
-##############################################################################
-# VIEWING, FINDING RESOURCES
-##############################################################################
+### VIEWING, FINDING RESOURCES
 
 
 - List all services in the namespace
@@ -257,9 +253,7 @@ Run “image-name” mapping port 8080 to 80, but in detached mode
 ``` for i in 0 1; do kubectl exec foo-$i -- sh -c 'echo $(hostname) > /usr/share/nginx/html/index.html'; done ```
 
 
-##############################################################################
-# MANAGE RESOURCES
-##############################################################################
+### MANAGE RESOURCES
 
 
 - Get documentation for pod or service
@@ -292,9 +286,7 @@ EOF
 ``` kubectl delete -f ./my-manifest.yaml ``
 
 
-##############################################################################
-# MONITORING & LOGGING
-##############################################################################
+### MONITORING & LOGGING
 
 
 - Deploy Heapster from Github repository
