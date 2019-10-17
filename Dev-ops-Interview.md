@@ -1,16 +1,18 @@
 ## Interview Preparation:
 *********
 ## Topics
-    - DevOps
-    - Programming
-    - OS/LINUX
-    - Networking
-    - Security
-    - Architecture
-    - Setup
-    - Infrastructure as Code
-    - CI/CD
-    - Testing
+
+* DevOps
+* Programming
+* OS/LINUX
+* Networking
+* Security
+* Architecture
+* Setup
+* Infrastructure as Code
+* CI/CD
+* Testing
+
 ********
 ### DevOps:
 
