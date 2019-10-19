@@ -21,6 +21,7 @@
 
 *******************
 ### Some Important Links : 
+- [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
 - [Docker Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-docker-a4)
 - [Kubernetes Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4)
 - [Kubernets YAML Templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates)
