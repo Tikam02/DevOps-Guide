@@ -13,15 +13,14 @@
 
 ********************
 ### File Directories
- - [Docker Notes]()
- - [Kubernetes Notes]()
- - [Networking Concepts & Notes]()
- - [OS/Linux Concepts & Notes]()
- - [Books]()
-
-
+ - [Docker Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/docker-notes.md)
+ - [Kubernetes Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/kubernetes-notes.md)
+ - [Networking Concepts & Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/networking-notes.md)
+ - [OS/Linux Concepts & Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/Os-concepts.md)
+ - [Books](https://github.com/Tikam02/DevOps_Cheatsheet/tree/master/books)
 
 *******************
+### Some Important Links : 
 - [Docker Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-docker-a4)
 - [Kubernetes Cheatsheet](https://cheatsheet.dennyzhang.com/cheatsheet-kubernetes-A4)
 - [Kubernets YAML Templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates)
