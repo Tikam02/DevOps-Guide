@@ -87,7 +87,8 @@ EOF
 ```
 
 - Delete a resource
-``` kubectl delete -f ./my-manifest.yaml ``
+
+``` kubectl delete -f ./my-manifest.yaml ```
 
 
 ### MONITORING & LOGGING
