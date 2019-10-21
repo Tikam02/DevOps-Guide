@@ -6,10 +6,10 @@
 
 
 
-[DevOps](#devops)
+- [DevOps](#devops)
 
 
-* Programming
+* [Programming](#programming)
 * OS/LINUX
 * Networking
 * Security
@@ -364,7 +364,7 @@ A: Core operations of DevOps in terms of development and infrastructure are:
 
 ***********
 
-### OS/LINUX:
+### OS-LINUX:
 
 * How can you view running processes?
 
@@ -477,7 +477,7 @@ What is the importance of SSL?
 **********************
 
 
-### CI/CD:
+### CI-CD:
 
 
 
