@@ -6,8 +6,7 @@
 
 
 
-
-![DevOps](#DevOps)
+[DevOps](#devops)
 
 
 * Programming
