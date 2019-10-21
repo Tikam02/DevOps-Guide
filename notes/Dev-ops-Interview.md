@@ -2,22 +2,16 @@
 *********
 ## Topics
 
-
-
-
-
-- [DevOps](#devops)
-
-
+* [DevOps](#devops)
 * [Programming](#programming)
-* OS/LINUX
-* Networking
-* Security
-* Architecture
-* Setup
-* Infrastructure as Code
-* CI/CD
-* Testing
+* [OS-LINUX](#os-linux)
+* [Networking](#networking)
+* [Security](#security)
+* [Architecture](#architecture)
+* [Setup](#setup)
+* [Infrastructure as Code](#infrastructure-as-code)
+* [CI-CD](#ci-cd)
+* [Testing](#testing)
 
 ***********
 ### Top 5 DevOps Tools You Should Know In 2019
