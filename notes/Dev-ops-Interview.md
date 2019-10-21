@@ -1,4 +1,5 @@
-## Interview Preparation:
+ ![Learn](https://img.shields.io/badge/Interview-Preparation-blueviolet?style=for-the-badge)
+
 *********
 ## Topics
 
@@ -124,27 +125,27 @@ The following section features the top 20 DevOps interview questions that will p
 Q: Can you tell us the fundamental differences between DevOps & Agile?
 A: Although DevOps shares some similarities with the Agile methodology, which is one of the most popular SDLC methodologies, both are fundamentally different approaches to software development. Following are the various fundamental differences between the two:
 
-    Agile Approach – The agile approach is only meant for development in Agile while the agile approach is meant for both development and operations in DevOps.
+    - Agile Approach – The agile approach is only meant for development in Agile while the agile approach is meant for both development and operations in DevOps.
 
-    Practices and Processes – While agile involves practices such as Agile Scrum and Agile Kanban, DevOps involves processes such as CD (Continuous Delivery), CI (Continuous Integration), and CT (Continuous Testing).
+    - Practices and Processes – While agile involves practices such as Agile Scrum and Agile Kanban, DevOps involves processes such as CD (Continuous Delivery), CI (Continuous Integration), and CT (Continuous Testing).
 
-    Priority – Agile prioritizes timeliness whereas, DevOps gives equal priority to timeliness and quality.
+    - Priority – Agile prioritizes timeliness whereas, DevOps gives equal priority to timeliness and quality.
 
-    Release Cycles – DevOps offers smaller release cycles with immediate feedback while Agile offers only smaller release cycles without immediate feedback.
+    - Release Cycles – DevOps offers smaller release cycles with immediate feedback while Agile offers only smaller release cycles without immediate feedback.
 
-    Feedback Source – Agile relies on feedback from customers while feedback from self (monitoring tools) is involved in DevOps.
+    - Feedback Source – Agile relies on feedback from customers while feedback from self (monitoring tools) is involved in DevOps.
 
-    Scope of Work – For Agile, the scope of work is agility only but for DevOps, it is agility and the need for automation.
+    - Scope of Work – For Agile, the scope of work is agility only but for DevOps, it is agility and the need for automation.
 
 Q: Why do we need DevOps?
 A: Organizations these days are trying to transport small features to customers via a series of release trains instead of releasing big feature sets. There are several benefits of doing so, including better software quality and quick customer feedback.
 
 All such benefits lead to a higher level of customer satisfaction, which is the most important goal for any product development project. To do so, companies need to:
 
-    Increase deployment frequency
-    Lessen lead time between fixes
-    Lower failure rate of new releases
-    In case of new release crashing, have a faster mean time to recovery
+    - Increase deployment frequency
+    - Lessen lead time between fixes
+    - Lower failure rate of new releases
+    - In case of new release crashing, have a faster mean time to recovery
 
 DevOps helps in fulfilling all these requirements and thus, achieving seamless software delivery. Full-fledged organizations like Amazon, Etsy, and Google have adopted DevOps methodology resulting in achieving performance levels that were previously uncharted.
 
@@ -155,28 +156,28 @@ A: DevOps brings a lot of business and technical benefits to the table. Some of 
 
 Business benefits:
 
-    Enhanced operating environment stability
-    Faster delivery of features
-    More time for adding value to the product
+    - Enhanced operating environment stability
+    - Faster delivery of features
+    - More time for adding value to the product
 
 Technical benefits:
 
-    Continuous software delivery
-    Faster problem resolution
-    Lesser complex problems
+    - Continuous software delivery
+    - Faster problem resolution
+    - Lesser complex problems
 
 Q: Can you name some of the most-used DevOps tools?
 A: Following is a list of some of the most widely used DevOps tools:
 
-    Ansible – A configuration management and application deployment tool
-    Chef – A configuration management and application deployment tool
-    Docker – A containerization tool
-    Git – A version control system (VCS) tool
-    Jenkins – A continuous integration (CI) tool
-    Jira – An agile team collaboration tool
-    Nagios – A continuous monitoring tool
-    Puppet – A configuration management and application deployment tool
-    Selenium – A continuous testing (CT) tool
+    - Ansible – A configuration management and application deployment tool
+    - Chef – A configuration management and application deployment tool
+    - Docker – A containerization tool
+    - Git – A version control system (VCS) tool
+    - Jenkins – A continuous integration (CI) tool
+    - Jira – An agile team collaboration tool
+    - Nagios – A continuous monitoring tool
+    - Puppet – A configuration management and application deployment tool
+    - Selenium – A continuous testing (CT) tool
 
 Q: What is Selenium used for?
 A: Selenium is used for continuous testing in DevOps. The tool specializes in functional and regression forms of testing.
@@ -188,25 +189,25 @@ System admins need to perform a lot of repetitive tasks, notably installing and 
 
 Puppet helps in configuring, deploying, and managing servers. Not only does it make such redundant tasks easier but also cuts a significant portion of the total work time. The mature configuration management tool:
 
-    Continuously checks whether the needed configuration for a host is in place or not. If altered, the configuration is automatically reverted back
-    Defines distinct configurations for every host
-    Does dynamic scaling (up and down) of machines
-    Provides control over all the configured machines so that a centralized change can automatically get propagated to all of them
+    - Continuously checks whether the needed configuration for a host is in place or not. If altered, the configuration is automatically reverted back
+    - Defines distinct configurations for every host
+    - Does dynamic scaling (up and down) of machines
+    - Provides control over all the configured machines so that a centralized change can automatically get propagated to all of them
 
 Q: What do you understand by anti-patterns of DevOps?
 A: When a DevOps pattern commonly adopted by other organizations doesn’t work in a specific context and still the organization continues using it, it leads to the adoption of an anti-pattern. In other words, anti-patterns are myths about DevOps. Some of the notable anti-patterns are:
 
-    An organization needs to have a separate DevOps group
-    Agile equals DevOps
-    DevOps is a process
-    DevOps is development-driven release management
-    DevOps is not possible because the organization is unique
-    DevOps is not possible because the people available are unsuitable
-    DevOps means Developers Managing Production
-    DevOps will solve all problems
-    Failing to include all aspects of the organization in an ongoing DevOps transition
-    Not defining KPIs at the start of a DevOps transition
-    Reduce the silo-based isolation of development and operations with a new DevOps team that silos itself from other parts of the organization
+    - An organization needs to have a separate DevOps group
+    - Agile equals DevOps
+    - DevOps is a process
+    - DevOps is development-driven release management
+    - DevOps is not possible because the organization is unique
+    - DevOps is not possible because the people available are unsuitable
+    - DevOps means Developers Managing Production
+    - DevOps will solve all problems
+    - Failing to include all aspects of the organization in an ongoing DevOps transition
+    - Not defining KPIs at the start of a DevOps transition
+    - Reduce the silo-based isolation of development and operations with a new DevOps team that silos itself from other parts of the organization
 
 Q: DevOps has something called CI. What is it and what is its purpose?
 A: CI in DevOps stands for Continuous Integration. CI is a development practice in which developers integrate code into a shared repository multiple times in a single day.
@@ -226,45 +227,45 @@ To shift left in DevOps simply means the necessity of taking as many tasks on th
 
 There are several ways of accomplishing a shit left in DevOps, most notably:
 
-    Create production-ready artifacts at the end of every Agile sprint
-    Incorporating static code analysis routines in every build
+- Create production-ready artifacts at the end of every Agile sprint
+- Incorporating static code analysis routines in every build
 
 The level of doing the DevOps the right way is directly dependent on the degree of shifting left as much as possible.
 
 Q: What does CAMS in DevOps stand for?
 A: The acronym CAMS is usually used for describing the core creeds of DevOps methodology. It stands for:
 
-    Culture
-    Automation
-    Measurement
-    Sharing
+- Culture
+- Automation
+- Measurement
+- Sharing
 
 Q: What are the several KPIs used to gauge DevOps success?
 A: KPIs is a contracted form of Key Performance Indicators. In order to measure the success of a DevOps process, several KPIs can be used. Some of the most popular ones are:
 
-    Application performance
-    Application usage and traffic
-    The automated test pass percentage
-    Availability
-    Change volume
-    Customer tickets
-    Defect escape rate
-    Deployment frequency
-    Deployment time
-    Error rates
-    Failed deployments
-    Lead time
-    Meantime to detection (MTTD)
-    Mean time to recovery (MTTR)
+- Application performance
+- Application usage and traffic
+- The automated test pass percentage
+- Availability
+- Change volume
+- Customer tickets
+- Defect escape rate
+- Deployment frequency
+- Deployment time
+- Error rates
+- Failed deployments
+- Lead time
+- Meantime to detection (MTTD)
+- Mean time to recovery (MTTR)
 
 Q: In your opinion, what are the major benefits of implementing DevOps automation?
 A: Following are the major benefits of implementing DevOps automation:
 
-    Removal of the possibility of human error from the CD equation (Core benefit)
+- Removal of the possibility of human error from the CD equation (Core benefit)
 
-    As tasks become more predictable and repeatable, it is easy to identify and correct when something goes wrong. Hence, it results in producing more reliable and robust systems
+- As tasks become more predictable and repeatable, it is easy to identify and correct when something goes wrong. Hence, it results in producing more reliable and robust systems
 
-    Removes bottlenecks from the CI pipeline. It results in increased deployment frequency and decreased number of failed deployments. Both of them are important DevOps KPIs
+- Removes bottlenecks from the CI pipeline. It results in increased deployment frequency and decreased number of failed deployments. Both of them are important DevOps KPIs
 
 Q: What do you understand by containers?
 A: Containers are a form of lightweight virtualization that help in providing isolation among processes. Containers are heavier than a chroot but lighter than a hypervisor.
@@ -275,15 +276,11 @@ A: There are several Java frameworks that allow creating microservices. However,
 Q: What do you understand by a Version Control System (VCS)? Define its uses.
 A: A Version Control System or VCS is a system that is capable of recording changes made to a file or a group of files over time. Git and Mercurial are two of the most popular version control systems. Important uses of a VCS are:
 
-    Check what was the last modification that caused a problem
-
-    Compare the changes made over time
-
-    Identifying who introduced a new issue and at what time
-
-    Revert a file or files to some earlier state
-
-    Revert the complete project to a previous state
+- Check what was the last modification that caused a problem
+- Compare the changes made over time
+- Identifying who introduced a new issue and at what time
+- Revert a file or files to some earlier state
+- Revert the complete project to a previous state
 
 Q: Git is a popular DevOps tool. Tell us how you will revert a commit that has already been pushed and made public.
 A: There are two ways of doing so:
@@ -496,3 +493,11 @@ What is the importance of SSL?
 
 
 *******************
+
+### Setup
+
+
+**************
+
+
+### Testing
