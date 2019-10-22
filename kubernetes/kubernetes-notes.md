@@ -1,11 +1,6 @@
-## Kubernetes
+## Kubernetes - Commands
 ***************
- 
-* Basic File Writing YAML
-* Concepts
-* Cheatsheet
 
-*****************
 
 ### CLIENT CONFIGURATION
 
@@ -31,33 +26,43 @@
 
 
 - List all services in the namespace
+
 ``` kubectl get services ```
 
 - List all pods in all namespaces in wide format
+
 ``` kubectl get pods -o wide --all-namespaces ```
 
 - List all pods in json (or yaml) format
+
 ``` kubectl get pods -o json ```
 
 - Describe resource details (node, pod, svc)
+
 ``` kubectl describe nodes my-node ```
 
 - List services sorted by name
+
 ``` kubectl get services --sort-by=.metadata.name ```
 
 - List pods sorted by restart count
+
 ```kubectl get pods --sort-by='.status.containerStatuses[0].restartCount'```
 
 - Rolling update pods for frontend-v1
+
 ``` kubectl rolling-update frontend-v1 -f frontend-v2.json ```
 
 - Scale a replicaset named 'foo' to 3
+
 ``` kubectl scale --replicas=3 rs/foo ```
 
 - Scale a resource specified in "foo.yaml" to 3
+
 ``` kubectl scale --replicas=3 -f foo.yaml ```
 
 - Execute a command in every pod / replica
+
 ``` for i in 0 1; do kubectl exec foo-$i -- sh -c 'echo $(hostname) > /usr/share/nginx/html/index.html'; done ```
 
 
@@ -65,15 +70,19 @@
 
 
 - Get documentation for pod or service
+
 ``` kubectl explain pods,svc ```
 
 - Create resource(s) like pods, services or daemonsets
+
 ``` kubectl create -f ./my-manifest.yaml ```
 
 - Apply a configuration to a resource
+
 ``` kubectl apply -f ./my-manifest.yaml ```
 
 - Start a single instance of Nginx
+
 ``` kubectl run nginx --image=nginx ```
 
 - Create a secret with several keys
@@ -99,20 +108,26 @@ EOF
 
 
 - Deploy Heapster from Github repository
+
 ``` kubectl create -f deploy/kube-config/standalone/ ```
 
 - Show metrics for nodes
+
 ``` kubectl top node ```
 
 - Show metrics for pods
+
 ``` kubectl top pod ```
 
 - Show metrics for a given pod and its containers
+
 ``` kubectl top pod pod_name --containers ```
 
 - Dump pod logs (stdout)
+
 ``` kubectl logs pod_name ```
 
 - Stream pod container logs (stdout, multi-container case)
+
 ``` kubectl logs -f pod_name -c my-container ```
 
