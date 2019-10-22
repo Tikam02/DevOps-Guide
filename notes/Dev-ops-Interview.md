@@ -116,7 +116,7 @@
 * How would you deploy software to 5000 systems?
 * What is caching ? Where should a large scale application cache, and what data should be cached ?
 
-
+*********************
 
 ### DevOps Interview Questions
 
@@ -281,7 +281,7 @@ The following section features the top 20 DevOps interview questions that will p
  - Revert a file or files to some earlier state
  - Revert the complete project to a previous state
 
-Q: Git is a popular DevOps tool. Tell us how you will revert a commit that has already been pushed and made public.
+#### Q: Git is a popular DevOps tool. Tell us how you will revert a commit that has already been pushed and made public.
 - A: There are two ways of doing so:
 
     - By creating a new commit to undo all changes made by the commit that has already been pushed and made public. Following command is used for doing so:
@@ -445,7 +445,7 @@ Configuration Management refers to the process of controlling, identifying, plan
 ### Security:
 
 
-What is the importance of SSL?
+* What is the importance of SSL?
 
 * What is a SQL injection?
 
