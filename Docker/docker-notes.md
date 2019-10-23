@@ -1,4 +1,4 @@
-## Docker Notes:
+## Docker Notes:  ![Docker](https://img.shields.io/badge/Docker-Notes-blue?style=for-the-badge)
 ***********************
 
 * [Dockerfile Format](#docker-fileformats)
@@ -6,7 +6,7 @@
 * [Docker Commands](#docker-cheatsheet)
 
 **********************
-### Docker fileformats
+### Docker fileformats 
 
 * FROM
 
@@ -282,7 +282,7 @@ Information:
 
 *******************
 
-### Docker Cheatsheet
+### Docker Build & Run  ![Docker](https://img.shields.io/badge/Docker-Build-blue?style=for-the-badge)
 
 - Create image using this directory’s Dockerfile
 
@@ -360,7 +360,10 @@ Information:
 
 ``` docker network ls ```
 
-### Docker Compose
+
+*********************************************
+
+### Docker Compose  ![Docker](https://img.shields.io/badge/Docker-Compose-blue?style=for-the-badge)
 
 - Build Docker Images using Docker Compose file
 
@@ -394,7 +397,10 @@ Information:
 
 ``` docker-compose logs ```
 
-### Docker Swarm
+
+******************************************************
+
+### Docker Swarm  ![Docker](https://img.shields.io/badge/Docker-Swarm-blue?style=for-the-badge)
 
 - Initialize
 
