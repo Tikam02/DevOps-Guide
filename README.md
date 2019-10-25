@@ -2,16 +2,25 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) ![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)  ![Devops](https://img.shields.io/badge/Devops-DevOps-blue?style=for-the-badge) ![Learn](https://img.shields.io/badge/Learn-Implement-blueviolet?style=for-the-badge)
 
-
-
 *******************
-### Getting Started DevOps:
 
-- [The-devops-roadmap-for-programmers](https://dzone.com/articles/the-devops-roadmap-for-programmers)
-- [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
-- [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
-- [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
-- [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
+### File Directories
+ - [Docker](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker) 
+   - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
+   - [Docker Notes](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-notes.md)
+   - [Tutorial Series ](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker)
+ - [Kubernetes](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
+   - [Kubernetes Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kuber-concepts.md)
+   - [Kubernetes Commands](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kubernetes-commands.md)
+   - [Tutorial Series](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
+ - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
+   - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
+   - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
+   - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
+ - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
+  - [Git Concepts & Tutorials]()
+  - [Jenkins Concepts & Tutorials]()
+ - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books)
 
 ******************
 
@@ -27,12 +36,16 @@
 * Devops Flow
 
 ********************
-### File Directories
- - [Docker Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/docker-notes.md)
- - [Kubernetes Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/kubernetes-notes.md)
- - [Networking Concepts & Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/networking-notes.md)
- - [OS/Linux Concepts & Notes](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/Os-concepts.md)
- - [Books](https://github.com/Tikam02/DevOps_Cheatsheet/tree/master/books)
+
+
+### Getting Started DevOps Links:
+
+- [The-devops-roadmap-for-programmers](https://dzone.com/articles/the-devops-roadmap-for-programmers)
+- [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
+- [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
+- [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
+- [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
+
 
 *******************
 ### Some Important Links : 
