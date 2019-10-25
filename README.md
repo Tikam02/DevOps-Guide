@@ -54,9 +54,6 @@
 - [Kubernets YAML Templates](https://cheatsheet.dennyzhang.com/kubernetes-yaml-templates)
 - [Development Tools Cheatsheet](https://cheatsheet.dennyzhang.com/category/tools)
 - [Linux Cheatsheet](https://cheatsheet.dennyzhang.com/category/linux)
-
-
-*************************
 - [Kubectl get nodes error!](https://jessicadeen.com/kubectl-get-nodes-error-unable-to-connect-to-the-server-dial-tcp-i-o-timeout/)
 - [Troubleshoot kubectl connection refused](https://medium.com/@texasdave2/troubleshoot-kubectl-connection-refused-6f5445a396ed)
 - [Kubernetes Monitoring-sysdig](https://sysdig.com/blog/kubernetes-monitoring-prometheus/)
