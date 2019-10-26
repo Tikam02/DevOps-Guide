@@ -2,8 +2,8 @@
 **********
 ### Table of Contents:
 1. [Basic Concept of Images and Containers](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
-2. [Setting up Docker](#setting-up-docker)
-3. [Developing Fullstack WebApp in python Flask](#flask-webapp)
+2. [Docker Setup](2)
+3. [Developing Fullstack WebApp in python Flask](3)
 4. Writing Dockerfile
 5. Composing Docker-compose
 6. Testing Docker images
