@@ -3,11 +3,10 @@
 ### Table of Contents:
 1. [Basic Concept of Images and Containers](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
 2. [Docker Setup](#2-setting-up-docker)
-3. [Developing Fullstack WebApp in python Flask](3)
-4. Writing Dockerfile
-5. Composing Docker-compose
-6. Testing Docker images
-7. Push to Docker-hub
+3. [Developing Fullstack WebApp in python Flask](#3-flask-web-app)
+4. [Writing Dockerfile](#4-writing-dockerfile)
+5. [Composing Docker-compose](#5-composing-docker-compose)
+6. [Push to Docker-hub](#6-pushing-image-to-dockerhub)
 
 
 *****************
@@ -53,4 +52,10 @@ sudo apt-get install docker.io
 
   
   ## 3. Flask Web App
+  
+  ## 4. Writing Dockerfile
+  
+  ## 5. Composing Docker Compose
+  
+  ## 6 Pushing Image To Dockerhub
 
