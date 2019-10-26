@@ -62,11 +62,13 @@
   - The image can then be deployed to any Docker environment and executable as a container.
   - A Docker image is containing everything needed to run an application as a container. This includes:
 
-    -   code
+    - code
     - runtime
     - libraries
     - environment variables
     - configuration files
+    
+    ![docker image](https://github.com/Tikam02/DevOps-Guide/blob/master/img/container-layers.jpg)
 
 		
 - What is a container?
@@ -82,5 +84,9 @@
 	- Applications are safer in containers and Docker provides the strongest default isolation capabilities in the industry.
 
     - Docker container is the actual running piece created from a docker image. The only difference between a docker image and a docker container is a top writable layer. When you create a new container, you add a new, thin, writable layer on top of the underlying stack. This layer is often called the “container layer”. All changes made to the running container — such as writing new files, modifying existing files, and deleting files — are written to this thin writable container layer. But once you delete the container, this top layer will be deleted as well. So it’s not persistent. The best thing with docker is that you can create a docker image using the current docker container with a commit. Hence, enabling us to capture system information and make it immutable so its reproducible anywhere. This solves many of the server related problems we encounter these days.
+    
+    ![Docker container](https://github.com/Tikam02/DevOps-Guide/blob/master/img/docker-image.png)  
+    
+  
 
 - Containers Vs VM
