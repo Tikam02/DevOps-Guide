@@ -1,0 +1,16 @@
+{
+    "name": "nodejs-image-demo",
+    "version": "1.0.0",
+    "description": "nodejs image demo",
+    "author": "Timon",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+        "nodejs",
+        "bootstrap",
+        "express"
+    ],
+    "dependencies": {
+        "express": "^4.16.4"
+    }
+}
