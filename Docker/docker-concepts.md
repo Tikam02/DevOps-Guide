@@ -90,3 +90,31 @@
   
 
 - Containers Vs VM
+
+    - When talking about containerization it is very often compared to virtual machines. Let’s take a look at the following image to see the main difference :
+  
+    - The Docker container platform is always running on top of the host operating system. Containers are containing the binaries, libraries, and the application itself. Containers do not contain a guest operating system which ensures that containers are lightweight.
+  
+    -In contrast virtual machines are running on a hypervisor (responsible for running virtual machines) and include it’s own guest operating system. This increased the size of the virtual machines significantly, makes setting up virtual machines more complex and requires more resources to run each virtual machine.
+
+    ![container vs VM]()
+
+- Dockerfile
+
+    - Blueprint of a docker image (a text document) is known as Dockerfile. This file contains all the commands you would run in order to build the docker image you want. Docker can build images reading this file, which is one of the key advantages of docker.
+
+    ```bash
+    # Super simple example of a Dockerfile
+    FROM ubuntu:latest
+    MAINTAINER Tikam Alma 
+
+    RUN apt-get update
+    RUN apt-get install -y python python-pip wget
+    RUN pip install Flask
+
+    ADD hello.py /home/hello.py
+
+    WORKDIR /home
+    ```
+
+    - We first write a Dockerfile which is like the definition of the image. Using the Dockerfile we create a docker image. We then push this image to Docker Hub and provide a unique tag that can be used to identify our image. Using this tag and image name, we can pull the docker image and deploy on another computer as a docker container.
