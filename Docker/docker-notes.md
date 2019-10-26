@@ -5,9 +5,6 @@
 
 * [Docker Commands](#docker-compose)
 
-* [Docker build](#docker build & run)
-
-* [Docker swarm](#docker-swarm)
 
 
 **********************
