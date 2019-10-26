@@ -120,9 +120,8 @@
 
 ### DevOps Interview Questions
 
-The following section features the top 20 DevOps interview questions that will prepare you for your next DevOps interview:
 
-#### Q: Can you tell us the fundamental differences between DevOps & Agile?
+#### Q1) Can you tell us the fundamental differences between DevOps & Agile?
 - A: Although DevOps shares some similarities with the Agile methodology, which is one of the most popular SDLC methodologies, both are fundamentally different approaches to software development. Following are the various fundamental differences between the two:
 
     - Agile Approach – The agile approach is only meant for development in Agile while the agile approach is meant for both development and operations in DevOps.
@@ -137,79 +136,85 @@ The following section features the top 20 DevOps interview questions that will p
 
     - Scope of Work – For Agile, the scope of work is agility only but for DevOps, it is agility and the need for automation.
 
-#### Q: Why do we need DevOps?
-- A: Organizations these days are trying to transport small features to customers via a series of release trains instead of releasing big feature sets. There are several benefits of doing so, including better software quality and quick customer feedback.
+#### Q2) Why do we need DevOps?
 
-- All such benefits lead to a higher level of customer satisfaction, which is the most important goal for any product development project. To do so, companies need to:
+  - A: Organizations these days are trying to transport small features to customers via a series of release trains instead of releasing big feature sets. There are several benefits of doing so, including better software quality and quick customer feedback.
 
-    - Increase deployment frequency
-    - Lessen lead time between fixes
-    - Lower failure rate of new releases
-    - In case of new release crashing, have a faster mean time to recovery
+  - All such benefits lead to a higher level of customer satisfaction, which is the most important goal for any product development project. To do so, companies need to:
 
-- DevOps helps in fulfilling all these requirements and thus, achieving seamless software delivery. Full-fledged organizations like Amazon, Etsy, and Google have adopted DevOps methodology resulting in achieving performance levels that were previously uncharted.
+      - Increase deployment frequency
+      - Lessen lead time between fixes
+      - Lower failure rate of new releases
+      - In case of new release crashing, have a faster mean time to recovery
 
-- With the adoption of DevOps methodology, organizations are able to accomplish tens to thousands of deployments in a single day. Moreover, doing so while offering first-rate reliability, security, and stability.
+  - DevOps helps in fulfilling all these requirements and thus, achieving seamless software delivery. Full-fledged organizations like Amazon, Etsy, and Google have adopted DevOps methodology resulting in achieving performance levels that were previously uncharted.
 
-#### Q: What are the important business and technical benefits of using DevOps?
+  - With the adoption of DevOps methodology, organizations are able to accomplish tens to thousands of deployments in a single day. Moreover, doing so while offering first-rate reliability, security, and stability.
+
+#### Q3) What are the important business and technical benefits of using DevOps?
+
 - A: DevOps brings a lot of business and technical benefits to the table. Some of the most important ones are listed down as follows:
 
-- Business benefits:
+    - Business benefits:
 
-    - Enhanced operating environment stability
-    - Faster delivery of features
-    - More time for adding value to the product
+      - Enhanced operating environment stability
+      - Faster delivery of features
+      - More time for adding value to the product
 
-- Technical benefits:
+    - Technical benefits:
 
-    - Continuous software delivery
-    - Faster problem resolution
-    - Lesser complex problems
+      - Continuous software delivery
+      - Faster problem resolution
+      - Lesser complex problems
 
-#### Q: Can you name some of the most-used DevOps tools?
-- A: Following is a list of some of the most widely used DevOps tools:
+#### Q4) Can you name some of the most-used DevOps tools?
 
-    - Ansible – A configuration management and application deployment tool
-    - Chef – A configuration management and application deployment tool
-    - Docker – A containerization tool
-    - Git – A version control system (VCS) tool
-    - Jenkins – A continuous integration (CI) tool
-    - Jira – An agile team collaboration tool
-    - Nagios – A continuous monitoring tool
-    - Puppet – A configuration management and application deployment tool
-    - Selenium – A continuous testing (CT) tool
+  - A: Following is a list of some of the most widely used DevOps tools:
 
-#### Q: What is Selenium used for?
-- A: Selenium is used for continuous testing in DevOps. The tool specializes in functional and regression forms of testing.
+      - Ansible – A configuration management and application deployment tool
+      - Chef – A configuration management and application deployment tool
+      - Docker – A containerization tool
+      - Git – A version control system (VCS) tool
+      - Jenkins – A continuous integration (CI) tool
+      - Jira – An agile team collaboration tool
+      - Nagios – A continuous monitoring tool
+      - Puppet – A configuration management and application deployment tool
+      - Selenium – A continuous testing (CT) tool
 
-#### Q: What do you understand by Puppet in DevOps?
-- A: It is a configuration management tool that is used for automating administration tasks. Puppet makes use of the Master-Slave architecture in which the two entities communicate via an encrypted channel.
+#### Q5) What is Selenium used for?
 
-- System admins need to perform a lot of repetitive tasks, notably installing and configuring servers. Writing scripts for automating such tasks is an option but it becomes hectic when the infrastructure is large. Configuration management is a great workaround for this.
+  - A: Selenium is used for continuous testing in DevOps. The tool specializes in functional and regression forms of testing.
 
-- Puppet helps in configuring, deploying, and managing servers. Not only does it make such redundant tasks easier but also cuts a significant portion of the total work time. The mature configuration management tool:
+#### Q6) What do you understand by Puppet in DevOps?
+  
+  - A: It is a configuration management tool that is used for automating administration tasks. Puppet makes use of the Master-Slave architecture in which the two entities communicate via an encrypted channel.
 
-    - Continuously checks whether the needed configuration for a host is in place or not. If altered, the configuration is automatically reverted back
-    - Defines distinct configurations for every host
-    - Does dynamic scaling (up and down) of machines
-    - Provides control over all the configured machines so that a centralized change can automatically get propagated to all of them
+  - System admins need to perform a lot of repetitive tasks, notably installing and configuring servers. Writing scripts for automating such tasks is an option but it becomes hectic when the infrastructure is large. Configuration management is a great workaround for this.
 
-#### Q: What do you understand by anti-patterns of DevOps?
-- A: When a DevOps pattern commonly adopted by other organizations doesn’t work in a specific context and still the organization continues using it, it leads to the adoption of an anti-pattern. In other words, anti-patterns are myths about DevOps. Some of the notable anti-patterns are:
+  - Puppet helps in configuring, deploying, and managing servers. Not only does it make such redundant tasks easier but also cuts a significant portion of the total work time. The mature configuration management tool:
 
-    - An organization needs to have a separate DevOps group
-    - Agile equals DevOps
-    - DevOps is a process
-    - DevOps is development-driven release management
-    - DevOps is not possible because the organization is unique
-    - DevOps is not possible because the people available are unsuitable
-    - DevOps means Developers Managing Production
-    - DevOps will solve all problems
-    - Failing to include all aspects of the organization in an ongoing DevOps transition
-    - Not defining KPIs at the start of a DevOps transition
-    - Reduce the silo-based isolation of development and operations with a new DevOps team that silos itself from other parts of the organization
+      - Continuously checks whether the needed configuration for a host is in place or not. If altered, the configuration is automatically reverted back
+      - Defines distinct configurations for every host
+      - Does dynamic scaling (up and down) of machines
+      - Provides control over all the configured machines so that a centralized change can automatically get propagated to all of them
 
-#### Q: DevOps has something called CI. What is it and what is its purpose?
+#### Q7) What do you understand by anti-patterns of DevOps?
+  
+  - A: When a DevOps pattern commonly adopted by other organizations doesn’t work in a specific context and still the organization continues using it, it leads to the adoption of an anti-pattern. In other words, anti-patterns are myths about DevOps. Some of the notable anti-patterns are:
+
+      - An organization needs to have a separate DevOps group
+      - Agile equals DevOps
+      - DevOps is a process
+      - DevOps is development-driven release management
+      - DevOps is not possible because the organization is unique
+      - DevOps is not possible because the people available are unsuitable
+      - DevOps means Developers Managing Production
+      - DevOps will solve all problems
+      - Failing to include all aspects of the organization in an ongoing DevOps transition
+      - Not defining KPIs at the start of a DevOps transition
+      - Reduce the silo-based isolation of development and operations with a new DevOps team that silos itself from other parts of the organization
+
+#### Q8) DevOps has something called CI. What is it and what is its purpose?
 - A: CI in DevOps stands for Continuous Integration. CI is a development practice in which developers integrate code into a shared repository multiple times in a single day.
 
 - Continuous Integration of development and testing enhances the quality of the software as well as reducing the total time required for delivery.
@@ -220,7 +225,7 @@ The following section features the top 20 DevOps interview questions that will p
 
 - Typically, a CI process includes a suite of unit, integration, and regression tests that run each time the compilation succeeds. In case any of the aforesaid tests fail, the CI build is considered unstable (which is common during an Agile sprint when development is ongoing) and not broken.
 
-#### Q: More often than not we hear shift left in DevOps. What is it?
+#### Q9) More often than not we hear shift left in DevOps. What is it?
 - A: The traditional software development lifecycle when graphed on a paper has two sides, left and right. While the left side of the graph includes design and development, the right side includes production staging, stress testing, and user acceptance.
 
 - To shift left in DevOps simply means the necessity of taking as many tasks on the right i.e. that typically happens toward the end of the application development process and incorporate them into earlier stages of a DevOps methodology.
@@ -231,7 +236,7 @@ The following section features the top 20 DevOps interview questions that will p
 
 - The level of doing the DevOps the right way is directly dependent on the degree of shifting left as much as possible.
 
-#### Q: What does CAMS in DevOps stand for?
+#### Q10) What does CAMS in DevOps stand for?
 - A: The acronym CAMS is usually used for describing the core creeds of DevOps methodology. It stands for:
 
  - Culture
@@ -239,7 +244,7 @@ The following section features the top 20 DevOps interview questions that will p
  - Measurement
  - Sharing
 
-#### Q: What are the several KPIs used to gauge DevOps success?
+#### Q11) What are the several KPIs used to gauge DevOps success?
 - A: KPIs is a contracted form of Key Performance Indicators. In order to measure the success of a DevOps process, several KPIs can be used. Some of the most popular ones are:
 
  - Application performance
@@ -257,7 +262,7 @@ The following section features the top 20 DevOps interview questions that will p
  - Meantime to detection (MTTD)
  - Mean time to recovery (MTTR)
 
-#### Q: In your opinion, what are the major benefits of implementing DevOps automation?
+#### Q12) In your opinion, what are the major benefits of implementing DevOps automation?
 - A: Following are the major benefits of implementing DevOps automation:
 
 - Removal of the possibility of human error from the CD equation (Core benefit)
@@ -266,13 +271,13 @@ The following section features the top 20 DevOps interview questions that will p
 
 - Removes bottlenecks from the CI pipeline. It results in increased deployment frequency and decreased number of failed deployments. Both of them are important DevOps KPIs
 
-#### Q: What do you understand by containers?
+#### Q13) What do you understand by containers?
 - A: Containers are a form of lightweight virtualization that help in providing isolation among processes. Containers are heavier than a chroot but lighter than a hypervisor.
 
-#### Q: Microservices are a core part of DevOps. Can you name any two popular Java development frameworks for creating microservices?
+#### Q14) Microservices are a core part of DevOps. Can you name any two popular Java development frameworks for creating microservices?
 - A: There are several Java frameworks that allow creating microservices. However, Eclipse MicroProfile and Spring Boot stand out from the herd as the two leading Java development frameworks used in DevOps for creating microservices.
 
-#### Q: What do you understand by a Version Control System (VCS)? Define its uses.
+#### Q15) What do you understand by a Version Control System (VCS)? Define its uses.
 - A: A Version Control System or VCS is a system that is capable of recording changes made to a file or a group of files over time. Git and Mercurial are two of the most popular version control systems. Important uses of a VCS are:
 
  - Check what was the last modification that caused a problem
@@ -281,7 +286,7 @@ The following section features the top 20 DevOps interview questions that will p
  - Revert a file or files to some earlier state
  - Revert the complete project to a previous state
 
-#### Q: Git is a popular DevOps tool. Tell us how you will revert a commit that has already been pushed and made public.
+#### Q16) Git is a popular DevOps tool. Tell us how you will revert a commit that has already been pushed and made public.
 - A: There are two ways of doing so:
 
     - By creating a new commit to undo all changes made by the commit that has already been pushed and made public. Following command is used for doing so:
@@ -290,25 +295,25 @@ The following section features the top 20 DevOps interview questions that will p
     - By fixing or removing the bad file in a new commit and then pushing it to the remote repository. After making necessary changes to the file, commit it to the remote repository using the command:
     - git commit -m “commit message”
 
-#### Q: What are post mortem meetings?
-- A: Many times there is a need to discuss what went wrong during a DevOps process. For this, post mortem meetings are arranged. These meetings yield steps that should be taken to avoid the same failure or set of failures in the future for which the meeting was arranged in the first place.
+#### Q17) What are post mortem meetings?
+  - A: Many times there is a need to discuss what went wrong during a DevOps process. For this, post mortem meetings are arranged. These meetings yield steps that should be taken to avoid the same failure or set of failures in the future for which the meeting was arranged in the first place.
 
-#### Q: Draw a comparison between Asset Management and Configuration Management.
-- A: The process of monitoring as well as maintaining things of value to an entity or group is called an Asset Management.
+#### Q18) Draw a comparison between Asset Management and Configuration Management.
+  - A: The process of monitoring as well as maintaining things of value to an entity or group is called an Asset Management.
 
-Configuration Management refers to the process of controlling, identifying, planning for, and verifying the configuration items within service in support of Change Management.
+ - Configuration Management refers to the process of controlling, identifying, planning for, and verifying the configuration items within service in support of Change Management.
 
-#### Q: Can you state and explain various key elements of continuous testing?
-- A: Various key elements of continuous testing are:
+#### Q19) Can you state and explain various key elements of continuous testing?
+  - A: Various key elements of continuous testing are:
 
-    - Advanced analysis – Used for forecasting and predicting unknown future events
-    - Policy analysis – Meant for improving the testing process
-    - Requirement traceability – Refers to the ability to describe as well as follow the life of a requirement, from its origin to deployment
-    - Risk assessment – The method or process of identifying hazards and risk factors that can cause potential damage
-    - Service virtualization – Allows using virtual services instead of production services. Emulates software components for simple testing
-    - Test optimization – Improve the overall testing process
+      - Advanced analysis – Used for forecasting and predicting unknown future events
+      - Policy analysis – Meant for improving the testing process
+      - Requirement traceability – Refers to the ability to describe as well as follow the life of a requirement, from its origin to deployment
+      - Risk assessment – The method or process of identifying hazards and risk factors that can cause potential damage
+      - Service virtualization – Allows using virtual services instead of production services. Emulates software components for simple testing
+      - Test optimization – Improve the overall testing process
 
-#### Q: Please explain the core operations of DevOps in terms of development and infrastructure.
+#### Q20) Please explain the core operations of DevOps in terms of development and infrastructure.
 - A: Core operations of DevOps in terms of development and infrastructure are:
 
     - Application development – Developing a product that is able to meet all customer requirements and offers a remarkable level of quality
@@ -320,6 +325,50 @@ Configuration Management refers to the process of controlling, identifying, plan
     - Packaging – Activities involved when the release is ready for deployment
     - Provisioning – Ensuring that the infrastructure changes arrive just-in-time with the code that requires it
     - Unit testing – Meant for testing individual units or components
+
+#### Q21) What Do You Know about DevOps?
+
+  - Your answer must be simple and straightforward. Begin by explaining the growing importance of DevOps in the IT industry. Discuss how such an approach aims to synergize the efforts of the development and operations teams to accelerate the delivery of software products, with a minimal failure rate. Include how DevOps is a value-added practice, where development and operations engineers join hands throughout the product or service lifecycle, right from the design stage to the point of deployment.
+
+
+#### Q22) Why Has DevOps Gained Prominence over the Last Few Years?
+
+  - Before talking about the growing popularity of DevOps, discuss the current industry scenario. Begin with some examples of how big players such as Netflix and Facebook are investing in DevOps to automate and accelerate application deployment and how this has helped them grow their business. Using Facebook as an example, you would point to Facebook’s continuous deployment and code ownership models and how these have helped it scale up but ensure the quality of experience at the same time. Hundreds of lines of code are implemented without affecting quality, stability, and security.
+
+  - Your next use case should be Netflix. This streaming and on-demand video company follow similar practices with fully automated processes and systems. Mention the user base of these two organizations: Facebook has 2 billion users while Netflix streams online content to more than 100 million users worldwide.
+
+  - These are great examples of how DevOps can help organizations to ensure higher success rates for releases, reduce the lead time between bug fixes, streamline and continuous delivery through automation, and an overall reduction in manpower costs.
+
+#### Q23) Which Are Some of the Most Popular DevOps Tools? Do You Have Experience Working with Any of These Tools?
+
+  - The more popular DevOps tools include:
+
+     - Selenium
+     - Puppet
+     - Chef
+     - Git
+     - Jenkins
+     - Ansible
+     - Docker
+
+#### Q24) Do You Want to Master All These Devops Tools?
+
+  - Thoroughly describe any tools that you are confident about, what it’s abilities are and why you prefer using it. For example, if you have expertise in Git, you would tell the interviewer that Git is a distributed Version Control System (VCS) tool that allows the user to track file changes and revert to specific changes when required. Discuss how Git’s distributed architecture gives it an added edge where developers make changes locally and can have the entire project history on their local Git repositories, which can be later shared with other team members.
+
+#### Q25) What Is Version Control and Why Should VCS Be Used?
+
+  - Define version control and talk about how this system records any changes made to one or more files and saves them in a centralized repository. VCS tools will help you recall previous versions and perform the following:
+
+  - Go through the changes made over a period of time and check what works versus what doesn’t.
+    Revert specific files or specific projects back to an older version.
+    Examine issues or errors that have occurred due to a particular change
+
+  - Using VCS gives developers the flexibility to simultaneously work on a particular file and all modifications can be logically combined later.
+
+
+#### Q26) Is There a Difference Between Agile and DevOps? If Yes, Please Explain.
+
+  - As a DevOps Engineer, interview questions like this are quite expected. Start by describing the obvious overlap between DevOps and Agile. Although the implementation of DevOps is always in sync with Agile methodologies, there is a clear difference between the two. The principles of Agile are associated with seamless production or development of a piece of software. On the other hand, DevOps deals with the development, followed by deployment of the software, ensuring faster turnaround time, minimum errors, and reliability.
 
 
 ************

@@ -171,7 +171,7 @@ sudo apt-get install docker.io
 
 - It will take a minute or two to build the image. Once it is complete, check your images:
 
- ``` $ docker images ``
+ ``` $ docker images ```
 
  - It is now possible to create a container with this image using docker run. We will include three flags with this command:
 
