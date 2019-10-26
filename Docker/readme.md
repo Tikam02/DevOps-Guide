@@ -2,7 +2,7 @@
 **********
 ### Table of Contents:
 1. [Basic Concept of Images and Containers](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
-2. [Docker Setup](2)
+2. [Docker Setup](#setting-up-docker)
 3. [Developing Fullstack WebApp in python Flask](3)
 4. Writing Dockerfile
 5. Composing Docker-compose
@@ -30,7 +30,7 @@
 
 
 
-## 2. Setting up Docker
+## Setting up Docker
 
 
 - Installation on ubuntu:
