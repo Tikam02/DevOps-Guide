@@ -3,7 +3,11 @@
 
 * [Dockerfile Format](#docker-fileformats)
 
-* [Docker Commands](#docker-cheatsheet)
+- [Docker Commands]()
+    - [Docker build](#docker build & run)
+    - [Docker compose](#docker compose)
+    - [Docker swarm](#docker swarm)
+
 
 **********************
 ### Docker fileformats 
