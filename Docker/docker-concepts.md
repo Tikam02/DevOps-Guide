@@ -25,11 +25,10 @@
     - Each component is developed seperately and done....
 
     - Example : Online Shopping Service : 
-	
-								Account Service
-								Product Catalog
-								Cart Server
-								Order Server
+		- Account Service
+		- Product Catalog
+		- Cart Server
+		- Order Server
 
 - Advantages of microservice architecture : 
 
@@ -97,7 +96,7 @@
   
     -In contrast virtual machines are running on a hypervisor (responsible for running virtual machines) and include it’s own guest operating system. This increased the size of the virtual machines significantly, makes setting up virtual machines more complex and requires more resources to run each virtual machine.
 
-    ![container vs VM]()
+    ![container vs VM](https://github.com/Tikam02/DevOps-Guide/blob/master/img/dockervsvm.png)
 
 - Dockerfile
 
