@@ -19,7 +19,7 @@
 
 *********************
 
-![alt text](https://github.com/Tikam02/DevOps-Guide/blob/master/img/etcd.png)
+![alt text](https://github.com/Tikam02/DevOps-Guide/blob/master/img/etcd-master.png)
 
 
 **************************
