@@ -2,10 +2,10 @@
 
 ***************************
 ## Table Of Contents: 
-  - [Introdution](#introdution)
+  - [Introduction](#introdution)
   - [Kubernetes Objects](#kubernetes-objects)
   - [Kubernetes Architecture](#kubernetes-architecture)
-  - [Refernces:](#refernces)
+  - [References](#reference)
   - [Tutorial Resources](#tutorial-resources)
 
 *****************
@@ -110,7 +110,7 @@
 
 ************ 
 
-### Refernces:
+### References
 
 - [Kubernetes in three diagrams](https://medium.com/@tsuyoshiushio/kubernetes-in-three-diagrams-6aba8432541c)
 - [The Best Kubernetes Tutorials](https://www.magalix.com/blog/the-best-kubernetes-tutorials)
