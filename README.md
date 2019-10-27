@@ -1,6 +1,6 @@
 # DevOps-Guide 
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) ![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)  ![Devops](https://img.shields.io/badge/Devops-DevOps-blue?style=for-the-badge) ![Learn](https://img.shields.io/badge/Learn-Implement-blueviolet?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) ![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)  ![Devops](https://img.shields.io/badge/Devops-DevOps-blue?style=for-the-badge) ![Learn](https://img.shields.io/badge/Learn-Implement-blueviolet?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge)
 
 *******************
 
@@ -40,11 +40,14 @@
 
 ### Getting Started DevOps Links:
 
+- [r/devops](https://www.reddit.com/r/devops/)
+- [Getting Started With Azure DevOps](https://github.com/microsoft/azuredevopslabs)
 - [The-devops-roadmap-for-programmers](https://dzone.com/articles/the-devops-roadmap-for-programmers)
 - [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
 - [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
 - [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
+  
 
 
 *******************
