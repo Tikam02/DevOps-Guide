@@ -13,7 +13,7 @@
    - [Kubernetes Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kuber-concepts.md)
    - [Kubernetes Commands](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kubernetes-commands.md)
    - [Tutorial Series](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
-   - [Kubernetes Advanced - Deep dive]()
+   - [Kubernetes Advanced - Deep dive](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kube-advanced.md)
  - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
    - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
    - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
