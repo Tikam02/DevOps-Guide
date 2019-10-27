@@ -11,7 +11,7 @@
   - [Kubernetes Objects](#kubernetes-objects)
   - [Kubernetes Architecture](#kubernetes-architecture)
   - [Refernces:](#refernces)
-  - [Important Resources ](#important-resources )
+  - [Tutorial Resources](#tutorial-resources)
 
 *****************
 
@@ -57,6 +57,10 @@
     - ## Persistent Volume Claim
 
         - Presistent Volume Claim is the abstruction of the Persistent Volume. Persistent Volume is physical resources of inflastructure. Kubernetes want to hide the detail from developers. Using Persistent Volume Claim, you can hide the physical declaration defined by Persistent Volume or Storage Class. Pod can mount the Volume using Persistent Volume Claim object.
+
+
+- [Kubernetes Essentials: The basic components, pods, services, and more](https://www.padok.fr/en/blog/kubernetes-essentials-components-pods-services)
+- [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 
 ## Kubernetes Architecture
 
