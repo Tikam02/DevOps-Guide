@@ -5,8 +5,9 @@
   - [Introduction](#introdution)
   - [Kubernetes Objects](#kubernetes-objects)
   - [Kubernetes Architecture](#kubernetes-architecture)
-  - [References](#reference)
   - [Tutorial Resources](#tutorial-resources)
+  - [References](#reference)
+
 
 *****************
 
@@ -60,7 +61,7 @@
 - [Kubernetes Essentials: The basic components, pods, services, and more](https://www.padok.fr/en/blog/kubernetes-essentials-components-pods-services)
 -  [Kubernetes 101: Pods, Nodes, Containers, and Clusters](https://medium.com/google-cloud/kubernetes-101-pods-nodes-containers-and-clusters-c1509e409e16)
 
-
+*******************
 
 ## Kubernetes Architecture
 
@@ -75,6 +76,9 @@
  - As mentioned above, the applications and services themselves are run on the cluster within containers. The underlying components make sure that the desired state of the applications matches the actual state of the cluster. Users interact with the cluster by communicating with the main API server either directly or with clients and libraries. To start up an application or service, a declarative plan is submitted in JSON or YAML defining what to create and how it should be managed. The master server then takes the plan and figures out how to run it on the infrastructure by examining the requirements and the current state of the system. This group of user-defined applications running according to a specified plan represents Kubernetes’ final layer.
 
 ![architecture](https://github.com/Tikam02/DevOps-Guide/blob/master/img/architecture-kuber.jpeg)
+
+
+****************************
 
 - ## Tutorial Resources  
 

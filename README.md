@@ -26,9 +26,6 @@
 
 
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/devops.png)
-* DevOps Roadmap
-
 ![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/flow.png)
 * Foundation
 
