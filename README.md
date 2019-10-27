@@ -64,6 +64,13 @@
 - [Getting into DevOps - Reddit](https://www.reddit.com/r/devops/comments/dbusbr/monthly_getting_into_devops_thread_201910/)
 
 **************************
+## To Do
+
+- [ ] Add More Notes on OS/Linux
+- [ ] Add more concepts of CI/CD
+- [ ] Add more interview Question about OS and Networking
+
+**************************
 
 ## License
 
