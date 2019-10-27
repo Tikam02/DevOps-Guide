@@ -1,10 +1,5 @@
 # Kubernetes Concepts
 
-
-
-
-
-
 ***************************
 ## Table Of Contents: 
   - [Introdution](#introdution)

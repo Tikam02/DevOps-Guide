@@ -18,9 +18,9 @@
    - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
    - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
  - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-  - [Git Concepts & Tutorials]()
-  - [Jenkins Concepts & Tutorials]()
- - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books)
+    - [Git Concepts & Tutorials]()
+    - [Jenkins Concepts & Tutorials]()
+ - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books) 
 
 ******************
 
@@ -40,8 +40,11 @@
 
 ### Getting Started DevOps Links:
 
+- [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
 - [r/devops](https://www.reddit.com/r/devops/)
 - [Getting Started With Azure DevOps](https://github.com/microsoft/azuredevopslabs)
+- [Getting started with Google Cloud Platform](https://cloud.google.com/gcp/getting-started/)
+- [Freecodecamp Devops Getting Started Articles](https://www.freecodecamp.org/news/tag/devops/)
 - [The-devops-roadmap-for-programmers](https://dzone.com/articles/the-devops-roadmap-for-programmers)
 - [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
@@ -65,9 +68,6 @@
 
 **************************
 
+## License
 
-
-
-
-
-
+This project is licensed under the MIT License - Copyright (c) 2019 Tikam Alma
