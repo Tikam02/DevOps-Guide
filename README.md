@@ -74,6 +74,8 @@
 - [ ] Add More Notes on OS/Linux
 - [ ] Add more concepts of CI/CD
 - [ ] Add more interview Question about OS and Networking
+- [ ] Kubernetes Monitoring - Prometheus and Grafana
+- [ ] Add IaC concepts and Tools
 
 **************************
 
