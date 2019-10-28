@@ -2,7 +2,7 @@
 
 ![devops guide](https://github.com/Tikam02/DevOps-Guide/blob/master/img/devops-guide.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) ![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)  ![Devops](https://img.shields.io/badge/Devops-DevOps-blue?style=for-the-badge) ![Learn](https://img.shields.io/badge/Learn-Implement-blueviolet?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge) ![GitHub labels](https://img.shields.io/github/labels/Tikam02/DevOps_Cheatsheet/help-wanted?style=for-the-badge)  ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Learn](https://img.shields.io/badge/Learn-Implement-blueviolet?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge)
 
 *******************
 
