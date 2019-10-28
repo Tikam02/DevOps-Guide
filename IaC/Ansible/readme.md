@@ -1,0 +1,3 @@
+# Ansible
+
+- It is a tool designed with automation in mind from the start. Ansible focuses on providing “radically simple” configuration language as well as being able to manage cloud instances immediately with no modifications. It is also great for performing arbitrary IT orchestration (e.g., zero downtime rolling updates, hotfixes, etc.) as opposed to being configuration management specific. Rather than managing systems as individual units, you simply describe how components—and the system in general—interact with each other and Ansible will handle the rest.

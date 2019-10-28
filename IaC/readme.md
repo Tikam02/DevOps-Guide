@@ -1,0 +1,7 @@
+# Infrastructure as Code
+
+
+- Puppet runs the data centers for several significant companies like Reddit, Dell, and Google and runs on all OS systems. It also has one of the most advanced interfaces on this list. It has been on the market for a long time and uses Ruby-based DSL as the primary language for defining the desired end state of the infrastructure. I said “end state” because that is what you need to define.
+- Puppet will then figure out the best way to achieve that end state for you. It also monitors the infrastructure for changes that deviate away from the defined end state and automatically corrects those changes too. This is a tool developed specifically for system administrators thanks to considerable enterprise and community support provided.
+
+- Choosing the best IaC tool is a matter of finding one that suits your personal preference and specific needs best. Two of the most important things to make an IaC system easy to use for you are consistency in both how you utilize it and environmental awareness. Also, find the programming language that works the best for you and your team. As you will spend a lot of time—at least to begin with—writing content, choose what your team can best communicate in. What makes you most productive?

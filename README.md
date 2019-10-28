@@ -23,6 +23,11 @@
  - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
     - [Git Concepts & Tutorials]()
     - [Jenkins Concepts & Tutorials]()
+-  [Infrastructure as Code](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
+    - [Ansible](./IaC/Ansible/readme.md) 
+    - [Chef](./IaC/chef/readme.md)
+    - [Puppet](../DevOps-Guide/IaC/Puppet/readme.md)
+    - [Terraform](./IaC/Terraform/readme.md)
  - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books) 
 
 ******************
