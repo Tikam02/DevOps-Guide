@@ -175,13 +175,64 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - IO Status Information: This includes a list of I/O devices allocated to the process.
 
+- root and chroot
+
+    - In a Unix-like OS, root directory(/) is the top directory. root file system sits on the same disk partition where root directory is located. And it is on top of this root file system that all other file systems are mounted. All file system entries branch out of this root. This is the system’s actual root.
+
+    - But each process has its own idea of what the root directory is. By default, it is actual system root but we can change this by using chroot()system call. We can have a different root so that we can create a separate environment to run so that it becomes easier to run and debug the process. Or it may also be to use legacy dependencies and libraries for the process.
+
+    - chroot changes apparent root directory for current running process and its children.
+
+    - It may appear that by separating a process using chroot()we ensure security by restricting the process not to access outside its environment. But in reality that is not very true. chroot() simply modifies pathname lookups for a process and its children , prepending the new root path to any name starting with /.Current directory is not modified and relative paths can refer any locations outside of new root.
+
+    - So, chroot() do NOT provide a secure sandbox to test a software.
+
+- cgroups- Isolate and manage resources
+
+    - Control groups(cgroups) is a Linux kernel feature which limits, isolates and measures resource usage of a group of processes. Resources quotas for memory, CPU, network and IO can be set. These were made part of Linux kernel in Linux 2.6.24.
+
+    - Though Linux is excellent at handling and sharing available resources between processes, sometimes we want better control over resources.We want to allocate or guarantee a certain amount of resources to a group of processes. We do this with cgroups. This isolates an application/group’s resources.
+
+    - Suppose we have an application we want to isolate usage for. Lets call it A1. Lets call rest of system as S. We will create a control group and assign resource limits on it: say 3GB of memory limit and 70% of CPU. Then we can add requisite application’s process id to the group and application resource usage now is throttled. Though the application may exceed the limits in normal scenarios, it will be throttled back to pre set limits in case system is facing resource crunch. This makes even more sense when we are handling many VMs running on a machine-have a cgroup for VMs and throttle them individually to a set limit when resource contention happens.
+
+        - Define the solution to problem
+        - Create a cgroup to handle the allocation
+        - Add applications to the group.
+        - Keep monitoring the group(happens as part of cgroups, we need not handle explicitly)
+
+- Linux Namespaces
+
+    - Linux processes form a single hierarchy, with all processes rooting at init. Usually privileged processes in this tree can trace or kill other processes.Linux namespace enables us to have many hierarchies of processes with their own “subtrees” such that processes in one subtree cant access or even know of those in another.
+
+    - A namespace wraps a global resource such that it appears to processes in that namespace have their own isolated instance of the said resource. Lets take PID namespace as an example. Without namespace involved, all processes descend hierarchically from PID 1(init). If we create a PID namespace and run a process in it, that first process becomes PID 1 in that namespace. In this case, we wrapped a global system resource(process IDs). The process that creates namespace still remains in parent namespace, but makes its child the root of new process tree.
+
+    - But this only means that the processes within the new namespace can not see parent process but the parent process namespace can see the child namespace. And the processes within new namespace now have 2 PIDs: one for new namespace and one for global namespace.
+
+- Types of namespace
+  
+- Linux provides following namespaces:
+
+    - cgroup:This isolates Cgroup root directory(CLONE_NEWCGROUP)
+    
+    - IPC: isolates System V IPC, POSIX message queues(CLONE_NEWIPC)
+    
+    - Network: isolates Network devices, ports etc(CLONE_NEWNET)
+    
+    - Mount: isolates mountpoints(CLONE_NEWNS)
+    
+    - PID: isolated process IDs(CLONE_NEWPID)
+    
+    - User : isolates User and group IDs(CLONE_NEWUSER)
+    
+    - UTS: isolates Hostname and NIS domain name(CLONE_NEWUTS)
+
 ### Resources:
 
 - [Type of Processes](http://www.gmarik.info/blog/2012/orphan-vs-zombie-vs-daemon-processes/)
 - [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
 - [Process state - ps aux Meaning](http://superuser.com/questions/117913/ps-aux-output-meaning)
 - [Difference between nohup, disown and &](https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and)
-
+- [Introduction to Linux Control Groups (Cgroups)](https://sysadmincasts.com/episodes/14-introduction-to-linux-control-groups-cgroups?source=post_page-----37124d995e3d----------------------)
 
 ************************
 
@@ -593,4 +644,5 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
 - [Operating System Notes](https://applied-programming.github.io/Operating-Systems-Notes/)
+- [Sysadmin Guides - Episodes](https://sysadmincasts.com/episode-guide)
 
