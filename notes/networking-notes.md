@@ -1,19 +1,19 @@
 ## Networking Notes:
-*****************
-* OSI Models 
-* TCP/IP
-* Routing Bridging and NAT
-* Firewalls and Ports
-* Basic Utils - netstat,ping,mtr,nc,ip
-* DNS
-* Load Balancing
-* Proxies
-* SSH Port forwarding
-* TLS Encryption
-* CIDR | Subnet Math | General Concepts of maths
-* VPC's
-* Firewall Concepts 
-* SSL|TLS
+
+- OSI Models 
+- TCP/IP
+- Routing Bridging and NAT
+- Firewalls and Ports
+- Basic Utils - netstat,ping,mtr,nc,ip
+- DNS
+- Load Balancing
+- Proxies
+- SSH Port forwarding
+- TLS Encryption
+- CIDR | Subnet Math | General Concepts of maths
+- VPC's
+- Firewall Concepts 
+- SSL|TLS
 
 **********************
 
@@ -21,8 +21,8 @@
 
 
 - The moment you see an ip address, you should be able to answer 2 questions
-* 1. is this is a public ip addresss or a private ip address
-* 2. what class of Ip address is this.
+1. is this is a public ip addresss or a private ip address
+2. what class of Ip address is this.
 
 
 – Every company, website has a public ip address (1 or 2 or 3 ) … max 10
@@ -233,3 +233,11 @@ $ tcpkill host ip and port port              # Block ip:port
 $ echo "1" /proc/sys/net/ipv4/ip_forward     # Turn on IP Forwarding
 $ echo "nameserver x.x.x.x" /etc/resolv.conf # Add DNS Server
 ```
+
+
+
+********************
+
+## References:
+
+- [Networking for Devops](https://www.youtube.com/playlist?list=PLFjq8z-aGyQ7BGJKANiIusSq92L7OTytJ)
