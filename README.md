@@ -16,28 +16,30 @@
    - [Kubernetes Commands](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kubernetes-commands.md)
    - [Tutorial Series](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
    - [Kubernetes Advanced - Deep dive](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kube-advanced.md)
- - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
-   - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
-   - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
-   - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
- - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-    - [Git Concepts & Tutorials]()
-    - [Jenkins Concepts & Tutorials]()
 -  [Infrastructure as Code](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
     - [Ansible](./IaC/Ansible/readme.md) 
     - [Chef](./IaC/chef/readme.md)
     - [Puppet](../DevOps-Guide/IaC/Puppet/readme.md)
     - [Terraform](./IaC/Terraform/readme.md)
+ - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
+    - [Git Concepts & Tutorials]()
+    - [Jenkins Concepts & Tutorials]()
+ - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
+   - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
+   - [Networking Commands for Devops](notes/networking-commands.md)
+   - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
+   - [Os Commands for DevOps](notes/os-commands.md)
+   - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
  - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books) 
 
 ******************
 
 
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/flow.png)
+![Foundation](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/flow.png)
 * Foundation
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/foundation.png)
+![Flow](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/foundation.png)
 * Devops Flow
 
 ********************
