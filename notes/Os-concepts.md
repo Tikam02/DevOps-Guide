@@ -284,6 +284,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 - [Linux Scheduler - CS Columbia](https://www.cs.columbia.edu/~smb/classes/s06-4118/l13.pdf)
 - [Linux Kernel: Process Scheduling](https://medium.com/hungys-blog/linux-kernel-process-scheduling-8ce05939fabd)
 
+
 ***********************
 
 ## Memory Management
@@ -324,8 +325,57 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 ### Concepts
 
 
+- IPC is an abbreviation that stands for “Inter-process Communication”. It denotes a set of system calls that allows a User Mode process to:
+    - Synchronize itself with other processes by means of ‘Semaphores’.
+    - Send messages to other processes or receive messages from them.
+    - Share a memory area with other processes.
+
+
+- Q) What is Inter Process Communication means?
+
+    - The mechanism in which User Mode processes synchronize themselves and exchange data is referred to as “Inter-process Communication (IPC)” in UNIX Systems (that includes Linux too).
+
+
+- Q) But in what way exactly do terms like: Semaphores, Shared Memory and Message Queues relate to IPC?
+
+    - Semaphores, Shared Memory and Message Queues do relate to IPC in a very special way, since Semaphores, Shared Memory and Message Queues are “Inter-process Communication Resources” or “Inter-process Communication Facilities”, and different in the way they represent IPC from “Inter-process Communication Mechanisms” like Pipes and FIFOs. Semaphores, Shared Memory and Message Queues are System V (AT&T System V.2 release of UNIX) IPC facilities, and they represent wrapper functions that have been developed and inserted in suitable libraries to harness the energy and beauty of IPC mechanisms.
+
+
+![Inter Process Communication](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/memory-management.png)
+
+
+- Data sharing among processes can be obtained by storing data in temporary files protected by locks. But this mechanism is never implemented as it proves costly since it requires accesses to the disk filesystem. For that reason, all UNIX Kernels include a set of system calls that supports process communications without interacting with the filesystem.
+
+- Application programmers have a variety of needs that call for different communication mechanisms. Some of the basic mechanisms that UNIX systems, GNU/Linux is particular has to offer are:
+
+    - Pipes and FIFOs: Mainly used for implementing producer/consumer interactions among processes. Some processes will fill the pipe with data while others will extract from it.
+    - Semaphores: Here we refer to (NOT the POSIX Realtime Extension Semaphores applied to Linux Kernel Threads), but System V semaphores which apply to User Mode processes. Used for locking critical sections of code.
+    - Message Queues: To set up a message queue between processes is a way to exchange short blocks (called messages) between two processes in an asynchronous way.
+    - Shared Memory: A mechanism (specifically a resource) applied when processes need to share large amounts of data in an efficient way.
+
+- A process is a program in execution, and each process has its own address space, which comprises the memory locations that the process is allowed to access. A process has one or more threads of execution, which are sequences of executable instructions: a single-threaded process has just one thread, whereas a multi-threaded process has more than one thread. Threads within a process share various resources, in particular, address space. Accordingly, threads within a process can communicate straightforwardly through shared memory, although some modern languages (e.g., Go) encourage a more disciplined approach such as the use of thread-safe channels. Of interest here is that different processes, by default, do not share memory.
+
+- There are various ways to launch processes that then communicate, and two ways dominate in the examples that follow:
+
+    - A terminal is used to start one process, and perhaps a different terminal is used to start another.
+    - The system function fork is called within one process (the parent) to spawn another process (the child).
+
+- Linux systems provide two separate APIs for shared memory: the legacy System V API and the more recent POSIX one. These APIs should never be mixed in a single application, however. A downside of the POSIX approach is that features are still in development and dependent upon the installed kernel version, which impacts code portability. For example, the POSIX API, by default, implements shared memory as a memory-mapped file: for a shared memory segment, the system maintains a backing file with corresponding contents. Shared memory under POSIX can be configured without a backing file, but this may impact portability. My example uses the POSIX API with a backing file, which combines the benefits of memory access (speed) and file storage (persistence).
+
+- The shared-memory example has two programs, named memwriter and memreader, and uses a semaphore to coordinate their access to the shared memory. Whenever shared memory comes into the picture with a writer, whether in multi-processing or multi-threading, so does the risk of a memory-based race condition; hence, the semaphore is used to coordinate (synchronize) access to the shared memory.
+
+
+
+
 
 ### Resources:
+
+- [Inter-process communication in Linux: Shared storage](https://opensource.com/article/19/4/interprocess-communication-linux-storage)
+- [Understanding InterProcess Communication in Linux: Introduction to Interprocess Communication](http://www.emblogic.com/blog/03/understanding-interprocess-communication-in-linux-introduction-to-interprocess-communication/)
+- [Inter-process communication in Linux: Shared storage](https://opensource.com/article/19/4/interprocess-communication-linux-storage)
+- [Inter-process communication in Linux: Sockets and signals](https://opensource.com/article/19/4/interprocess-communication-linux-networking)
+- [Inter-process communication in Linux: Using pipes and message queues](https://opensource.com/article/19/4/interprocess-communication-linux-channels)
+- [IPC mechanisms on Linux - Introduction](http://www.chandrashekar.info/articles/linux-system-programming/introduction-to-linux-ipc-mechanims.html)
 
 
 
@@ -334,14 +384,50 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 ## I/O Management
 
-
-
 ### Concepts
+
+
+- Management of I/O devices is a very important part of the operating system - so important and so varied that entire I/O subsystems are devoted to its operation. ( Consider the range of devices on a modern computer, from mice, keyboards, disk drives, display adapters, USB devices, network connections, audio I/O, printers, special devices for the handicapped, and many special-purpose peripherals.
+
+- An I/O system is required to take an application I/O request and send it to the physical device, then take whatever response comes back from the device and send it to the application. I/O devices can be divided into two categories:
+
+    - Block devices — A block device is one with which the driver communicates by sending entire blocks of data. For example, hard disks, USB cameras, Disk-On-Key etc.
+    - Character Devices — A character device is one with which the driver communicates by sending and receiving single characters (bytes, octets). For example, serial ports, parallel ports, sounds cards etc.
+
+![Inter Process Communication](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/device_controllers.jpg)
+
+- Device Controllers
+
+    - Device drivers are software modules that can be plugged into an OS to handle a particular device. Operating System takes help from device drivers to handle all I/O devices.
+
+    - The Device Controller works like an interface between a device and a device driver. I/O units (Keyboard, mouse, printer, etc.) typically consist of a mechanical component and an electronic component where electronic component is called the device controller.
+
+    - There is always a device controller and a device driver for each device to communicate with the Operating Systems. A device controller may be able to handle multiple devices. As an interface its main task is to convert serial bit stream to block of bytes, perform error correction as necessary.
+
+    - Any device connected to the computer is connected by a plug and socket, and the socket is connected to a device controller. Following is a model for connecting the CPU, memory, controllers, and I/O devices where CPU and device controllers all use a common bus for communication.
+
+- Synchronous vs asynchronous I/O
+
+    - Synchronous I/O − In this scheme CPU execution waits while I/O proceeds
+
+    - Asynchronous I/O − I/O proceeds concurrently with CPU execution
+
+- Communication to I/O Devices
+
+- The CPU must have a way to pass information to and from an I/O device. There are three approaches available to communicate with the CPU and Device.
+
+    - Special Instruction I/O
+    - Memory-mapped I/O
+    - Direct memory access (DMA)
 
 
 ### Resources:
 
-
+- [Operation Systems I/O Hardware](https://www.tutorialspoint.com/operating_system/os_io_hardware.htm)
+- [I/O Systems ](https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/13_IOSystems.html)
+- [I/O Management](http://www.cs.umsl.edu/~sanjiv/classes/cs4760/lectures/io.pdf)
+- [Os Notes- I/O Management](https://applied-programming.github.io/Operating-Systems-Notes/8-IO-Management/)
+  
 
 
 
@@ -352,8 +438,38 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 ### Concepts
 
+- Virtualization is the process of running a virtual instance of a computer system in a layer abstracted from the actual hardware. Most commonly, it refers to running multiple operating systems on a computer system simultaneously. To the applications running on top of the virtualized machine, it can appear as if they are on their own dedicated machine, where the operating system, libraries, and other programs are unique to the guest virtualized system and unconnected to the host operating system which sits below it.
+
+- There are many reasons why people utilize virtualization in computing. To desktop users, the most common use is to be able to run applications meant for a different operating system without having to switch computers or reboot into a different system. For administrators of servers, virtualization also offers the ability to run different operating systems, but perhaps, more importantly, it offers a way to segment a large system into many smaller parts, allowing the server to be used more efficiently by a number of different users or applications with different needs. It also allows for isolation, keeping programs running inside of a virtual machine safe from the processes taking place in another virtual machine on the same host.
+
+
+![Virtualization](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/linux-virtualization.png)
+
+- How does virtualization work?
+  - Software called hypervisors separate the physical resources from the virtual environments—the things that need those resources. Hypervisors can sit on top of an operating system (like on a laptop) or be installed directly onto hardware (like a server), which is how most enterprises virtualize. Hypervisors take your physical resources and divide them up so that virtual environments can use them.
+  - Resources are partitioned as needed from the physical environment to the many virtual environments. Users interact with and run computations within the virtual environment (typically called a guest machine or virtual machine). The virtual machine functions as a single data file. And like any digital file, it can be moved from one computer to another, opened in either one, and be expected to work the same
+  - When the virtual environment is running and a user or program issues an instruction that requires additional resources from the physical environment, the hypervisor relays the request to the physical system and caches the changes—which all happens at close to native speed (particularly if the request is sent through an open source hypervisor based on KVM, the Kernel-based Virtual Machine).
+
+
+- What is hypervisor?
+
+  - A hypervisor is a program for creating and running virtual machines. Hypervisors have traditionally been split into two classes: type one, or "bare metal" hypervisors that run guest virtual machines directly on a system's hardware, essentially behaving as an operating system. Wype two, or "hosted" hypervisors behave more like traditional applications that can be started and stopped like a normal program. In modern systems, this split is less prevalent, particularly with systems like KVM. KVM, short for kernel-based virtual machine, is a part of the Linux kernel that can run virtual machines directly, although you can still use a system running KVM virtual machines as a normal computer itself.
+
+- Types of Virtualization:
+  - Data virtualization : Data virtualization tools sit in front of multiple data sources and allows them to be treated as single source, delivering the needed data—in the required form—at the right time to any application or user.
+  - Desktop Virtualization : desktop virtualization allows a central administrator (or automated administration tool) to deploy simulated desktop environments to hundreds of physical machines at once. 
+  - Server Virtualization : Servers are computers designed to process a high volume of specific tasks really well so other computers—like laptops and desktops—can do a variety of other tasks. Virtualizing a server lets it to do more of those specific functions and involves partitioning it so that the components can be used to serve multiple functions.
+  - Operating System Virtualization : Operating system virtualization happens at the kernel—the central task managers of operating systems. It’s a useful way to run Linux and Windows environments side-by-side.
+  - Network Function Virtualization : Virtualizing networks reduces the number of physical components—like switches, routers, servers, cables, and hubs—that are needed to create multiple, independent networks, and it’s particularly popular in the telecommunications industry.
+
 
 ### Resources:
+
+- [Notes on Virtualization with Linux](https://moi.vonos.net/linux/linux-virtualization/)
+- [What is virtualization?](https://www.redhat.com/en/topics/virtualization/what-is-virtualization)
+- [Operating System Virtualization – Types, Working, Benefits](https://data-flair.training/blogs/operating-system-virtualization/)
+- [Virtualization concepts](https://opensource.com/resources/virtualization)
+- [ Virtual Linux: Platform and OS Linux Virtualization ](https://www.datamation.com/osrc/article.php/3879871/Virtual-Linux-Platform-and-OS-Linux-Virtualization.htm)
 
 
 
