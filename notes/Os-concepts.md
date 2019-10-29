@@ -9,11 +9,40 @@
   - [Stage 2 boot loader](#stage-2-boot-loader)
   - [Kernel](#kernel)
   - [Init](#init)
-- [Resources:](#resources)
+    - [Resources:](#resources)
 - [Process and Process Management](#process-and-process-management)
+  - [Concepts](#concepts)
   - [Resources:](#resources-1)
 - [Linux Signals](#linux-signals)
+  - [Concepts](#concepts-1)
+  - [Resources:](#resources-2)
 - [Threads and Concurrency](#threads-and-concurrency)
+  - [Concepts](#concepts-2)
+  - [Resources:](#resources-3)
+- [Scheduling](#scheduling)
+  - [Concepts](#concepts-3)
+  - [Resources:](#resources-4)
+- [Memory Management](#memory-management)
+  - [Concepts](#concepts-4)
+  - [Resources:](#resources-5)
+- [Inter-Process Communication](#inter-process-communication)
+  - [Concepts](#concepts-5)
+  - [Resources:](#resources-6)
+- [I/O Management](#io-management)
+  - [Concepts](#concepts-6)
+  - [Resources:](#resources-7)
+- [Virtualization](#virtualization)
+  - [Concepts](#concepts-7)
+  - [Resources:](#resources-8)
+- [Distributed File Systems](#distributed-file-systems)
+  - [Concepts](#concepts-8)
+  - [Resources:](#resources-9)
+- [Distributed Shared Memory](#distributed-shared-memory)
+  - [Concepts](#concepts-9)
+  - [Resources:](#resources-10)
+- [Cloud Computing](#cloud-computing)
+  - [concepts](#concepts)
+  - [Resources:](#resources-11)
 - [References:](#references)
 
 *********************
@@ -30,6 +59,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 **************
 
 ## Boot Process
+
 
 ![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/linux-boot_1.gif)
 
@@ -84,7 +114,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 - In a desktop Linux system, the first application started is commonly /sbin/init. But it need not be. Rarely do embedded systems require the extensive initialization provided by init (as configured through /etc/inittab). In many cases, you can invoke a simple shell script that starts the necessary embedded applications.
 
 
-## Resources:
+#### Resources:
 
 - [IBM Linuxboot Concepts](https://www.ibm.com/developerworks/library/l-linuxboot/)
 - [Linux Insides](https://0xax.gitbooks.io/linux-insides/content/Booting/linux-bootstrap-1.html)
@@ -96,6 +126,8 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 **********************
 ## Process and Process Management
 
+
+### Concepts
 
 - A process is basically a program in execution. The execution of a process must progress in a sequential fashion. To put it in simple terms, we write our computer programs in a text file and when we execute this program, it becomes a process which performs all the tasks mentioned in the program.
 
@@ -138,19 +170,19 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 - Accounting Information: This includes the amount of CPU used for process execution, time limits, execution ID etc.
 - IO Status Information: This includes a list of I/O devices allocated to the process.
 
-
-
 ### Resources:
 
- - [Type of Processes](http://www.gmarik.info/blog/2012/orphan-vs-zombie-vs-daemon-processes/)
-  - [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
-  - [Process state - ps aux Meaning](http://superuser.com/questions/117913/ps-aux-output-meaning)
-  - [Difference between nohup, disown and &](https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and)
+- [Type of Processes](http://www.gmarik.info/blog/2012/orphan-vs-zombie-vs-daemon-processes/)
+- [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
+- [Process state - ps aux Meaning](http://superuser.com/questions/117913/ps-aux-output-meaning)
+- [Difference between nohup, disown and &](https://unix.stackexchange.com/questions/3886/difference-between-nohup-disown-and)
 
 
 ************************
 
 ## Linux Signals
+
+### Concepts
 
 - In Linux, every signal has a name that begins with characters SIG. For example :
 
@@ -177,17 +209,202 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 
 
+### Resources:
 
+- [Linux Processes and Signals](https://www.bogotobogo.com/Linux/linux_process_and_signals.php)
+- [Short Tutorial on Signals in Linux](https://lasr.cs.ucla.edu/vahab/resources/signals.html)
+- [Signal Concepts](https://www.win.tue.nl/~aeb/linux/lk/lk-5.html)
 
 **************************
-
-
 ## Threads and Concurrency
+
+### Concepts
+
+- Definition: A Thread also called lightweight process, is basic CPU utilization; it compromises a thread ID, a program counter, a register set, and a stack. A thread is an entity within a process that can be scheduled for execution.
+
+- A thread is a flow of execution through the process code, with its own program counter that keeps track of which instruction to execute next, system registers which hold its current working variables, and a stack which contains the execution history.
+
+- A thread shares with its peer threads few information like code segment, data segment and open files. When one thread alters a code segment memory item, all other threads see that.
+
+- A thread is also called a lightweight process. Threads provide a way to improve application performance through parallelism. Threads represent a software approach to improving performance of operating system by reducing the overhead thread is equivalent to a classical process.
+
+- Each thread belongs to exactly one process and no thread can exist outside a process. Each thread represents a separate flow of control. Threads have been successfully used in implementing network servers and web server. They also provide a suitable foundation for parallel execution of applications on shared memory multiprocessors.
+
+![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/concurrency.jpeg)
+
+- Benefits of Multi-threading
+
+    - Parallelization: In multi-processor architecture, different threads can execute different instructions at a time, which result in parallelization which speeds up the execution of the process.
+
+    - Specialization: By specializing different threads to perform the different task, we can manage threads, for example, we can give higher priority to those threads which are executing the more important task. Also in multi-processor architecture specialization leads to the hotter cache which improves performance.
+
+    - Efficient: Multi-threaded programs are more efficient as compared to multi-process programs in terms of resource requirement as threads share address space while process does not, so multi-process programs will require separate memory space allocation. Also, Multi-threaded programs incur lower overhead as inter-thread communication is less expensive.
+
+    - Hide Latency: As context switching among the process is a costly operation, as all the threads of a process share the same virtual to physical address mapping and other resources, context switch among the thread is a cheap operation and require less time. When the number of thread is greater than the number of CPU and a thread is in idle state (spending the time to wait for the result of some interrupt) and its idle time is greater than two times the time required for switching the context to another thread, it will switch the switch context to another thread to hide idling time.
+
+
+- Detailed Deep-Dive Concepts on Resources Links
+
+### Resources:
+- [Threads & Cocurrency](https://applied-programming.github.io/Operating-Systems-Notes/3-Threads-and-Concurrency/)
+- [Operating System: Threads and Concurrency](https://medium.com/@akhandmishra/operating-system-threads-and-concurrency-aec2036b90f8)
+- [General concepts: concurrency, parallelism, threads and processes](https://learn-gevent-socketio.readthedocs.io/en/latest/general_concepts.html)
 
 ***********************
 
+##  Scheduling
+
+
+### Concepts
+
+- Linux scheduling is based on the time sharing technique: several processes run in “time multiplexing” because the CPU time is divided into slices, one for each runnable process. If a currently running process is not terminated when its time slice or quantum expires, a process switch may take place. Time sharing relies on timer interrupts and is thus transparent to processes. No additional code needs to be inserted in the programs to ensure CPU time sharing.
+
+- The Linux scheduler is a priority based scheduler that schedules tasks based upon their static and dynamic priorities. When these priorities are combined they form a task's goodness . Each time the Linux scheduler runs, every task on the run queue is examined and its goodness value is computed. The task with the highest goodness is chosen to run next.
+
+- When there are cpu bound tasks running in the system, the Linux scheduler may not be called for intervals of up to .40 seconds. This means that the currently running task has the CPU to itself for periods of up to .40 seconds (how long depends upon the task's priority and whether it blocks or not). This is good for throughput because there are few computationally uneccessary context switches. However it can kill interactivity because Linux only reschedules when a task blocks or when the task's dynamic priority (counter) reaches zero. Thus under Linux's default priority based scheduling method, long scheduling latencies can occur.
+
+- Looking at the scheduling latency in finer detail, the Linux scheduler makes use of a timer that interrupts every 10 msec. This timer erodes the currently running task's dynamic priority (decrements its counter). A task's counter starts out at the same value its priority contains. Once its dynamic priority (counter) has eroded to 0 it is again reset to that of its static priority (priority). It is only after the counter reaches 0 that a call to schedule() is made. Thus a task with the default priority of 20 may run for .200 secs (200 msecs) before any other task in the system gets a chance to run. A task at priority 40 (the highest priority allowed) can run for .400 secs without any scheduling occurring as long as it doesn't block or yield. 
+
+- Process scheduling is an essential part of a Multiprogramming operating systems. Such operating systems allow more than one process to be loaded into the executable memory at a time and the loaded process shares the CPU using time multiplexing.
+
+- The OS maintains all Process Control Blocks (PCBs) in Process Scheduling Queues. The OS maintains a separate queue for each of the process states and PCBs of all processes in the same execution state are placed in the same queue. When the state of a process is changed, its PCB is unlinked from its current queue and moved to its new state queue.
+
+- The Operating System maintains the following important process scheduling queues:
+
+    - Job queue − This queue keeps all the processes in the system.
+    - Ready queue − This queue keeps a set of all processes residing in main memory, ready and waiting to execute. A new process is always put in this queue.
+    - Device queues − The processes which are blocked due to unavailability of an I/O device constitute this queue.
+
+
+
+### Resources:
+- [Scheduling in Linux ](https://www.cs.montana.edu/~chandrima.sarkar/AdvancedOS/CSCI560_Proj_main/index.html)
+- [Linux Scheduler](https://www.kernel.org/doc/html/latest/scheduler/index.html)
+- [Linux Scheduling - IBM](https://www.ibm.com/support/knowledgecenter/en/linuxonibm/com.ibm.linux.z.ldva/ldva_c_CPU_scheduling.html)
+- [Linux Scheduler - CS Columbia](https://www.cs.columbia.edu/~smb/classes/s06-4118/l13.pdf)
+- [Linux Kernel: Process Scheduling](https://medium.com/hungys-blog/linux-kernel-process-scheduling-8ce05939fabd)
+
+***********************
+
+## Memory Management
+
+
+### Concepts
+
+- Memory management is the functionality of an operating system which handles or manages primary memory and moves processes back and forth between main memory and disk during execution. Memory management keeps track of each and every memory location, regardless of either it is allocated to some process or it is free. It checks how much memory is to be allocated to processes. It decides which process will get memory at what time. It tracks whenever some memory gets freed or unallocated and correspondingly it updates the status.
+
+![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/memory-management.png)
+
+
+- The process address space is the set of logical addresses that a process references in its code. For example, when 32-bit addressing is in use, addresses can range from 0 to 0x7fffffff; that is, 2³¹ possible numbers, for a total theoretical size of 2 gigabytes.
+
+- The operating system takes care of mapping the logical addresses to physical addresses at the time of memory allocation to the program. There are three types of addresses used in a program before and after memory is allocated:
+
+    - Symbolic addresses: The addresses used in a source code. The variable names, constants, and instruction labels are the basic elements of the symbolic address space.
+    -Relative addresses: At the time of compilation, a compiler converts symbolic addresses into relative addresses.
+    - Physical addresses: The loader generates these addresses at the time when a program is loaded into main memory.
+
+- Virtual and physical addresses are the same in compile-time and load-time address-binding schemes. Virtual and physical addresses differ in execution-time address-binding scheme.
+
+- The set of all logical addresses generated by a program is referred to as a logical address space. The set of all physical addresses corresponding to these logical addresses is referred to as a physical address space.
+
+
+### Resources:
+
+- [The Linux Kernerl Docs - Memory Management](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html)
+- [Linux Memory Management – Virtual Memory and Demand Paging](https://www.thegeekstuff.com/2012/02/linux-memory-management/embed/)
+- [Memory management implementationn Approaches](https://www.tldp.org/LDP/tlk/mm/memory.html)
+
+
+
+*****************************
+
+## Inter-Process Communication
+
+### Concepts
+
+
+
+### Resources:
+
+
+
+
+******************************
+
+## I/O Management
+
+
+
+### Concepts
+
+
+### Resources:
+
+
+
+
+
+***************************
+
+## Virtualization
+
+
+### Concepts
+
+
+### Resources:
+
+
+
+
+
+
+*************************
+
+
+## Distributed File Systems
+
+
+### Concepts
+
+
+### Resources:
+
+
+
+
+*************************
+
+## Distributed Shared Memory
+
+
+
+### Concepts
+
+
+
+### Resources:
+
+
+
+*********************
+
+## Cloud Computing
+
+
+### concepts
+
+
+### Resources:
+
+
+
+
+********************
 
 ## References:
 
 - [The 10 Operating System Concepts Software Developers Need to Remember](https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710)
+- [Operating System Notes](https://applied-programming.github.io/Operating-Systems-Notes/)
 

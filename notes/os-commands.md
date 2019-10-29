@@ -109,8 +109,58 @@
 
 - In Linux and Unix when you want to stop a running process you can use the kill command via the command line interface. The kill command in it’s most basic form is pretty simple to work with, if you want to terminate a process you simply need to know the processes id number.
 
+- Finding the PID of a running process
+
+- To find the process id or PID of a running process we will use the ps command. This command will list running processes and some information about those processes. The ps command has many options and many methods of showing processes; I could dedicate an article just to ps. For this example, I am just going to use the ps command with the -C flag, this flag can be used to lookup a process by the name of the command thats being run.
+
+
+``` $ps -C <command> ```
+
+```bash
+# ps -C nginx
+      PID TTY          TIME CMD
+      566 ?        00:00:00 nginx
+      567 ?        00:00:00 nginx
+      568 ?        00:00:06 nginx
+      570 ?        00:00:06 nginx
+      571 ?        00:00:06 nginx
+```
+
+- Killing a process with kill
+
+- Now that we have found the PID of the process we want to stop, we can use the kill command to terminate the process.
+
+- Syntax:
+
+``` $ kill <pid> ```
+
+
+```bash
+    root:/# ps -C nginx
+      PID TTY          TIME CMD
+      566 ?        00:00:00 nginx
+      567 ?        00:00:00 nginx
+      568 ?        00:00:08 nginx
+      570 ?        00:00:09 nginx
+      571 ?        00:00:08 nginx
+    root:/# kill 571
+    root:/# ps -C nginx
+      PID TTY          TIME CMD
+      566 ?        00:00:00 nginx
+      567 ?        00:00:00 nginx
+      568 ?        00:00:08 nginx
+      570 ?        00:00:09 nginx
+     8347 ?        00:00:00 nginx
+```
+
+- Detailed tutorial on resources links.
+
+
+
 
 ### Resources:
 
 - [Understanding the kill command, and how to terminate processes in Linux](https://bencane.com/2014/04/01/understanding-the-kill-command-and-how-to-terminate-processes-in-linux/)
-- 
+- [A Guide to Kill, Pkill and Killall Commands to Terminate a Process in Linux](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
+- [How To Use ps, kill, and nice to Manage Processes in Linux](https://www.digitalocean.com/community/tutorials/how-to-use-ps-kill-and-nice-to-manage-processes-in-linux)
+- [Linux / Unix: killall Command Examples](https://www.cyberciti.biz/faq/unix-linux-killall-command-examples-usage-syntax/)
