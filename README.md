@@ -16,7 +16,7 @@
      <td align="center"><a href="https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="">Kubernetes Concepts</a></sub><br><sub></td>
     <td align="center"><a href="#prometheus"><img src="img/logo/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="#prometheus-beginner">Prometheus Concepts</a></sub><br><sub><a href="#prometheus-advanced">Prometheus Tutorial</a></sub></td>
     <td align="center"><a href="#git"><img src="img/logo/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br /><sub><a href="#git-beginner">Git concepts</a></sub><br><sub><a href="#git-advanced">Git Tutorial</a></sub></td>
-    <td align="center"><a href="#ansible"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="#ansible-beginner"> </a></sub><br><sub><a href="#ansible-advanced"></a></sub></td>
+    <td align="center"><a href="#ansible"><img src="img/logo/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible Concepts</b></a><br /><sub><a href="#ansible-beginner"> </a></sub><br><sub><a href="#ansible-advanced"> Ansible Notes</a></sub></td>
    
    </tr>
    
