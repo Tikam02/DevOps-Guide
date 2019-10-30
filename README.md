@@ -12,12 +12,12 @@
 
    
  <tr>
-<td align="center"><a href="https://github.com/Tikam02/DevOps-Guide/tree/master/Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a><br /><sub><a href="#https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-notes.md">Docker Notes</a></sub></td>
-     <td align="center"><a href="#kubernetes"><img src="images/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="#kubernetes-beginner">Beginner :baby:</a></sub><br><sub></td>
-    <td align="center"><a href="#prometheus"><img src="images/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="#prometheus-beginner">Beginner :baby:</a></sub><br><sub><a href="#prometheus-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#git"><img src="images/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br /><sub><a href="#git-beginner">Beginner :baby:</a></sub><br><sub><a href="#git-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#ansible"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="#ansible-beginner">Beginner :baby:</a></sub><br><sub><a href="#ansible-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#Network"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a><br /><sub><a href="#network-beginner">Beginner :baby:</a></sub><br><sub><a href="#network-advanced">Advanced :star:</a></sub></td>
+<td align="center"><a href="https://github.com/Tikam02/DevOps-Guide/tree/master/Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br /><b>Docker</b></a><br /><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-notes.md">Docker Notes</a></sub></td>
+     <td align="center"><a href="https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="">Kubernetes Concepts</a></sub><br><sub></td>
+    <td align="center"><a href="#prometheus"><img src="img/logo/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="#prometheus-beginner">Prometheus Concepts</a></sub><br><sub><a href="#prometheus-advanced">Prometheus Tutorial</a></sub></td>
+    <td align="center"><a href="#git"><img src="img/logo/git.png" width="110px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br /><sub><a href="#git-beginner">Git concepts</a></sub><br><sub><a href="#git-advanced">Git Tutorial</a></sub></td>
+    <td align="center"><a href="#ansible"><img src="images/ansible.png" width="65px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="#ansible-beginner"> </a></sub><br><sub><a href="#ansible-advanced"></a></sub></td>
+    <td align="center"><a href="#Network"><img src="images/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="#network-advanced"> </a></sub></td>
    </tr>
    
    
@@ -28,9 +28,8 @@
 <table>
 
    <tr>
-    <td align="center"><a href="#linux"><img src="images/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="#linux-beginner">Beginner :baby:</a></sub><br><sub><a href="#linux-advanced">Advanced :star:</a></sub></td>
-    <td align="center"><a href="#terraform"><img src="images/terraform.png" width="75px;" height="75px;" alt="Terraform"/><br /><b>Terraform</b></a><br /><sub><a href="#terraform-beginner">Beginner :baby:</a></sub><br><sub><a href="#terraform-advanced">Advanced :star:</a></sub></td>
-       <td align="center"><a href="#jenkins"><img src="images/jenkins.png" width="80px;" height="85px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="#jenkins-beginner">Beginner :baby:</a></sub><br><sub><a href="#jenkins-advanced">Advanced :star:</a></sub></td>
+    <td align="center"><a href="#linux"><img src="img/logo/linux.jpeg" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="#linux-beginner">OS/Linux-Concepts</a></sub><br><sub><a href="#linux-advanced">Linux Notes</a></sub><br><sub><a href="#linux-advanced">OS/Linux Commands</a></sub></td>
+
  
   </tr>
   
