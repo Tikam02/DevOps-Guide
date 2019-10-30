@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Belajar jQuery untuk permainan</title>
+<script src="jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function() {
+
+     // generate angka acak 1-12
+     var angka = Math.floor((Math.random() * 12) + 1);
+
+     // tambah awalan agar sesuai dengan id box, misal: box3
+     var box_ajaib = "box"+angka;
+
+     // siapkan variabel counter
+     var jumlah_klik = 0;
+     var ketemu = "belum";
+     $("div").click(function() {
+
+     // hitung jumlah klik   
+     jumlah_klik++;
+     $("#hitung").html("Jumlah Klik = "+jumlah_klik);
+
+       // ubah warna background box
+       if ($(this).attr("id")==box_ajaib) {
+        $(this).css("background-color","yellow");
+        ketemu = "sudah";
+       }
+       else {
+        $(this).css("background-color","black");
+       }
+       // cek hasil game
+       if ((ketemu=="sudah") && (jumlah_klik <= 5)) {
+        $("#hasil").html("You Win!");
+       }
+       if ((ketemu=="belum") && (jumlah_klik >= 5)) {
+        $("#hasil").html("Game Over...Silakan coba lagi!");
+       }
+   });
+ });
+</script>
+<style>
+    div {
+        width: 70px;
+        height: 70px;
+        background-color: silver;
+        border: 2px solid black;
+        padding: 0 10px;
+        float: left;
+        margin: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <h2>Game "Kotak WoW" </h2>
+    <p>Anda hanya punya 5 kali klik untuk menemukan kotak Kuning</p>
+
+    <p>Created By:Mohamad Mansur</p>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+    <div id="box3"></div>
+    <br style="clear:both">
+
+    <div id="box4"></div>
+    <div id="box5"></div>
+    <div id="box6"></div>
+    <br style="clear:both">
+
+    <div id="box7"></div>
+    <div id="box8"></div>
+    <div id="box9"></div>
+    <br style="clear:both">
+
+    <div id="box10"></div>
+    <div id="box11"></div>
+    <div id="box12"></div>
+    <br style="clear:both">
+
+    <h3 id="hitung"></h3>
+    <h1 id="hasil"></h1>
+</body>
+</html>
