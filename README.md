@@ -9,8 +9,6 @@
 
 <center>
 <table>
-
-   
  <tr>
 <td align="center"><a href="./Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br/><b>Docker</b></a><br /><sub><a href="./Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="./Docker/docker-notes.md">Docker Notes</a></sub><br><sub><a href="./Docker">Docker Tutorial</a></sub></td>
      <td align="center"><a href="./kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="./kubernetes/kuber-concepts.md">Kubernetes Concepts</a></sub><br><sub><a href="./kubernetes/kubernetes-commands.md">Kubernetes Commands</a></sub></td>
@@ -19,9 +17,7 @@
     <td align="center"><a href="./IaC/Ansible"><img src="img/logo/ansible.png" width="70px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="./IaC/Ansible/ansible-concepts.md"> Ansible Concepts</a></sub><br><sub><a href="./IaC/Ansible/ansible-tutorials.md"> Ansible Tutorials</a></sub></td>
     <td align="center"><a href="./IaC/Terraform"><img src="img/logo/terraform.png" width="65px;" height="75px;" alt="Terraform"/><br /><b>Terraform </b></a><br /><sub><a href="./IaC/Terraform/terraform-concepts.md">Terraform Concepts</a></sub><br><sub><a href="./IaC/Terraform/terraform-tutorials.md"> Terraform Tutorials</a></sub></td>
     <td align="center"><a href="./CI-CD/jenkins"><img src="img/logo/jenkins.png" width="100x;" height="75px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="./CI-CD/jenkins/jenkins-concepts.md">Jenkins Concepts</a></sub><br><sub><a href="./CI-CD/jenkins/jenkins-tutorials.md">Jenkins Tutorials</a></sub></td>
-    
-   
-   </tr>
+  </tr>
    
    
  </table>
@@ -38,8 +34,7 @@
     <td align="center"><a href="./CI-CD/GitlabCi"><img src="img/logo/gitlab.png" width="80x;" height="75px;" alt="Gitlab"/><br /><b>Gitlab</b></a><br /><sub><a href="./CI-CD/GitlabCi/gitlab-concepts.md">Gitlab Concepts</a></sub><br><sub><a href="./CI-CD/GitlabCi/gitlab-commands.md">Gitlab Commands</a></sub></td>
     <td align="center"><a href="./IaC/Puppet"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Puppet"/><br /><b>Puppet</b></a><br /><sub><a href="./IaC/Puppet/puppet-concepts.md">Puppet Concepts</a></sub><br><sub><a href="./IaC/Puppet/puppet-commands.md">Puppet Commands</a></sub></td>
     <td align="center"><a href="./IaC/Chef"><img src="img/logo/chef.jpg" width="100x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./IaC/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./IaC/Chef/chef-commands.md">Chef Commands</a></sub></td>
-
- 
+   
   </tr>
   
  </table>
