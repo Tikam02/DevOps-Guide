@@ -46,32 +46,7 @@
 </center>
 
  
-<!-- 
-### File Directories
- - [Docker](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker) 
-   - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
-   - [Docker Notes](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-notes.md)
-   - [Tutorial Series ](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker)
- - [Kubernetes](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
-   - [Kubernetes Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kuber-concepts.md)
-   - [Kubernetes Commands](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kubernetes-commands.md)
-   - [Tutorial Series](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
-   - [Kubernetes Advanced - Deep dive](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kube-advanced.md)
--  [Infrastructure as Code](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-    - [Ansible](./IaC/Ansible/readme.md) 
-    - [Chef](./IaC/chef/readme.md)
-    - [Puppet](../DevOps-Guide/IaC/Puppet/readme.md)
-    - [Terraform](./IaC/Terraform/readme.md)
- - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-    - [Git Concepts & Tutorials]()
-    - [Jenkins Concepts & Tutorials]()
- - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
-   - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
-   - [Networking Commands for Devops](notes/networking-commands.md)
-   - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
-   - [Os Commands for DevOps](notes/os-commands.md)
-   - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
- - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books)  -->
+
 
 ******************
 
