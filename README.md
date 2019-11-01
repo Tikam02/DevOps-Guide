@@ -32,6 +32,10 @@
    <tr>
     <td align="center"><a href="#linux"><img src="img/logo/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="#linux-beginner">OS/Linux-Concepts</a></sub><br><sub><a href="#linux-advanced">Linux Notes</a></sub><br><sub><a href="#linux-advanced">OS/Linux Commands</a></sub></td>
      <td align="center"><a href="#Network"><img src="img/logo/network.png" width="80x;" height="75px;" alt="Network"/><br /><b>Network</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md">Networking Notes</a></sub></td>
+    <td align="center"><a href="#Network"><img src="img/logo/books.png" width="80x;" height="75px;" alt="Network"/><br /><b>Books</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md"></a></sub></td>
+    <td align="center"><a href="#Network"><img src="img/logo/gitlab.png" width="80x;" height="75px;" alt="Network"/><br /><b>Gitlab</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md">Gitlab Concepts</a></sub></td>
+    <td align="center"><a href="#Network"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Network"/><br /><b>Puppet</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md">Puppet Concepts</a></sub></td>
+    <td align="center"><a href="#Network"><img src="img/logo/chef.jpg" width="100x;" height="75px;" alt="Network"/><br /><b>Chef</b></a><br /><sub><a href="#network-beginner"></a></sub><br><sub><a href="https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md">Chef Concepts</a></sub></td>
 
  
   </tr>
