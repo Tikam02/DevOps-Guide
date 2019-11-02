@@ -9,19 +9,15 @@
 
 <center>
 <table>
-
-   
  <tr>
 <td align="center"><a href="./Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br/><b>Docker</b></a><br /><sub><a href="./Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="./Docker/docker-notes.md">Docker Notes</a></sub><br><sub><a href="./Docker">Docker Tutorial</a></sub></td>
      <td align="center"><a href="./kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="./kubernetes/kuber-concepts.md">Kubernetes Concepts</a></sub><br><sub><a href="./kubernetes/kubernetes-commands.md">Kubernetes Commands</a></sub></td>
     <td align="center"><a href="./IaC/Prometheus"><img src="img/logo/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="./IaC/Prometheus/prometheus-concepts.md">Prometheus Concepts</a></sub><br><sub><a href="./IaC/Prometheus/prometheus-tutorials.md">Prometheus Tutorial</a></sub></td>
     <td align="center"><a href="./CI-CD/git"><img src="img/logo/git.png" width="90px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br/><sub><a href="./CI-CD/git">Git concepts</a></sub><br><sub><a href="./CI-CD/git/git-advanced.md">Git Advanced</a></sub></td>
-    <td align="center"><a href="./IaC/Ansible"><img src="img/logo/ansible.png" width="70px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="./IaC/ansible-concepts.md"> Ansible Concepts</a></sub><br><sub><a href="./IaC/ansible-tutorials.md"> Ansible Tutorials</a></sub></td>
+    <td align="center"><a href="./IaC/Ansible"><img src="img/logo/ansible.png" width="70px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="./IaC/Ansible/ansible-concepts.md"> Ansible Concepts</a></sub><br><sub><a href="./IaC/Ansible/ansible-tutorials.md"> Ansible Tutorials</a></sub></td>
     <td align="center"><a href="./IaC/Terraform"><img src="img/logo/terraform.png" width="65px;" height="75px;" alt="Terraform"/><br /><b>Terraform </b></a><br /><sub><a href="./IaC/Terraform/terraform-concepts.md">Terraform Concepts</a></sub><br><sub><a href="./IaC/Terraform/terraform-tutorials.md"> Terraform Tutorials</a></sub></td>
     <td align="center"><a href="./CI-CD/jenkins"><img src="img/logo/jenkins.png" width="100x;" height="75px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="./CI-CD/jenkins/jenkins-concepts.md">Jenkins Concepts</a></sub><br><sub><a href="./CI-CD/jenkins/jenkins-tutorials.md">Jenkins Tutorials</a></sub></td>
-    
-   
-   </tr>
+  </tr>
    
    
  </table>
@@ -34,44 +30,18 @@
     <td align="center"><a href="./OS"><img src="img/logo/linux.png" width="75x;" height="75px;" alt="Linux"/><br /><b>Linux</b></a><br /><sub><a href="./OS/os-concepts.md">OS/Linux-Concepts</a></sub><br><sub><a href="./OS/os-commands.md">Linux Commands</a></sub></td>
      <td align="center"><a href="./Networking"><img src="img/logo/network.png" width="80x;" height="75px;" alt="Networking"/><br /><b>Networking</b></a><br /><sub><a href="./Networking/networking-concepts.md">Networking Concepts</a></sub><br><sub><a href="./Networking/networking-commands.md">Networking Commands</a></sub></td>
     <td align="center"><a href="./Books"><img src="img/logo/books.png" width="80x;" height="75px;" alt="Books"/><br /><b>Books</b></a><br /><sub></td>
-    <td align="center"><a href="./Interview"><img src="img/logo/interview.png" width="80x;" height="75px;" alt="Interview"/><br /><b>Interview </b></a><br /><sub><a href="./Interview/Dev-ops-interview.md">Interview Questions</a></sub></td>
+    <td align="center"><a href="./Interview"><img src="img/logo/interview.png" width="80x;" height="75px;" alt="Interview"/><br /><b>Interview </b></a><br /><sub><a href="./Interview/Dev-ops-Interview.md">Interview Questions</a></sub></td>
     <td align="center"><a href="./CI-CD/GitlabCi"><img src="img/logo/gitlab.png" width="80x;" height="75px;" alt="Gitlab"/><br /><b>Gitlab</b></a><br /><sub><a href="./CI-CD/GitlabCi/gitlab-concepts.md">Gitlab Concepts</a></sub><br><sub><a href="./CI-CD/GitlabCi/gitlab-commands.md">Gitlab Commands</a></sub></td>
     <td align="center"><a href="./IaC/Puppet"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Puppet"/><br /><b>Puppet</b></a><br /><sub><a href="./IaC/Puppet/puppet-concepts.md">Puppet Concepts</a></sub><br><sub><a href="./IaC/Puppet/puppet-commands.md">Puppet Commands</a></sub></td>
     <td align="center"><a href="./IaC/Chef"><img src="img/logo/chef.jpg" width="100x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./IaC/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./IaC/Chef/chef-commands.md">Chef Commands</a></sub></td>
-
- 
+   
   </tr>
   
  </table>
 </center>
 
  
-<!-- 
-### File Directories
- - [Docker](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker) 
-   - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
-   - [Docker Notes](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-notes.md)
-   - [Tutorial Series ](https://github.com/Tikam02/DevOps-Guide/tree/master/Docker)
- - [Kubernetes](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
-   - [Kubernetes Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kuber-concepts.md)
-   - [Kubernetes Commands](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kubernetes-commands.md)
-   - [Tutorial Series](https://github.com/Tikam02/DevOps-Guide/tree/master/kubernetes)
-   - [Kubernetes Advanced - Deep dive](https://github.com/Tikam02/DevOps-Guide/blob/master/kubernetes/kube-advanced.md)
--  [Infrastructure as Code](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-    - [Ansible](./IaC/Ansible/readme.md) 
-    - [Chef](./IaC/chef/readme.md)
-    - [Puppet](../DevOps-Guide/IaC/Puppet/readme.md)
-    - [Terraform](./IaC/Terraform/readme.md)
- - [CI-CD](https://github.com/Tikam02/DevOps-Guide/tree/master/CI-CD)
-    - [Git Concepts & Tutorials]()
-    - [Jenkins Concepts & Tutorials]()
- - [Notes](https://github.com/Tikam02/DevOps-Guide/tree/master/notes)
-   - [Networking Notes & Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/networking-notes.md)
-   - [Networking Commands for Devops](notes/networking-commands.md)
-   - [Os Concepts for DevOps](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Os-concepts.md)
-   - [Os Commands for DevOps](notes/os-commands.md)
-   - [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
- - [Books](https://github.com/Tikam02/DevOps-Guide/tree/master/books)  -->
+
 
 ******************
 
