@@ -152,32 +152,66 @@ iwconfig command in Linux is use to configure a wireless network interface. You 
 
 ### ip
 
+
+
 **************************************
+
+
+
+```bash
+$ watch ss -tp                               # Network connections
+$ netstat -ant                               # Tcp connections -anu=udp
+$ netstat -tulpn                             # Connections with PIDs
+$ lsof -i                                    # Established connections
+$ smb:// ip /share                           # Access windows smb share
+$ share user x.x.x.x c$                      # Mount Windows share
+$ smbclient -0 user\\\\ ip \\ share          # SMB connect
+$ ifconfig eth# ip / cidr                    # Set IP and netmask
+$ ifconfig ethO:l ip / cidr                  # Set virtual interface
+$ route add default gw gw_ip                 # Set GW
+$ ifconfig eth# mtu [size]                   # Change MTU size
+$ export MAC=xx: xx: xx: xx: xx: xx          # Change MAC 
+$ ifconfig int hw ether MAC                  # Change MAC
+$ macchanger -m MAC int                      # Backtrack MAC changer
+$ iwlist int scan                            # Built-in wifi scanner
+$ dig -x ip                                  # Domain lookup for IP
+$ host ip                                    # Domain lookup for IP
+$ host -t SRV _ service _tcp.url.com         # Domain SRV lookup
+$ dig @ ip domain -t AXFR                    # DNS Zone Xfer
+$ host -l domain namesvr                     # DNS Zone Xfer
+$ ip xfrm state list                         # Print existing VPN keys
+$ ip addr add ip / cidr dev ethO             # Adds 'hidden' interface
+$ /var/log/messages | grep DHCP              # List DHCP assignments
+$ tcpkill host ip and port port              # Block ip:port
+$ echo "1" /proc/sys/net/ipv4/ip_forward     # Turn on IP Forwarding
+$ echo "nameserver x.x.x.x" /etc/resolv.conf # Add DNS Server
+```
+
 
 - ```arpwatch``` – Ethernet Activity Monitor.
 - ``` bmon``` – bandwidth monitor and rate estimator.
 - ```bwm-ng```– live network bandwidth monitor.
-    curl – transferring data with URLs. (or try httpie)
-    darkstat – captures network traffic, usage statistics.
-    dhclient – Dynamic Host Configuration Protocol Client
-    dig – query DNS servers for information.
-    dstat – replacement for vmstat, iostat, mpstat, netstat and ifstat.
-    ethtool – utility for controlling network drivers and hardware.
-    gated – gateway routing daemon.
-    host – DNS lookup utility.
-    hping – TCP/IP packet assembler/analyzer.
-    ibmonitor – shows bandwidth and total data transferred.
-    ifstat –  report network interfaces bandwidth.
-    iftop – display bandwidth usage.
-    ip (PDF file) – a command with more features that ifconfig (net-tools).
-    iperf3 – network bandwidth measurement tool. (above screenshot Stacklinux VPS)
-    iproute2 – collection of utilities for controlling TCP/IP.
-    iptables – take control of network traffic.
-    IPTraf – An IP Network Monitor.
-    iputils – set of small useful utilities for Linux networking.
-    iw – a new nl80211 based CLI configuration utility for wireless devices.
-    jwhois (whois) – client for the whois service.
-    “lsof -i” – reveal information about your network sockets.
+- ```curl``` – transferring data with URLs. (or try httpie)
+- ```darkstat``` – captures network traffic, usage statistics.
+- ```dhclient``` – Dynamic Host Configuration Protocol Client
+- ```dig``` – query DNS servers for information.
+- ```dstat``` – replacement for vmstat, iostat, mpstat, netstat and ifstat.
+- ```ethtool``` – utility for controlling network drivers and hardware.
+- ```gated``` – gateway routing daemon.
+- ```host``` – DNS lookup utility.
+- ```hping``` – TCP/IP packet assembler/analyzer.
+- ```ibmonitor``` – shows bandwidth and total data transferred.
+- ```ifstat``` –  report network interfaces bandwidth.
+- ```iftop``` – display bandwidth usage.
+- ```ip ```– a command with more features that ifconfig (net-tools).
+- ```iperf3``` – network bandwidth measurement tool. (above screenshot Stacklinux VPS)
+- ```iproute2``` – collection of utilities for controlling TCP/IP.
+- ```iptables``` – take control of network traffic.
+- ```IPTraf``` – An IP Network Monitor.
+- ```iputils``` – set of small useful utilities for Linux networking.
+- ```iw``` – a new nl80211 based CLI configuration utility for wireless devices.
+- ```jwhois (whois)``` – client for the whois service.
+- ```“lsof -i”``` – reveal information about your network sockets.
     mtr – network diagnostic tool.
     net-tools – utilities include: arp, hostname, ifconfig, netstat, rarp, route, plipconfig, slattach, mii-tool, iptunnel and ipmaddr.
     ncat – improved re-implementation of the venerable netcat.
@@ -213,3 +247,42 @@ iwconfig command in Linux is use to configure a wireless network interface. You 
     wget –  retrieving files using HTTP, HTTPS, FTP and FTPS.
     Wireless Tools for Linux – includes iwconfig, iwlist, iwspy, iwpriv and ifrename.
     Wireshark – network protocol analyzer.
+
+
+- ```watch ss -tp ``` --  Network Connec­tions
+
+- ```netstat -ant ``` --  TCP connec­tions
+
+- ```netstat -anu``` -- UDP Connec­tions
+
+- ```netstat -tulpn``` -- Connec­tions with PIDs
+
+- ```lsof -i``` -- Establ­ished Connec­tions
+
+- ```smb:/­/<I­P>/­<SH­ARE­NAM­E> ``` -- Access Windows SMB Share
+
+- ```share <US­ERN­AME> <IP> c$``` --  Mount Windows Share
+
+- ```ifconfig <IN­TER­FAC­E> <IP­/CI­DR>``` -- Set IP and netmask
+
+- ```ifconfig eth0:1 <IP­/CI­DR>``` --	Set virtual interface
+
+- ```route add default gw <IP­>``` -- Set Default Gateway
+
+- ```ifconfig <IN­TER­FAC­E> mtu <SI­ZE>``` -- Change MTU size
+
+- ```export MAC=<M­ACA­DDR­ESS­> ``` -- Change MAC Address
+
+- ```ifconfig int hw ether <MA­CAD­DRE­SS> ``` --  Change MAC Address
+
+- ``` dig -x <IP­> ``` --  Domain Lookup IP
+
+- ```host <IP­> ``` -- Domain Lookup IP
+
+- ```dig@<­IP> <DO­MAI­N> -t AXFR``` -- DNS Zone Transfer
+
+- ```host -l <DO­MAI­N> <NA­MES­ERV­ER>``` -- DNS Zone Transfer
+
+- ```echo "­1" > /proc/­sys­/ne­t/i­pv4/ip forward``` --  Enable IP Forwarding
+
+- ``` echo <"NA­MES­ERV­ER"> > /etc/r­eso­lv.c­onf``` -- Add DNS Server

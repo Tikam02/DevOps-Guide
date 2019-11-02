@@ -1,15 +1,19 @@
 ## Networking Notes:
 
-- [OSI Models](#osi-model) 
-- [Four Dod Layers](#four-dod-layers)
-- [TCP/IP](#)
-- [DNS](#dns)
-- [Routing Bridging and NAT](#)
+- [Networking Notes:](#networking-notes)
+- [OSI Model](#osi-model)
+- [Four DoD layers](#four-dod-layers)
+- [TCP/IP Model](#tcpip-model)
+- [IP Addresses:](#ip-addresses)
+  - [Concepts:](#concepts)
+  - [Resources:](#resources)
+- [DNS:](#dns)
+  - [Concepts:](#concepts-1)
+  - [Resources:](#resources-1)
+- [Proxy server](#proxy-server)
+- [Routing Bridging and NAT](#routing-bridging-and-nat)
 - [Firewalls and Ports](#firewalls-and-ports)
-- [Load Balancing](#loadbalncers)
-- [Proxy Servers](#proxy-servers)
-- SSH Port forwarding
-- SSL|TLS
+- [References:](#references)
 
 **********************
 
@@ -319,6 +323,25 @@
 
 ********************************************
 
+## Proxy server
+
+- What is an HTTP proxy and how does it work?
+
+ The simple diagram looks like this:
+
+ |CLIENT   <--->   PROXY   <--->   SERVER |
+ | (Browser)-------------------(Web Server)|
+
+
+The HTTP request is sent from Client to port 8080 of the Proxy Server. The Proxy Server then originates a new HTTP request to the destination site. The proxy, depending on the configuration, will often add a "X-Forwarded-For" header to the HTTP request. The log files on the destination web site will show the proxy's IP address, but may or may not be configured to log the "X-Forwarded-For" address.
+
+It was popular years ago, and they still stick around. However, the proxy server, most of the part has been replaced by NAT that is now build into routers. We still use proxy server every once in a while for very specific usage such as hacking/security communities, mostly to hide the id of the connection side.
+
+Internally (within a network), it can be very useful for caching proxy(Squid). For instance, this can be useful when lots of our network computers trying to do Windows Update, the proxy server can cache GBs of files once and for all, and saving bandwidth.
+
+
+**********************************************
+
 ## Routing Bridging and NAT
 
 *********************************************
@@ -326,112 +349,9 @@
 ## Firewalls and Ports
 
 ***********************************************
-## General networking concepts that will help you in troubleshooting networks on Linux.
 
 
-```bash
-$ watch ss -tp                               # Network connections
-$ netstat -ant                               # Tcp connections -anu=udp
-$ netstat -tulpn                             # Connections with PIDs
-$ lsof -i                                    # Established connections
-$ smb:// ip /share                           # Access windows smb share
-$ share user x.x.x.x c$                      # Mount Windows share
-$ smbclient -0 user\\\\ ip \\ share          # SMB connect
-$ ifconfig eth# ip / cidr                    # Set IP and netmask
-$ ifconfig ethO:l ip / cidr                  # Set virtual interface
-$ route add default gw gw_ip                 # Set GW
-$ ifconfig eth# mtu [size]                   # Change MTU size
-$ export MAC=xx: xx: xx: xx: xx: xx          # Change MAC 
-$ ifconfig int hw ether MAC                  # Change MAC
-$ macchanger -m MAC int                      # Backtrack MAC changer
-$ iwlist int scan                            # Built-in wifi scanner
-$ dig -x ip                                  # Domain lookup for IP
-$ host ip                                    # Domain lookup for IP
-$ host -t SRV _ service _tcp.url.com         # Domain SRV lookup
-$ dig @ ip domain -t AXFR                    # DNS Zone Xfer
-$ host -l domain namesvr                     # DNS Zone Xfer
-$ ip xfrm state list                         # Print existing VPN keys
-$ ip addr add ip / cidr dev ethO             # Adds 'hidden' interface
-$ /var/log/messages | grep DHCP              # List DHCP assignments
-$ tcpkill host ip and port port              # Block ip:port
-$ echo "1" /proc/sys/net/ipv4/ip_forward     # Turn on IP Forwarding
-$ echo "nameserver x.x.x.x" /etc/resolv.conf # Add DNS Server
-```
-***************************
 
-
-## Extra 
-
-### Networking Basics
-
-
-- The moment you see an ip address, you should be able to answer 2 questions
-1. is this is a public ip addresss or a private ip address
-2. what class of Ip address is this.
-
-
-– Every company, website has a public ip address (1 or 2 or 3 ) … max 10
-– these public ip addresses are provided by ISP providers
-– these have a charge attached to it.
-
-– every company has a range of private ip addresses
-– these are free to use
-– configured and manatained by internal network administrator
-
-
-****************
-Ip address
-
-[1-255].[0-255].[0-255].[0-255]
-1.1.1.1
-100.126.10.240
-50.111.175.250
-
-100.0.1.2
-*******************
-
-Classes of Ipaddress
-PUBLIC RANGE PRIVATE RANGE
-class A = [1.0.0.1 to 126.255.255.254][10.0.0.0 to 10.255.255.255]
-Class B = [128.1.0.1 to 191.255.255.254][172.16.0.0 to 172.31.255.255]
-Class c = [192.0.1.1 to 223.255.254.254][192.168.0.0 to 192.168.255.255]
-Class D — not used
-Class E — not used
-1 – Public
-2 – public
-3 – public
-4 – public
-5 – public
-6 – private
-7 – public
-8 – public
-9 – public
-10 – public
-versions of Ip address
-Ipv4 64bit
-Ipv6 128 bit
-127.0.0.1 to 127.255.255.255 = these are loop back address.
-every computer will have this address names as “loopback”
-this is used for testing connectivity and some application services.
-169.X.X.X
-– if a computer|server doesnt get a ip address from the dhcp server or router, this ip address is auto assigned by the system NIC card. this cannot be used to communicate either privately or publicly.
-************
-
-network devices
-1. routers
-– communicate based on Ip address
-– these are called as layer 3 devices
-
-2. switches
-– layer 2 switches communicate based on MAC address
-– layer 3 switches communicate based on IP address
-
-3. hubs
-– these are repeators
-– not intelligent devices like routers and switches
-
-4. Firewall
-5. load balancers
 
 
 ********************
