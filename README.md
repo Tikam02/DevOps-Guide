@@ -1,5 +1,5 @@
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 ![devops guide](https://github.com/Tikam02/DevOps-Guide/blob/master/img/devops-guide.png)
 
@@ -97,6 +97,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://www.ghostwheel.co.uk"><img src="https://avatars0.githubusercontent.com/u/652579?v=4" width="100px;" alt="Neil Duncan"/><br /><sub><b>Neil Duncan</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=neilduncan" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://adrianmoisey.gitlab.com/"><img src="https://avatars3.githubusercontent.com/u/736329?v=4" width="100px;" alt="Adrian Moisey"/><br /><sub><b>Adrian Moisey</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=adrianmoisey" title="Documentation">📖</a></td>
   </tr>
 </table>
 
