@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "neilduncan",
+      "name": "Neil Duncan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/652579?v=4",
+      "profile": "http://www.ghostwheel.co.uk",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "DevOps-Guide",
+  "projectOwner": "Tikam02",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
