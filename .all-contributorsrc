@@ -22,6 +22,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "adrianmoisey",
+      "name": "Adrian Moisey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/736329?v=4",
+      "profile": "https://adrianmoisey.gitlab.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
