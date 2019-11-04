@@ -85,32 +85,32 @@
 * Create one or more resources from your file or folder.
 
 
- ```   Kubectl create -f FILE ```
+ ```kubectl create -f FILE ```
 
 * Applies a configuration change to a resource from your file.
 
 
- ```   Kubectl apply -f FILE  ```
+ ```kubectl apply -f FILE  ```
 
 
 *  Deletes one or more Kubernetes resources from a configuration file or directly from resource names.
 *  e.g. Kubectl delete my_pod (destroy the pod on the cluster named my_pod) 
 
 
-  ```  Kubectl delete (-f FILE | TYPE [PREFIX_NAME | NAME]) ```
+  ```kubectl delete (-f FILE | TYPE [PREFIX_NAME | NAME]) ```
 
 
  -  Lets you expose a local port to the port of a POD that is running on the Kubernetes cluster. Useful to debug.
     -  e.g. Kubectl port-forward my_pod 80:3000 (exposes the port 3000 of the pod my_pod on our local port 80)
 
-  ```  Kubectl port-forward POD [LOCAL_PORT:]REMOTE_PORT ```
+  ```kubectl port-forward POD [LOCAL_PORT:]REMOTE_PORT ```
 
 -  Run a resource in the Kubernetes cluster.
-    - e.g. Kubectl run -i --tty busybox --image=busybox -- sh
+    - e.g.kKubectl run -i --tty busybox --image=busybox -- sh
     - -> Run a pod as an interactive shell
  
 
-  ```  Kubectl run NAME --image=image [--env=”key=value”] [--port=port] [--replicas=replicas] ```
+  ```kubectl run NAME --image=image [--env=”key=value”] [--port=port] [--replicas=replicas] ```
 
 
 - Get documentation for pod or service
@@ -176,7 +176,7 @@ e.g. Kubectl describe pods my-pod.
 
  
 
-  ```  Kubectl logs [-f] POD [-c CONTAINER] ```
+  ```kubectl logs [-f] POD [-c CONTAINER] ```
 
 This command displays the logs of your POD. We can add the -c container option when we want to display the logs of a multi-container pod. The -f command displays the output of the logs continuously (stream).
 
@@ -186,7 +186,7 @@ Example: Kubectl logs -f my_pod -c my_app
 
  
 
-  ```  Kubectl top pod POD_NAME --containers ```
+  ```kubectl top pod POD_NAME --containers ```
 
 Displays the metrics for a given pod and its containers within a Kubernetes cluster.
 
