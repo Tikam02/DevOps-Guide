@@ -11,7 +11,7 @@
 
 *****************
 
-## 1. Basic concepts of docker - Conatainers and Images 
+## 1. Basic concepts of docker - Containers and Images 
 
 - Detailed Docker concepts and notes from here - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
 
@@ -161,7 +161,7 @@ sudo apt-get install docker.io
   
 
 
-## 5. Runnig Up the docker image
+## 5. Running Up the docker image
 
   - You are now ready to build the application image using the docker build command. Using the -t flag with docker build will allow you to tag the image with a memorable name. Because we are going to push the image to Docker Hub, let’s include our Docker Hub username in the tag. We will tag the image as nodejs-image-demo, but feel free to replace this with a name of your own choosing. Remember to also replace your_dockerhub_username with your own Docker Hub username:
 
