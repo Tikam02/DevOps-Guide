@@ -40,6 +40,16 @@
       "contributions": [
         "question"
       ]
+    },
+    {
+      "login": "milap-neupane",
+      "name": "Milap Neupane",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2145263?v=4",
+      "profile": "https://github.com/milap-neupane",
+      "contributions": [
+        "code",
+        "tutorial"
+      ]
     }
   ],
   "contributorsPerLine": 7,
