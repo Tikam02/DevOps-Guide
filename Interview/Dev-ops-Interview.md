@@ -881,7 +881,23 @@
 
 ## Docker
 
+- Q1) What is docker for?
 
+- Q2) How to ask docker cli to show all containers&
+
+- Q3) How to delete image with container, who use this image?
+
+- Q4) What command help you to delete all old unused images?
+
+- Q5) What is docker-compose? What is docker-compose.yml?
+
+- Q6) How to expose ports in docker-compose file?
+
+- Q7) How to reduce docker images?
+
+- Q8) Where you  can store docker images?
+
+- Q9) What is alpine and why we need it?
 
 *********************
 
