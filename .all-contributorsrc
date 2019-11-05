@@ -31,6 +31,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Win32Sector",
+      "name": "Pavel Kozlov",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7781383?v=4",
+      "profile": "https://github.com/Win32Sector",
+      "contributions": [
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 7,
