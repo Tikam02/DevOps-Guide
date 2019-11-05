@@ -2,7 +2,7 @@
 
 ![devops guide](https://github.com/Tikam02/DevOps-Guide/blob/master/img/devops-guide.png)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)   ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge) [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=for-the-badge)](#contributors)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)   ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge) [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 
 *******************
@@ -97,8 +97,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="http://www.ghostwheel.co.uk"><img src="https://avatars0.githubusercontent.com/u/652579?v=4" width="100px;" alt="Neil Duncan"/><br /><sub><b>Neil Duncan</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=neilduncan" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://adrianmoisey.gitlab.io/"><img src="https://avatars3.githubusercontent.com/u/736329?v=4" width="100px;" alt="Adrian Moisey"/><br /><sub><b>Adrian Moisey</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=adrianmoisey" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/cuzza0"><img src="https://avatars0.githubusercontent.com/u/8264053?v=4" width="100px;" alt="cuzza0"/><br /><sub><b>cuzza0</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=cuzza0" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://adrianmoisey.gitlab.com/"><img src="https://avatars3.githubusercontent.com/u/736329?v=4" width="100px;" alt="Adrian Moisey"/><br /><sub><b>Adrian Moisey</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=adrianmoisey" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Win32Sector"><img src="https://avatars3.githubusercontent.com/u/7781383?v=4" width="100px;" alt="Pavel Kozlov"/><br /><sub><b>Pavel Kozlov</b></sub></a><br /><a href="#question-Win32Sector" title="Answering Questions">💬</a></td>
   </tr>
 </table>
 
