@@ -381,20 +381,34 @@
 ## OS-LINUX:
 
 - Q1) How can you view running processes?
+  - ps aux
+  - top(htop)
 
 - Q2) How do you check server uptime?
+  - uptime
+  - top
 
 - Q3) How do you start/stop services?
+  - (deprecated) service start/stop service_name
+  - systemctl strat/stop service_name
 
 - Q4) How do you display the shell’s environment variables?
+  - env
+  - printenv
 
 - Q5) What does #!/bin/bash at the top of a script do?
+  - It say to shell, what interpreter to use when run this script
 
 - Q6) What does "&" after a command do?
+  - It run command in background
 
 - Q7) What does piping commands mean?
+  - piping with '|' transfer stdout of one command to another, for example,
+  `ps aux | grep httpd` - first command show all running processes, then, transfer stdout to stdin of second command, whose find only strings where 'httpd'.
 
 - Q8) What distributions have you used on servers?Why?
+  - Ubuntu - very fresh kernels and packages
+  - CentOS/RHEL - Enterprise and stability
 
 - Q9) What is your favorite editor?
 
@@ -426,6 +440,7 @@
 - Q17) What are zombie processes ?
 
 - Q18) Can you have several HTTPS virtual hosts sharing the same IP?
+  - Yes, I can. I can setup several virtual hosts on one IP and split up yhem with different ports.
 
 - Q19) What is the difference between processes and threads?
 
@@ -451,6 +466,7 @@
 - Q29) What's LD_PRELOAD and when is it used?
 
 - Q30) You ran a binary and nothing happened. How would you debug this?
+  - I run binary with strace, for example: strace binary_name
 
 - Q31) When can a socket receive E_AGAIN ?
 
@@ -492,6 +508,7 @@
 - Q41) How to make sure a service will start on a OS of your choice?
 
 - Q42) How do you schedule tasks periodically?
+  - with cron
 
 - Q43) Have you scheduled tasks in the past? What kind of tasks?
 
@@ -500,7 +517,7 @@
 
 - Q45) What does the following permissions mean?:
 
-  - 777
+  - 777 
   - 644
   - 750
 
@@ -557,8 +574,8 @@
 
 - Q69) Explain the following in regards to LVM:
 
-  -PV
-  -VG
+  - PV
+  - VG
   - LV
 
 
@@ -864,7 +881,23 @@
 
 ## Docker
 
+- Q1) What is docker for?
 
+- Q2) How to ask docker cli to show all containers&
+
+- Q3) How to delete image with container, who use this image?
+
+- Q4) What command help you to delete all old unused images?
+
+- Q5) What is docker-compose? What is docker-compose.yml?
+
+- Q6) How to expose ports in docker-compose file?
+
+- Q7) How to reduce docker images?
+
+- Q8) Where you  can store docker images?
+
+- Q9) What is alpine and why we need it?
 
 *********************
 
