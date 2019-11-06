@@ -50,6 +50,15 @@
         "code",
         "tutorial"
       ]
+    },
+    {
+      "login": "johnoct",
+      "name": "john",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1725315?v=4",
+      "profile": "https://johnoctubre.me/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
