@@ -4,7 +4,20 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)   ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge) [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
-
+<p>
+		<a href="https://triplebyte.com/a/UEmYALe/d">
+			<b>Looking for a job?</b>
+			<br>
+			No resume needed. Just prove you can code.
+			<br>
+			<div>
+				<img src="https://user-images.githubusercontent.com/170270/66039619-9363c380-e53f-11e9-9b56-ae6e8ab336ba.png" width="260"  alt="Tripblebyte">
+			</div>
+       <a href="https://triplebyte.com/a/UEmYALe/d">Tired of technical phone screens? Take Triplebyte’s quiz <br>
+      and go straight to final onsite interviews!<br></a>
+		</a>
+		<sub><i>Clicking this helps fund the DevOps Guide project</i></sub>
+	</p>
 *******************
 
 
