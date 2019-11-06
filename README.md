@@ -34,7 +34,7 @@
     <td align="center"><a href="./Interview"><img src="img/logo/interview.png" width="80x;" height="75px;" alt="Interview"/><br /><b>Interview </b></a><br /><sub><a href="./Interview/Dev-ops-Interview.md">Interview Questions</a></sub></td>
     <td align="center"><a href="./CI-CD/GitlabCi"><img src="img/logo/gitlab.png" width="80x;" height="75px;" alt="Gitlab"/><br /><b>Gitlab</b></a><br /><sub><a href="./CI-CD/GitlabCi/gitlab-concepts.md">Gitlab Concepts</a></sub><br><sub><a href="./CI-CD/GitlabCi/gitlab-commands.md">Gitlab Commands</a></sub></td>
     <td align="center"><a href="./IaC/Puppet"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Puppet"/><br /><b>Puppet</b></a><br /><sub><a href="./IaC/Puppet/puppet-concepts.md">Puppet Concepts</a></sub><br><sub><a href="./IaC/Puppet/puppet-commands.md">Puppet Commands</a></sub></td>
-    <td align="center"><a href="./IaC/Chef"><img src="img/logo/chef.jpg" width="100x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./IaC/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./IaC/Chef/chef-commands.md">Chef Commands</a></sub></td>
+    <td align="center"><a href="./IaC/Chef"><img src="img/logo/chef.jpg" width="80x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./IaC/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./IaC/Chef/chef-commands.md">Chef Commands</a></sub></td>
    
   </tr>
   
@@ -45,7 +45,7 @@
 <table>
 
    <tr>
-    <td align="center"><a href="./CI-CD/TravisCi"><img src="img/logo/travisci.png" width="80x;" height="75px;" alt="Gitlab"/><br /><b>Travis</b></a><br /><sub><a href="./CI-CD/TravisCi/travis-concepts.md">Travis Concepts</a></sub><br><sub><a href="./CI-CD/TravisCi/travis-commands.md">Travis Commands</a></sub></td>
+    <td align="center"><a href="./CI-CD/TravisCi"><img src="img/logo/travisci.png" width="70x;" height="75px;" alt="Gitlab"/><br /><b>Travis</b></a><br /><sub><a href="./CI-CD/TravisCi/travis-concepts.md">Travis Concepts</a></sub><br><sub><a href="./CI-CD/TravisCi/travis-commands.md">Travis Commands</a></sub></td>
    
   </tr>
   
