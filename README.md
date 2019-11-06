@@ -5,8 +5,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)   ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge) [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 <p>
-	<h3>	<a href="https://triplebyte.com/a/UEmYALe/d">
-		<b>Looking for a job?</b> </h3>
+		<a href="https://triplebyte.com/a/UEmYALe/d">
+		<b>Looking for a job?</b> 
 			<br>
 			No resume needed. Just prove you can code. Take Triplebyte’s quiz 
       and go straight to final onsite interviews!
