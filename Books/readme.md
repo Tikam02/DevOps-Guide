@@ -17,4 +17,9 @@
 15. [CI Servers and Tools](ci-servers-and-tools.pdf)
 16. [Research Guide Containers](research-guide-containers.pdf)
 17. [Research Guide Devops](research-guide-devops.pdf)
-18. [Tredn Reports Kubernetes in the Enterprise](trend-report-kubernetes-in-the-enterprise.pdf)
+18. [Trend Reports Kubernetes in the Enterprise](trend-report-kubernetes-in-the-enterprise.pdf)
+
+******
+## Resources : 
+
+- [10+ Great Books For Aspiring DevOps & SRE Engineers](https://medium.com/faun/10-great-books-for-aspiring-devops-sre-engineers-76536c7c4909)
