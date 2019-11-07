@@ -384,13 +384,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - Management of I/O devices is a very important part of the operating system - so important and so varied that entire I/O subsystems are devoted to its operation. ( Consider the range of devices on a modern computer, from mice, keyboards, disk drives, display adapters, USB devices, network connections, audio I/O, printers, special devices for the handicapped, and many special-purpose peripherals.
 
-- An I/O system is required to take an application I/O request and send it to the physical device, then take whatever response comes back from the device and send it to the application. I/O devices can be divided into two categories:
 
-    - Block devices — A block device is one with which the driver communicates by sending entire blocks of data. For example, hard disks, USB cameras, Disk-On-Key etc.
-  
-    - Character Devices — A character device is one with which the driver communicates by sending and receiving single characters (bytes, octets). For example, serial ports, parallel ports, sounds cards etc.
-
-![Inter Process Communication](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/device_controllers.jpg)
 
 - Device Controllers
 
