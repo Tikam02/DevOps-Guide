@@ -48,3 +48,32 @@
 | `mco plugin doc` |show all available MCO plugins |
 | `mco rpc puppet last_run_summary` |show last run statistics for all nodes |
 | `/var/lib/peadmin/.mcollective.d/client.log` |mco client logs (on PE Master) |
+
+### Modules
+
+| Command | Description |
+| ------- | ----------- |
+| `puppet config print modulepath`|print modulepath|
+| `puppet help module` |modules help|
+| `puppet module search 'nginx'`|search available modules: (PuppetForge)|
+| `puppet module install author/module`|install a module|
+| `puppet module generate author/module`|build new module with full skeleton|
+| `puppet module list`| list installed modules |
+| `puppet module list --tree`| check for missing module dependencies|
+| `puppet module build author/module`|build a module release package (.tar.gz)|
+| `puppet module changes`| show modified files of an installed module|
+
+
+### Puppet Server
+
+| Command | Description |
+| ------- | ----------- |
+| `puppet cert list --all`|List all certs|
+| `puppet cert sign 'certname'` |sign certificate|
+| `puppet cert clean 'certname'`|remove client cert|
+| `puppet apply -e "class { 'my_super_module': version => '1.2'}"`|apply config directly from command line and pass parameter|
+| `/var/log/puppetlabs/puppetserver/puppetserver.log`|Puppet Server log|
+| `/var/log/puppetlabs/puppetdb/puppetdb.log`|PuppetDB log|
+| `/etc/puppetlabs/puppet/ssl`|SSL certs location|
+| `/etc/puppetlabs/puppet/puppet.conf`|Master Configuration file|
+| `puppet config print all`|Print all configuration settings|
