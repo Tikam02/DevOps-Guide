@@ -59,6 +59,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jobintweets",
+      "name": "Jobin George",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26024383?v=4",
+      "profile": "https://www.linkedin.com/in/jobin-george-364bbb127/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

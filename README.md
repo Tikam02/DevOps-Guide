@@ -123,6 +123,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/Win32Sector"><img src="https://avatars3.githubusercontent.com/u/7781383?v=4" width="100px;" alt="Pavel Kozlov"/><br /><sub><b>Pavel Kozlov</b></sub></a><br /><a href="#question-Win32Sector" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/milap-neupane"><img src="https://avatars0.githubusercontent.com/u/2145263?v=4" width="100px;" alt="Milap Neupane"/><br /><sub><b>Milap Neupane</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milap-neupane" title="Code">💻</a> <a href="#tutorial-milap-neupane" title="Tutorials">✅</a></td>
     <td align="center"><a href="https://johnoctubre.me/"><img src="https://avatars0.githubusercontent.com/u/1725315?v=4" width="100px;" alt="john"/><br /><sub><b>john</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=johnoct" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/jobin-george-364bbb127/"><img src="https://avatars0.githubusercontent.com/u/26024383?v=4" width="100px;" alt="Jobin George"/><br /><sub><b>Jobin George</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=jobintweets" title="Documentation">📖</a></td>
   </tr>
 </table>
 
