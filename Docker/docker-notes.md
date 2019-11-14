@@ -4,7 +4,11 @@
 
 * [Dockerfile Format](#docker-fileformats)
 
-* [Docker Commands](#docker-compose)
+* [Docker Commands](#docker-build--run--)
+
+* [Docker Compose](#docker-compose--)
+
+* [Docker Swarm](#docker-swarm--)
 
 
 
