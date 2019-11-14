@@ -125,6 +125,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://johnoctubre.me/"><img src="https://avatars0.githubusercontent.com/u/1725315?v=4" width="100px;" alt="john"/><br /><sub><b>john</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=johnoct" title="Documentation">📖</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/jobin-george-364bbb127/"><img src="https://avatars0.githubusercontent.com/u/26024383?v=4" width="100px;" alt="Jobin George"/><br /><sub><b>Jobin George</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=jobintweets" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/tsyr2ko"><img src="https://avatars3.githubusercontent.com/u/344274?v=4" width="100px;" alt="tsyr2ko"/><br /><sub><b>tsyr2ko</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tsyr2ko" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
