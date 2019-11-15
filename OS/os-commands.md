@@ -14,7 +14,7 @@
 
 - Display Processes for a Specific User
 
-``` $ top -u root ``
+``` $ top -u root ```
 
 
 
