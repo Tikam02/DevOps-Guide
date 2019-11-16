@@ -127,6 +127,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/tsyr2ko"><img src="https://avatars3.githubusercontent.com/u/344274?v=4" width="100px;" alt="tsyr2ko"/><br /><sub><b>tsyr2ko</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tsyr2ko" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://twitter.com/VictorNS69"><img src="https://avatars2.githubusercontent.com/u/10101065?v=4" width="100px;" alt="Víctor Nieves Sánchez"/><br /><sub><b>Víctor Nieves Sánchez</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictorNS69" title="Documentation">📖</a></td>
   </tr>
 </table>
 
