@@ -1,7 +1,23 @@
 # Infrastructure as Code
 
 
-- Puppet runs the data centers for several significant companies like Reddit, Dell, and Google and runs on all OS systems. It also has one of the most advanced interfaces on this list. It has been on the market for a long time and uses Ruby-based DSL as the primary language for defining the desired end state of the infrastructure. I said “end state” because that is what you need to define.
-- Puppet will then figure out the best way to achieve that end state for you. It also monitors the infrastructure for changes that deviate away from the defined end state and automatically corrects those changes too. This is a tool developed specifically for system administrators thanks to considerable enterprise and community support provided.
+Infrastruce as code - Infrastructure as code (IaC) is the process of managing and provisioning computer data centers through machine-readable definition files, rather than physical hardware configuration or interactive configuration tools.[1] The IT infrastructure managed by this comprises both physical equipment such as bare-metal servers as well as virtual machines and associated configuration resources. The definitions may be in a version control system. It can use either scripts or declarative definitions, rather than manual processes, but the term is more often used to promote declarative approaches. 
 
-- Choosing the best IaC tool is a matter of finding one that suits your personal preference and specific needs best. Two of the most important things to make an IaC system easy to use for you are consistency in both how you utilize it and environmental awareness. Also, find the programming language that works the best for you and your team. As you will spend a lot of time—at least to begin with—writing content, choose what your team can best communicate in. What makes you most productive?
+Simply code your infrastructure configuration files with combination of different cloud providers.
+
+
+- What is Terraform?
+  - With Terraform, you describe your complete infrastructure as code, even as it spans multiple service providers. Your servers may come from AWS, your DNS may come from CloudFlare, and your database may come from Heroku. Terraform will build all these resources across all these providers in parallel.
+
+  - Terraform was developed by Hashicorp, the company behind Vagrant, Consul, Vault, Nomad and other tools from HashiStack. This is a configuration orchestration tool that is incredible for provisioning, adjusting and destroying the virtual server environments. It is available both as a DevOps-as-a-Service enterprise-grade offer from Hashicorp and as an open-source solution able to work with a variety of Cloud Service Providers to create multi-cloud ecosystems.
+
+
+  - Infrastructure as Code: Infrastructure is described using a high-level configuration syntax. This allows a blueprint of your datacenter to be versioned and treated as you would any other code. Additionally, infrastructure can be shared and re-used.
+
+  - Execution Plans: Terraform has a "planning" step where it generates an execution plan. The execution plan shows what Terraform will do when you call apply. This lets you avoid any surprises when Terraform manipulates infrastructure.
+
+  - Resource Graph: Terraform builds a graph of all your resources, and parallelizes the creation and modification of any non-dependent resources. Because of this, Terraform builds infrastructure as efficiently as possible, and operators get insight into dependencies in their infrastructure.
+
+
+- What is Ansible?
+  - Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates. Ansible’s goals are foremost those of simplicity and maximum ease of use.
