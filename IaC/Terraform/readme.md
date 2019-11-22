@@ -33,7 +33,32 @@ Large enterprises can purchase Terraform Enterprise, our self-hosted distributio
     
 - Terraform gives Immutable Infrastructure: This means once you instantiate your server, you do not change it. Instances are redeployed, instead of restoring from previous versions. Components are replaced rather than being updated with newer versions. This reduces the potential of Configuration Drift and uptime is improved.
 
+## Installation
+- Install Through curl
 
+```bash
+$ curl -O https://releases.hashicorp.com/terraform/0.11.10/terraform_0.11.10_linux_amd64.zip 
+
+$ sudo unzip terraform_0.11.10_linux_amd64.zip -d /usr/local/bin/
+
+$ rm terraform_0.11.10_linux_amd64.zip
+
+```
+
+Second method to install Through tfenv, a Terraform Version Manager
+
+Download the tfenv binary and put it in your PATH.
+
+```bash 
+$ git clone https://github.com/Zordrak/tfenv.git ~/.tfenv
+
+$ echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> $HOME/bashrc
+```
+
+
+Then, you can install the desired version of Terraform:
+
+``` $ tfenv install 0.11.10 ```
 
 
 
