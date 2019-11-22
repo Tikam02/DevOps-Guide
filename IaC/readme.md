@@ -21,3 +21,12 @@ Simply code your infrastructure configuration files with combination of differen
 
 - What is Ansible?
   - Ansible is an IT automation tool. It can configure systems, deploy software, and orchestrate more advanced IT tasks such as continuous deployments or zero downtime rolling updates. Ansible’s goals are foremost those of simplicity and maximum ease of use.
+
+- Puppet Labs
+  - Puppet is an automated administrative engine for your Linux, Unix, and Windows systems and performs administrative tasks (such as adding users, installing packages, and updating server configurations) based on a centralized specification.
+  
+- Chef 
+  - Chef enables you to manage and scale cloud infrastructure with no downtime or interruptions. Freely move applications and configurations from one cloud to another. Chef is integrated with all major cloud providers including Amazon EC2, VMWare, IBM Smartcloud, Rackspace, OpenStack, Windows Azure, HP Cloud, Google Compute Engine, Joyent Cloud and others.
+  
+- AWS CloudFormation
+  - You can use AWS CloudFormation’s sample templates or create your own templates to describe the AWS resources, and any associated dependencies or runtime parameters, required to run your application. You don’t need to figure out the order in which AWS services need to be provisioned or the subtleties of how to make those dependencies work.
