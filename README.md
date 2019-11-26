@@ -69,15 +69,10 @@
 
 
 
-******************
 
 
 
-![Foundation](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/flow.png)
-* Foundation
 
-![Flow](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/foundation.png)
-* Devops Flow
 
 ********************
 
