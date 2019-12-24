@@ -109,23 +109,27 @@
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://www.ghostwheel.co.uk"><img src="https://avatars0.githubusercontent.com/u/652579?v=4" width="100px;" alt="Neil Duncan"/><br /><sub><b>Neil Duncan</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=neilduncan" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/cuzza0"><img src="https://avatars0.githubusercontent.com/u/8264053?v=4" width="100px;" alt="cuzza0"/><br /><sub><b>cuzza0</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=cuzza0" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://adrianmoisey.gitlab.com/"><img src="https://avatars3.githubusercontent.com/u/736329?v=4" width="100px;" alt="Adrian Moisey"/><br /><sub><b>Adrian Moisey</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=adrianmoisey" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/Win32Sector"><img src="https://avatars3.githubusercontent.com/u/7781383?v=4" width="100px;" alt="Pavel Kozlov"/><br /><sub><b>Pavel Kozlov</b></sub></a><br /><a href="#question-Win32Sector" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/milap-neupane"><img src="https://avatars0.githubusercontent.com/u/2145263?v=4" width="100px;" alt="Milap Neupane"/><br /><sub><b>Milap Neupane</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milap-neupane" title="Code">💻</a> <a href="#tutorial-milap-neupane" title="Tutorials">✅</a></td>
-    <td align="center"><a href="https://johnoctubre.me/"><img src="https://avatars0.githubusercontent.com/u/1725315?v=4" width="100px;" alt="john"/><br /><sub><b>john</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=johnoct" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/jobin-george-364bbb127/"><img src="https://avatars0.githubusercontent.com/u/26024383?v=4" width="100px;" alt="Jobin George"/><br /><sub><b>Jobin George</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=jobintweets" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.ghostwheel.co.uk"><img src="https://avatars0.githubusercontent.com/u/652579?v=4" width="100px;" alt=""/><br /><sub><b>Neil Duncan</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=neilduncan" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/cuzza0"><img src="https://avatars0.githubusercontent.com/u/8264053?v=4" width="100px;" alt=""/><br /><sub><b>cuzza0</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=cuzza0" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://adrianmoisey.gitlab.com/"><img src="https://avatars3.githubusercontent.com/u/736329?v=4" width="100px;" alt=""/><br /><sub><b>Adrian Moisey</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=adrianmoisey" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Win32Sector"><img src="https://avatars3.githubusercontent.com/u/7781383?v=4" width="100px;" alt=""/><br /><sub><b>Pavel Kozlov</b></sub></a><br /><a href="#question-Win32Sector" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/milap-neupane"><img src="https://avatars0.githubusercontent.com/u/2145263?v=4" width="100px;" alt=""/><br /><sub><b>Milap Neupane</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milap-neupane" title="Code">💻</a> <a href="#tutorial-milap-neupane" title="Tutorials">✅</a></td>
+    <td align="center"><a href="https://johnoctubre.me/"><img src="https://avatars0.githubusercontent.com/u/1725315?v=4" width="100px;" alt=""/><br /><sub><b>john</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=johnoct" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/jobin-george-364bbb127/"><img src="https://avatars0.githubusercontent.com/u/26024383?v=4" width="100px;" alt=""/><br /><sub><b>Jobin George</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=jobintweets" title="Documentation">📖</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/tsyr2ko"><img src="https://avatars3.githubusercontent.com/u/344274?v=4" width="100px;" alt="tsyr2ko"/><br /><sub><b>tsyr2ko</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tsyr2ko" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://twitter.com/VictorNS69"><img src="https://avatars2.githubusercontent.com/u/10101065?v=4" width="100px;" alt="Víctor Nieves Sánchez"/><br /><sub><b>Víctor Nieves Sánchez</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictorNS69" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/tsyr2ko"><img src="https://avatars3.githubusercontent.com/u/344274?v=4" width="100px;" alt=""/><br /><sub><b>tsyr2ko</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tsyr2ko" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://twitter.com/VictorNS69"><img src="https://avatars2.githubusercontent.com/u/10101065?v=4" width="100px;" alt=""/><br /><sub><b>Víctor Nieves Sánchez</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictorNS69" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://blog.acropanda.top/"><img src="https://avatars1.githubusercontent.com/u/25024102?v=4" width="100px;" alt=""/><br /><sub><b>Frank</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=acrofrank" title="Documentation">📖</a></td>
   </tr>
 </table>
 
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
