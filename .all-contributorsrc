@@ -86,11 +86,21 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "acrofrank",
+      "name": "Frank",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25024102?v=4",
+      "profile": "https://blog.acropanda.top/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
   "projectName": "DevOps-Guide",
   "projectOwner": "Tikam02",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
