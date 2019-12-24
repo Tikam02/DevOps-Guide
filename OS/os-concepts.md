@@ -360,7 +360,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
     - Symbolic addresses: The addresses used in a source code. The variable names, constants, and instruction labels are the basic elements of the symbolic address space.
     
-    -Relative addresses: At the time of compilation, a compiler converts symbolic addresses into relative addresses.
+    - Relative addresses: At the time of compilation, a compiler converts symbolic addresses into relative addresses.
     
     - Physical addresses: The loader generates these addresses at the time when a program is loaded into main memory.
 
