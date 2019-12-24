@@ -126,54 +126,11 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 ### Concepts
 
-- A process is basically a program in execution. The execution of a process must progress in a sequential fashion. To put it in simple terms, we write our computer programs in a text file and when we execute this program, it becomes a process which performs all the tasks mentioned in the program.
+
 
 - When a program is loaded into the memory and it becomes a process, it can be divided into four sections ─ stack, heap, text and data.
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/process.jpeg)
 
-- Stack: The process Stack contains the temporary data such as method/function parameters, return address and local variables.
-  
-- Heap: This is dynamically allocated memory to a process during its run time.
-  
-- Text: This includes the current activity represented by the value of Program Counter and the contents of the processor’s registers.
-  
-- Data: This section contains the global and static variables.
-
-- When a process executes, it passes through different states. These stages may differ in different operating systems, and the names of these states are also not standardized. In general, a process can have one of the following five states at a time:
-  
-    - Start: This is the initial state when a process is        first started/created.
-  
-    - Ready: The process is waiting to be assigned to a processor. Ready processes are waiting to have the processor allocated to them by the operating system so that they can run. Process may come into this state after Start state or while running it by but interrupted by the scheduler to assign CPU to some other process.
-    
-    - Running: Once the process has been assigned to a processor by the OS scheduler, the process state is set to running and the processor executes its instructions.
-    
-    - Waiting: Process moves into the waiting state if it needs to wait for a resource, such as waiting for user input, or waiting for a file to become available.
-    
-    - Terminated or Exit: Once the process finishes its execution, or it is terminated by the operating system, it is moved to the terminated state where it waits to be removed from main memory.
-
-- A Process Control Block is a data structure maintained by the Operating System for every process. The PCB is identified by an integer process ID (PID). A PCB keeps all the information needed to keep track of a process.
-
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/process-things.jpeg)
-
-- Process State: The current state of the process i.e., whether it is ready, running, waiting, or whatever.
-- Process Privileges: This is required to allow/disallow access to system resources.
-
-- Process ID: Unique identification for each of the process in the operating system.
-
-- Pointer: A pointer to parent process.
-
-- Program Counter: Program Counter is a pointer to the address of the next instruction to be executed for this process.
-
-- CPU Registers: Various CPU registers where process need to be stored for execution for running state.
-
-- CPU Scheduling Information: Process priority and other scheduling information which is required to schedule the process.
-
-- Memory Management Information: This includes the information of page table, memory limits, Segment table depending on memory used by the operating system.
-
-- Accounting Information: This includes the amount of CPU used for process execution, time limits, execution ID etc.
-
-- IO Status Information: This includes a list of I/O devices allocated to the process.
 
 - root and chroot
 
@@ -279,15 +236,12 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - Definition: A Thread also called lightweight process, is basic CPU utilization; it compromises a thread ID, a program counter, a register set, and a stack. A thread is an entity within a process that can be scheduled for execution.
 
-- A thread is a flow of execution through the process code, with its own program counter that keeps track of which instruction to execute next, system registers which hold its current working variables, and a stack which contains the execution history.
 
-- A thread shares with its peer threads few information like code segment, data segment and open files. When one thread alters a code segment memory item, all other threads see that.
 
-- A thread is also called a lightweight process. Threads provide a way to improve application performance through parallelism. Threads represent a software approach to improving performance of operating system by reducing the overhead thread is equivalent to a classical process.
 
-- Each thread belongs to exactly one process and no thread can exist outside a process. Each thread represents a separate flow of control. Threads have been successfully used in implementing network servers and web server. They also provide a suitable foundation for parallel execution of applications on shared memory multiprocessors.
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/concurrency.jpeg)
+
+
 
 - Benefits of Multi-threading
 
@@ -324,13 +278,8 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - Process scheduling is an essential part of a Multiprogramming operating systems. Such operating systems allow more than one process to be loaded into the executable memory at a time and the loaded process shares the CPU using time multiplexing.
 
-- The OS maintains all Process Control Blocks (PCBs) in Process Scheduling Queues. The OS maintains a separate queue for each of the process states and PCBs of all processes in the same execution state are placed in the same queue. When the state of a process is changed, its PCB is unlinked from its current queue and moved to its new state queue.
 
 - The Operating System maintains the following important process scheduling queues:
-
-    - Job queue − This queue keeps all the processes in the system.
-    - Ready queue − This queue keeps a set of all processes residing in main memory, ready and waiting to execute. A new process is always put in this queue.
-    - Device queues − The processes which are blocked due to unavailability of an I/O device constitute this queue.
 
 
 
@@ -349,9 +298,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 ### Concepts
 
-- Memory management is the functionality of an operating system which handles or manages primary memory and moves processes back and forth between main memory and disk during execution. Memory management keeps track of each and every memory location, regardless of either it is allocated to some process or it is free. It checks how much memory is to be allocated to processes. It decides which process will get memory at what time. It tracks whenever some memory gets freed or unallocated and correspondingly it updates the status.
 
-![alt text](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/memory-management.png)
 
 
 - The process address space is the set of logical addresses that a process references in its code. For example, when 32-bit addressing is in use, addresses can range from 0 to 0x7fffffff; that is, 2³¹ possible numbers, for a total theoretical size of 2 gigabytes.
@@ -367,6 +314,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 - Virtual and physical addresses are the same in compile-time and load-time address-binding schemes. Virtual and physical addresses differ in execution-time address-binding scheme.
 
 - The set of all logical addresses generated by a program is referred to as a logical address space. The set of all physical addresses corresponding to these logical addresses is referred to as a physical address space.
+
 
 
 ### Resources:
@@ -400,7 +348,6 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
     - Semaphores, Shared Memory and Message Queues do relate to IPC in a very special way, since Semaphores, Shared Memory and Message Queues are “Inter-process Communication Resources” or “Inter-process Communication Facilities”, and different in the way they represent IPC from “Inter-process Communication Mechanisms” like Pipes and FIFOs. Semaphores, Shared Memory and Message Queues are System V (AT&T System V.2 release of UNIX) IPC facilities, and they represent wrapper functions that have been developed and inserted in suitable libraries to harness the energy and beauty of IPC mechanisms.
 
 
-![Inter Process Communication](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/memory-management.png)
 
 
 - Data sharing among processes can be obtained by storing data in temporary files protected by locks. But this mechanism is never implemented as it proves costly since it requires accesses to the disk filesystem. For that reason, all UNIX Kernels include a set of system calls that supports process communications without interacting with the filesystem.
@@ -452,13 +399,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 
 - Management of I/O devices is a very important part of the operating system - so important and so varied that entire I/O subsystems are devoted to its operation. ( Consider the range of devices on a modern computer, from mice, keyboards, disk drives, display adapters, USB devices, network connections, audio I/O, printers, special devices for the handicapped, and many special-purpose peripherals.
 
-- An I/O system is required to take an application I/O request and send it to the physical device, then take whatever response comes back from the device and send it to the application. I/O devices can be divided into two categories:
 
-    - Block devices — A block device is one with which the driver communicates by sending entire blocks of data. For example, hard disks, USB cameras, Disk-On-Key etc.
-  
-    - Character Devices — A character device is one with which the driver communicates by sending and receiving single characters (bytes, octets). For example, serial ports, parallel ports, sounds cards etc.
-
-![Inter Process Communication](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/device_controllers.jpg)
 
 - Device Controllers
 

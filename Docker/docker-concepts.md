@@ -4,7 +4,7 @@
 ## Important Resources must read before docker tutorial:
 
 
-[A beginner friendly introduction to containers vms and docker](https://medium.com/free-code-camp/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
+[A beginner friendly introduction to containers VMs and docker](https://medium.com/free-code-camp/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
 
 [Docker Tutorial with python](https://medium.com/hackernoon/docker-tutorial-getting-started-with-python-redis-and-nginx-81a9d740d091)
 
@@ -52,7 +52,7 @@
 - Microservice Architecture : 
 
     - The idea behind microservice is some application is easier to build and maintain where broken down to smaller parts.
-    - Each component is developed seperately and done....
+    - Each component is developed separately and done....
 
     - Example : Online Shopping Service : 
 		- Account Service
@@ -62,7 +62,7 @@
 
 - Advantages of microservice architecture : 
 
-	- Building and maintainence is easy as broken down to smaller parts.
+	- Building and maintenance is easy as broken down to smaller parts.
 	- If we need some new features or update in a module,
 		 it is easier because dependencies will be less compared to the application as a whole.
 	- If any component go down, application will be largely unaffected.
@@ -77,12 +77,12 @@
 
 	- We can run several microservices in one virtual machine by running various docker
 	- containers for each microservice.
-	- Docker do not need any RAM,DISK requirments initially.
+	- Docker do not need any RAM,DISK requirements initially.
 
-- How Docker solves the problem "not having consistent computing environment throughout the process of delivery (developement, testing, production)" :
+- How Docker solves the problem "not having consistent computing environment throughout the process of delivery (development, testing, production)" :
 
 	- Docker containers are developed by the developers.
-	- Docker provides a consistent computing environment throughout the whole SDLC (Software Developement Life Cycle).
+	- Docker provides a consistent computing environment throughout the whole SDLC (Software Development Life Cycle).
 
 - What is an Image?
   - Docker image is the basis of containers. It’s a collection of layers stacked on top of each other. Each Docker image references a list of read-only layers that represent filesystem differences. Think of it like the jar file for java applications, you create one jar file but you can deploy it anywhere a java run time is enabled.

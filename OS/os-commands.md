@@ -14,7 +14,7 @@
 
 - Display Processes for a Specific User
 
-``` $ top -u root ``
+``` $ top -u root ```
 
 
 
@@ -97,7 +97,7 @@
 
 - To view only PID, USER and CMD columns, we can use the following command.
 
-``` $ps –eo pid,user,cmd ``
+``` $ps –eo pid,user,cmd ```
 
 - Finding the process which is using the highest memory
 

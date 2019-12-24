@@ -1,0 +1,96 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "neilduncan",
+      "name": "Neil Duncan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/652579?v=4",
+      "profile": "http://www.ghostwheel.co.uk",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "cuzza0",
+      "name": "cuzza0",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/8264053?v=4",
+      "profile": "https://github.com/cuzza0",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "adrianmoisey",
+      "name": "Adrian Moisey",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/736329?v=4",
+      "profile": "https://adrianmoisey.gitlab.com/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Win32Sector",
+      "name": "Pavel Kozlov",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/7781383?v=4",
+      "profile": "https://github.com/Win32Sector",
+      "contributions": [
+        "question"
+      ]
+    },
+    {
+      "login": "milap-neupane",
+      "name": "Milap Neupane",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/2145263?v=4",
+      "profile": "https://github.com/milap-neupane",
+      "contributions": [
+        "code",
+        "tutorial"
+      ]
+    },
+    {
+      "login": "johnoct",
+      "name": "john",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1725315?v=4",
+      "profile": "https://johnoctubre.me/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jobintweets",
+      "name": "Jobin George",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26024383?v=4",
+      "profile": "https://www.linkedin.com/in/jobin-george-364bbb127/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "tsyr2ko",
+      "name": "tsyr2ko",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/344274?v=4",
+      "profile": "https://github.com/tsyr2ko",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "VictorNS69",
+      "name": "Víctor Nieves Sánchez",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/10101065?v=4",
+      "profile": "https://twitter.com/VictorNS69",
+      "contributions": [
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "DevOps-Guide",
+  "projectOwner": "Tikam02",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}

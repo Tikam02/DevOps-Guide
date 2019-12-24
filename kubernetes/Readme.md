@@ -3,6 +3,7 @@
 
 ### Kubernetes Deplyoment Tutorials:
 
+- [The First Introduction to Kubernetes](https://medium.com/faun/the-first-introduction-to-kubernetes-62d26f99caff)
 - [A Gentle Introduction to Kubernetes](https://medium.com/faun/a-gentle-introduction-to-kubernetes-4961e443ba26) 
   - learn how to deploy Kubernetes services and Ambassador API gateway
   - [Github Workshop Repo](https://github.com/eon01/kubernetes-workshop?ref=hackr.io)

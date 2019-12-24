@@ -381,20 +381,34 @@
 ## OS-LINUX:
 
 - Q1) How can you view running processes?
+  - ps aux
+  - top(htop)
 
 - Q2) How do you check server uptime?
+  - uptime
+  - top
 
 - Q3) How do you start/stop services?
+  - (deprecated) service start/stop service_name
+  - systemctl strat/stop service_name
 
 - Q4) How do you display the shell’s environment variables?
+  - env
+  - printenv
 
 - Q5) What does #!/bin/bash at the top of a script do?
+  - It say to shell, what interpreter to use when run this script
 
 - Q6) What does "&" after a command do?
+  - It run command in background
 
 - Q7) What does piping commands mean?
+  - piping with '|' transfer stdout of one command to another, for example,
+  `ps aux | grep httpd` - first command show all running processes, then, transfer stdout to stdin of second command, whose find only strings where 'httpd'.
 
 - Q8) What distributions have you used on servers?Why?
+  - Ubuntu - very fresh kernels and packages
+  - CentOS/RHEL - Enterprise and stability
 
 - Q9) What is your favorite editor?
 
@@ -426,6 +440,7 @@
 - Q17) What are zombie processes ?
 
 - Q18) Can you have several HTTPS virtual hosts sharing the same IP?
+  - Yes, I can. I can setup several virtual hosts on one IP and split up yhem with different ports.
 
 - Q19) What is the difference between processes and threads?
 
@@ -451,6 +466,7 @@
 - Q29) What's LD_PRELOAD and when is it used?
 
 - Q30) You ran a binary and nothing happened. How would you debug this?
+  - I run binary with strace, for example: strace binary_name
 
 - Q31) When can a socket receive E_AGAIN ?
 
@@ -472,249 +488,6 @@
     - What’s an ELB ?
     - What’s S3 ? What are the features supported on S3 ?
 
-- Q38) What is your experience with Linux? When you can set up an application on multiple operating systems, on which one would you prefer to set it up and why?
-
-- Q39) Explain what each of the following commands does and give an example on how to use it:
-
-  - ls
-  - rm
-  - rmdir (can you achieve the same result by using rm?)
-  - grep
-  - wc
-  - curl
-  - touch
-  - man
-  - nslookup or dig
-  - df
-
-- Q40) Running the command df you get "command not found". What could be wrong and how to fix it?
-
-- Q41) How to make sure a service will start on a OS of your choice?
-
-- Q42) How do you schedule tasks periodically?
-
-- Q43) Have you scheduled tasks in the past? What kind of tasks?
-
-- Permissions
-- Q44) How to change the permissions of a file?
-
-- Q45) What does the following permissions mean?:
-
-  - 777
-  - 644
-  - 750
-
-- Q46) Explain what is setgid, setuid and sticky bit?You try to delete a file but it fails. Name at least three different reason as to why it could happen.
-  
-- Q47) What is systemd?On a system which uses systemd, how would display the logs?
-
-- Debugging
-
-- Q48) What are you using for troubleshooting and debugging network issues?
-
-- Q49) What are you using for troubleshooting and debugging disk & file system issues?
-
-- Q50) What are you using for troubleshooting and debugging process issues?
-
-- Q51) What are you using for debugging CPU related issues?
-
-- Q52) You get a call saying "my system is slow" - how would you deal with it?
-
-- Q53) How to debug binaries?
-
-- Q54) What is a Linux kernel module and how do you load a new module?
-
-- Q55) What is KVM?
-
-- Q56) What is the difference between SSH and SSL?
-
-- Q57) What is SSH port forwarding?
-
-- Q58)Explain redirection
-
-- Q59) What are wildcards? Can you give an example of how to use them?
-
-- Q60) What do we grep for in each of the following commands?:
-
-  - grep '[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}' some_file
-  - grep -E "error|failure" some_file
-  - grep '[0-9]$' some_file
-
-- Q61) Tell me everything you know about Linux boot process?
-
-- Q63) What is an exit code? What exit codes are you familiar with?
-
-
-- Q64) What is the difference between a soft link and hard link?
-
-- Q65) What happens when you delete the original file in case of soft link and hard link?
-
-- Q66) What is a swap partition? What is it used for?
-
-- Q67) You are trying to create a new file but you get "File system is full". You check with df for free space and you see you used only 20% of the space. What could be the problem?
-
-- Q68) What do you know about LVM?
-
-- Q69) Explain the following in regards to LVM:
-
-  -PV
-  -VG
-  - LV
-
-
-- Q70) What is NFS? What is it used for?
-
-- Q71) What RAID is used for? Can you explain the differences between RAID 0, 1, 5 and 10?
-
-- Q72) What is lazy umount?
-
-- Q73) Fix the following commands:
-
-  - ```sed "s/1/2/g' /tmp/myFile```
-  - ```find . -iname *.yaml -exec sed -i "s/1/2/g" {} ;```
-
-- Q74) Explain what is stored in each of the following paths and if there is anything unique about it:
-
-- Q75) What is chroot?
-
-- Processes
-
-- Q76) How to run a process in the background and why to do that in the first place?
-
-- Q77) How can you find how much memory a specific process consumes?
-
-- Q78) What signal is used when you run 'kill '?
-
-- Q79) What signals are you familiar with?
-
-- Q80) What is a trap?
-
-- Q81) What happens when you press ctrl + c?
-
-- Q82) What are daemons?
-
-- Q83) What are the possible states of a process in Linux?
-
-- Q84) What is a zombie process? How do you get rid of it?
-
-- Q85) What is the init process?
-
-- Q86) How to change the priority of a process? Why would you want to do that?
-
-- Q87) Can you explain how network process/connection is established and how it's terminated?>
-
-- Q88) What are system calls? What system calls are you familiar with?
-
-- Q89) What strace does?
-
-- Q90) Find all the files which end with '.yml' and replace the number 1 in 2 in each file
-
-- Q91) How to check how much free memory a system has? How to check memory consumption by each process?
-
-- Q92) How would you split a 50 lines file into 2 files of 25 lines each?
-
-- Q92) What is a file descriptor? What file descriptors are you familiar with?
-
-- Q93) What's an inode?
-
-- Q94) How to list active connections?
-
-- Q95) What is NTP? What is it used for?
-
-- Q96) Explain Kernel OOM
-
-- Q97) What is SELiunx?
-
-- Q98) What is Kerberos?
-
-- Q99) What is nftables?
-
-- Q100) What firewalld daemon is responsible for?
-  
-- Network
-
-- Q101) What is a network namespace? What is it used for?
-
-- Q102) How can you turn your Linux server into a router?
-
-- Q103) What is a virtual IP? In what situation would you use it?
-
-- Q104) Which port is used in each of the following protocols?:
-
-  - SSH
-  - HTTP
-  - DNS
-  - HTTPS
-
-
-- Q105) What is the routing table? How do you view it?
-
-- Q106) What are packet sniffers? Have you used one in the past? If yes, which packet sniffers have you used and for what purpose?
-
-- DNS
-
-- Q107) What is DNS? Why do we need it?
-
-- Q108) What the file /etc/resolv.conf is used for? What does it include?
-
-- Q109) What is a "A record"?
-
-- Q110) What is a PTR record?
-
-- Q111) What is a MX record?
-
-- Q112) Is DNS using TCP or UDP?
-
-- Packaging
-
-- Q113) Do you have experience with packaging? Can you explain how it works?
-  - RPM: explain the spec format(what it should and can include)
-
-- Q114) How do you list the content of a package without actually installing it?
-
-- Applications and Services
-- Q115) What is a load balancer?
-  
-- Q116) What load balancer algorithms are you familiar with?
-
-- Q117) What is a proxy?
-
-- Q118) What is a reverse proxy?
-
-- Q119)What can you find in /etc/services
-
-- Q120) You run ssh 127.0.0.1 but it fails with "connection refused". What could be the problem?
-
-- Q121) What happens when you execute ls?. Provide a detailed answer
-
-- Q122) Can you describe how processes are being created?
-
-
-- Q123) What is the difference between a process and a thread?
-
-- Q124) When you run ip a you see there is a device called 'lo'. What is it and why do we need it?
-
-- Q125) What traceroute command does? How it works?
-
-- Q126) What is network bonding? What types are you familiar with?
-
-- Q127) How to link two separate network namespaces so you can ping an interface on one namespace from the second one?
-
-- Q128) What are cgroups? In what scenario would you use them?
-
-- Q129) How to create a file of a certain size?
-
-- Q130) What are the differences between the following system calls?: exec(), fork(), vfork() and clone()?
-
-- Q131) Explain Process Descriptor and Task Structure?
-
-- Q132) What are the differences between threads and processes?
-
-- Q133) Explain Kernel Threads
-
-- Q134What happens when socket system call is used?
-
-- Q135) You executed a script and while still running, it got accidentally removed. Is it possible to restore the script while it's still running?
 
 ******************
 
@@ -746,94 +519,6 @@
 
 
 
-- Q11) What is Ethernet?
-
-- Q12) What is a MAC address? What is it used for?
-
-- Q13) When this MAC address is used?: ff:ff:ff:ff:ff:ff
-
-- Q14) What is an IP address?
-
-- Q15) Explain subnet mask and given an example
-
-- Q16) What is a private IP address? What do we need it for?
-
-- Q17) Explain the OSI model. What layers there are? What each layer is responsible for?
-
-- Q18) For each of the following determine to which OSI layer it belongs:
-
-  - Error correction
-  - Packets routing
-  - Cables and electrical signals
-  - MAC address
-  - IP address
-  - Sessions between applications
-  - 3 way handshake
-
-- Q19) What delivery schemes are you familiar with?
-
-- Q20)What is CSMA/CD? Is it used in modern ethernet networks?
-
-- Q21) Describe the following network devices and the difference between them:
-
-  - router
-  - switch
-  - hub
-
-- Q22) What is NAT?
-
-- Q23) What is a proxy? How it works? What do we need it for?
-
-- Q24) What is the difference between TCP and UDP?
-
-- Q25) Explain "default gateway"
-
-- Q26) How TCP works? What is the 3 way handshake?
-
-- Q27) What is ARP? How it works?
-
-- Q28) What is TTL?
-
-- Q29) What is DHCP? How it works?
-
-- Q30) What is SSL tunneling? How it works?
-
-- Q31) What is a socket? Where can you see the list of sockets in your system?
-
-- Q32) What is IPv6? Why should we consider using it if we have IPv4?
-
-- Q33) What is VLAN?
-
-- Q34) What is MTU?
-
-- Q35) True or False?. Ping is using UDP because it doesn't care about reliable connection
-
-- Q36) What is SDN?
-
-- Q37) What is ICMP? What is it used for?
-
-- Q38) What is NAT? How it works?
-
-- Q39) Explain Spanning Tree Protocol (STP)
-
-- Q40) What is link aggregation? Why is it used?
-
-- Q41) What is Asymmetric Routing? How do deal with it?
-
-- Q42) What overlay (tunnel) protocols are you familiar with?
-
-- Q43) What is GRE? How it works?
-
-- Q44) What is VXLAN? How it works?
-
-- Q45) What is SNAT?
-
-- Q46) Explain OSPF
-
-- Q47) Explain Spine & Leaf
-
-- Q48) Using Hamming code, what would be the code word for the following data word 100111010001101?
-
 
 *******************
 
@@ -864,7 +549,23 @@
 
 ## Docker
 
+- Q1) What is docker for?
 
+- Q2) How to ask docker cli to show all containers&
+
+- Q3) How to delete image with container, who use this image?
+
+- Q4) What command help you to delete all old unused images?
+
+- Q5) What is docker-compose? What is docker-compose.yml?
+
+- Q6) How to expose ports in docker-compose file?
+
+- Q7) How to reduce docker images?
+
+- Q8) Where you  can store docker images?
+
+- Q9) What is alpine and why we need it?
 
 *********************
 
