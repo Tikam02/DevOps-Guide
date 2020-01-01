@@ -125,6 +125,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/tsyr2ko"><img src="https://avatars3.githubusercontent.com/u/344274?v=4" width="100px;" alt=""/><br /><sub><b>tsyr2ko</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tsyr2ko" title="Documentation">📖</a></td>
     <td align="center"><a href="https://twitter.com/VictorNS69"><img src="https://avatars2.githubusercontent.com/u/10101065?v=4" width="100px;" alt=""/><br /><sub><b>Víctor Nieves Sánchez</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictorNS69" title="Documentation">📖</a></td>
     <td align="center"><a href="https://blog.acropanda.top/"><img src="https://avatars1.githubusercontent.com/u/25024102?v=4" width="100px;" alt=""/><br /><sub><b>Frank</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=acrofrank" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://medium.com/@asadmansoor"><img src="https://avatars0.githubusercontent.com/u/7865693?v=4" width="100px;" alt=""/><br /><sub><b>Asad Mansoor</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=asadmansr" title="Documentation">📖</a></td>
   </tr>
 </table>
 
