@@ -104,6 +104,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "angristan",
+      "name": "Stanislas",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11699655?v=4",
+      "profile": "https://angristan.xyz",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
