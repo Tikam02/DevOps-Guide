@@ -113,6 +113,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "rodrigofazenda",
+      "name": "Rodrigo Fazenda",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12849476?v=4",
+      "profile": "https://www.linkedin.com/in/rodrigofazenda/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
