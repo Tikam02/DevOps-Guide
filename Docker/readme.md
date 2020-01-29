@@ -64,7 +64,7 @@ sudo apt-get install docker.io
 
   ``` cd node```
 
-  ``` npm insall ```
+  ``` npm install ```
 
   ```node app.js```
 
