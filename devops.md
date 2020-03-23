@@ -7,7 +7,8 @@
 - Shell  : Scripting for servers 
 - Yml    : For Configuration of Cloud files
 - Golang : Servers and Cloud Architectures
-- JS     : Good to know for any web-development works
+- Javascript : Good to know for any web-development works
+-  Markdown : For documentation 
 
 
 ## 2 OS-Concepts
