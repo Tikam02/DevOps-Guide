@@ -1,12 +1,11 @@
 ## Terminal Commands 
 
-- Text Manipulation
-- Process Monitoring
-- Networking Processes
-- Bash scripting
-- Performance Management
-- vim
-- AWS CLI
-- Kubernetes CLI
-- Docker CLI
-- Cloud CLIs
+- [Text Manipulation](../text-manipulation.md)
+- [Process Monitoring](./Terminal/process-monitoring.md)
+- [Networking Processes]()
+- [Bash scripting]()
+- [Performance Management]()
+- [vim]()
+- [AWS CLI]()
+- [Kubernetes CLI]()
+- [Docker CLI]()
