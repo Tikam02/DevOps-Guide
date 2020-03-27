@@ -79,9 +79,19 @@
 - sed -i -r "s|.*|$HOME/\0|" dir_list.txt add home directory and forward-slash at the start of every line
     - Since the value of '$HOME' itself contains forward-slash characters, we cannot use / as delimiter
     - Any character other than backslash or newline can be used as delimiter, for example | # ^ see this link for more info
-    - \0 back-reference contains entire matched string
+    -  \0 back-reference contains entire matched string
 
+### More sources:
 
+- [Sed basics](http://code.snipcademy.com/tutorials/shell-scripting/sed/introduction)
+- [Sed detailed tutorial](http://www.grymoire.com/Unix/Sed.html)
+- [sed book](http://www.catonmat.net/blog/sed-book/)
+- [sed cheatsheet](http://www.catonmat.net/download/sed.stream.editor.cheat.sheet.txt)
+- [sed examples](http://how-to.linuxcareer.com/learning-linux-commands-sed)
+- [one liner sed-explained](http://www.catonmat.net/series/sed-one-liners-explained)
+- [Common Search and replace examples with sed](https://unix.stackexchange.com/questions/112023/how-can-i-replace-a-string-in-a-files)
+- [sed Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/sed?sort=votes&pageSize=15)
+- [sed Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/sed?sort=votes&pageSize=15)
 
 
 ## cat
