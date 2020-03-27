@@ -80,7 +80,7 @@
 ### Getting Started DevOps Links:
 
 - [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
-- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/images/devops.png)
+- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
 - [r/devops](https://www.reddit.com/r/devops/)
 - [IBM Kubernetes Handson Labs](https://github.com/IBM/kube101/tree/master/workshop)
 - [Getting Started With Azure DevOps](https://github.com/microsoft/azuredevopslabs)
