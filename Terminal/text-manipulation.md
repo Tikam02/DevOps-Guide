@@ -254,7 +254,67 @@ All the differences are printed, which might not be desirable if files are too l
 - [GUI diff and merge tools](http://askubuntu.com/questions/2946/what-are-some-good-gui-diff-and-merge-applications-available-for-ubuntu)
 
 
+## tr
 
+> translate or delete characters.
+> The tr command in UNIX is a command line utility for translating or deleting characters. It supports a range of transformations including uppercase to lowercase, squeezing repeating characters, deleting specific characters and basic find and replace. It can be used with UNIX pipes to support more complex translation.
+
+### Options
+
+- -d delete the specified characters
+- -c complement set of characters to be replaced
+
+
+### How to Use the tr Command
+
+The syntax for the tr command is as follows:
+
+> tr OPTION... SET1 [SET2]
+
+
+> tr accepts two sets of characters, usually with the same length, and replaces the characters of the first sets with the corresponding characters from the second set.
+
+> A SET is basically a string of characters, including the special backslash-escaped characters.
+
+
+
+### Examples
+
+- tr a-z A-Z < test_list.txt convert lowercase to uppercase
+- tr -d ._ < test_list.txt delete the dot and underscore characters
+- tr a-z n-za-m < test_list.txt > encrypted_test_list.txt Encrypt by replacing every lowercase alphabet with 13th alphabet after it
+- How to delete specific characters
+
+```bash
+echo 'clean this up' | tr -d 'up'
+clean this
+```
+
+- How to squeeze repeating characters
+
+> To squeeze repeat occurrences of characters specified in a set use the -s option. This removes repeated instances of a character. In the following example a string with too many spaces is squeezed to remove them.
+
+```bash
+echo 'too    many    spaces  here' | tr -s '[:space:]'
+too many spaces here
+```
+
+- How to find and replace
+
+> The tr tool works well for simple find and replace operations where one character should be replaced with another. The following example replaces underscores with spaces.
+
+```bash
+echo "some_url_that_I_have" | tr "_" "-"
+some-url-that-I-have
+
+```
+
+### Read More
+
+- [Linux tr command](https://linuxize.com/post/linux-tr-command/)
+- [tr examples](https://shapeshed.com/unix-tr/)
+- [Examples tecmint](https://www.tecmint.com/tr-command-examples-in-linux/)
+- [8 Linux TR Command Examples](https://www.thegeekstuff.com/2012/12/linux-tr-command/)
 
 
 ## sed
@@ -349,8 +409,40 @@ All the differences are printed, which might not be desirable if files are too l
 - [sed Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/sed?sort=votes&pageSize=15)
 
 
-## cat
+## awk
 
+> pattern scanning and text processing language
+
+> awk derives its name from authors Alfred Aho, Peter Weinberger and Brian Kernighan.
+
+### syntax
+
+- awk 'BEGIN {initialize} condition1 {stmts} condition2 {stmts}... END {finish}'
+        BEGIN {initialize} used to initialize variables (could be user defined or awk variables or both), executed once - optional block
+        condition1 {stmts} condition2 {stmts}... action performed for every line of input, condition is optional, more than one block {} can be used with/without condition
+        END {finish} perform action once at end of program - optional block
+- commands can be written in a file and passed using the -f option instead of writing it all on command line
+        for examples and details, refer to links given below
+
+- awk ' {print $1,$3} ' > Print only columns one and three using stdin
+
+
+
+
+
+
+### Further Reading
+
+- [awk basics](http://code.snipcademy.com/tutorials/shell-scripting/awk/introduction)
+- [Gawk: Effective AWK Programming](https://www.gnu.org/software/gawk/manual/)
+- [awk detailed tutorial](http://www.grymoire.com/Unix/Awk.html)
+- [basic tutorials for grep, awk, sed](https://unix.stackexchange.com/questions/2434/is-there-a-basic-tutorial-for-grep-awk-and-sed)
+- [awk one-liners explained](http://www.catonmat.net/series/awk-one-liners-explained)
+- [awk book](http://www.catonmat.net/blog/awk-book/)
+- [awk cheat-sheet for awk variables, statements, functions, etc](http://www.catonmat.net/download/awk.cheat.sheet.txt)
+- [awk examples](http://www.thegeekstuff.com/tag/unix-awk-examples/)
+- [awk Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/awk?sort=votes&pageSize=15)
+- [awk Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/awk?sort=votes&pageSize=15)
 
 ## Original Contents, Credits and Refrences
 
