@@ -642,4 +642,4 @@ $ pr -mts', ' <(seq 3) <(seq 4 6) <(seq 7 9)
 
 - [More contents for text manipulation](https://learnbyexample.github.io/)
 
-- [Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing)
+- [Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing) 
