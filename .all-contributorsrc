@@ -122,6 +122,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "nkstanchev",
+      "name": "Nikolay Stanchev",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/22329266?v=4",
+      "profile": "https://github.com/nkstanchev",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
