@@ -139,6 +139,15 @@ a/b/c:
 
 ```
 
+## Further Reading
+
+- [mkdir Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/mkdir?sort=votes&pageSize=15)
+- [mkdir Q&A on stackoverflow](https://unix.stackexchange.com/questions/tagged/mkdir?sort=votes&pageSize=15)
+- [unix.stackexchange: Characters best avoided in filenames](https://unix.stackexchange.com/questions/269093/characters-best-avoided-in-filenames-when-used-in-bash-e-g)
+
+
+
+
 ## touch
 
 > Usually files are created using a text editor or by redirecting output of a command to a file.But sometimes, for example to test file renaming, creating empty files comes in handy the touch command is primarily used to change timestamp of a file.
@@ -238,20 +247,16 @@ $ ls -A bkp_dot_files
 .bash_profile  .bashrc\
 ```
 
-    see man cp and info cp for more options and complete documentation
-    some notable options are
-        -u copy files from source only if they are newer than those in destination or if it doesn't exist in destination location
-        -b and --backup for back up options if file with same name already exists in destination location
-        --preserve option to copy files along with source file attributes like timestamp
+- see man cp and info cp for more options and complete documentation
+- some notable options are
+     - -u copy files from source only if they are newer than those in destination or if it doesn't exist in destination location
+     - -b and --backup for back up options if file with same name already exists in destination location
+     - --preserve option to copy files along with source file attributes like timestamp
 
 ## Further Reading
 
-    cp Q&A on unix stackexchange
-    cp Q&A on stackoverflow
-    rsync a fast, versatile, remote (and local) file-copying tool
-        rsync examples
-        rsync Q&A on unix stackexchange
-        rsync Q&A on stackoverflow
+- [cp Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/cp?sort=votes&pageSize=15)
+- [cp Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/cp?sort=votes&pageSize=15)
 
 
 ## mv
@@ -285,8 +290,8 @@ dict/  dot_files/  words
 
 ## Further Reading
 
-- [mv Q&A on unix stackexchange]
-- [mv Q&A on stackoverflow]
+- [mv Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/mv?sort=votes&pageSize=15)
+- [mv Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/mv?sort=votes&pageSize=15)
 
 
 ## rename
@@ -312,9 +317,9 @@ backups  low_power_adders  word_lists  words_ref.txt
 
 ## Further Reading
 
-- [rename Q&A on unix stackexchange]()
-- [See Perl one liners for examples and details on Perl substitution command]()
-- [Some more rename examples - unix.stackexchange: replace dots except last one and stackoverflow: change date format]()
+- [rename Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/rename?sort=votes&pageSize=15)
+- [See Perl one liners for examples and details on Perl substitution command](https://github.com/learnbyexample/Command-line-text-processing/blob/master/perl_the_swiss_knife.md)
+- [Some more rename examples - unix.stackexchange: replace dots except last one and stackoverflow: change date format](https://unix.stackexchange.com/questions/315586/replacing-dots-in-file-name-with-underscores-except-the-extension/315589#315589)
 
 
 ## ln
@@ -354,12 +359,12 @@ $ ls -1i foo.txt baz.txt
 
 ## Further Reading
 
-- [unlink command to delete links (rm can be used as well)]()
-- [ln Q&A on unix stackexchange]()
-- [ln Q&A on stackoverflow]()
-- [askubuntu: What is the difference between a hard link and a symbolic link?]()
-      - [unix.stackexchange: What is the difference between symbolic and hard links?]()
-      - [unix.stackexchange: What is a Superblock, Inode, Dentry and a File?]()
+- unlink command to delete links (rm can be used as well)
+- [ln Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/ln?sort=votes&pageSize=15)
+- [ln Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/ln?sort=votes&pageSize=15)
+- [askubuntu: What is the difference between a hard link and a symbolic link?](https://askubuntu.com/questions/108771/what-is-the-difference-between-a-hard-link-and-a-symbolic-link)
+      - [unix.stackexchange: What is the difference between symbolic and hard links?](https://unix.stackexchange.com/questions/9575/what-is-the-difference-between-symbolic-and-hard-links)
+      - [unix.stackexchange: What is a Superblock, Inode, Dentry and a File?](https://unix.stackexchange.com/questions/4402/what-is-a-superblock-inode-dentry-and-a-file)
 
 
 ## tar and gzip
@@ -440,7 +445,6 @@ $ ls -sh bkp_words.tar.gz
 
 ## Further Reading
 
-- [tar Q&A on unix stackexchange]()
-- [tar Q&A on stackoverflow]()
-- [superuser: gzip without tar? Why are they used together?]()
-- [zip and unzip commands]()
+- [tar Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/tar?sort=votes&pageSize=15)
+- [tar Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/tar?sort=votes&pageSize=15)
+- [superuser: gzip without tar? Why are they used together?]https://superuser.com/questions/252065/gzip-without-tar-why-are-they-used-together()
