@@ -17,39 +17,16 @@
 
 ***********************
 
-## pwd
+
 
 
 ## cd
 
-## ls
+> Change the shell working directory
 
-## mkdir
+## pwd
 
-## touch
-
-## rm
-
-## cp
-
-## mv
-
-## rename
-
-## ln
-
-## tar and gzip
-
-
-
-cd
-
-    Change the shell working directory
-
-    Like pwd, the cd command is a shell builtin
-    Let's see an example of changing working directory to some other directory and coming back
-    Specifying / at end of path argument is optional
-
+```bash
 $ pwd
 /home/learnbyexample
 
@@ -88,9 +65,11 @@ $ # go to directory two hierarchies above
 $ cd ../..
 $ pwd
 /
+```
 
-    cd ~/ or cd ~ or cd will go to directory specified by HOME shell variable (which is usually set to user's home directory)
+> cd ~/ or cd ~ or cd will go to directory specified by HOME shell variable (which is usually set to user's home directory)
 
+```bash
 $ pwd
 /
 $ echo "$HOME"
@@ -100,222 +79,25 @@ $ cd
 $ pwd
 /home/learnbyexample
 
+```
 
-clear
+## clear
 
-    clear the terminal screen
-
-You can also use Ctrl+l short-cut to clear the Terminal screen (in addition, this retains any typed text)
-
-
-ls
-
-    list directory contents
-
-    by default, ls output is sorted alphabetically
-
-$ # if no argument is given, current directory contents are displayed
-$ ls
-backups  hello_world.py  palindrome.py  projects    todo
-ch.sh    ip.txt          power.log      report.log  workshop_brochures
-
-$ # absolute/relative paths can be given as arguments
-$ ls /var/
-backups  crash  local  log   metrics  run   spool
-cache    lib    lock   mail  opt      snap  tmp
-$ # for multiple arguments, listing is organized by directory
-$ ls workshop_brochures/ backups/
-backups:
-chrome_bookmarks_02_07_2018.html  dot_files
-
-workshop_brochures:
-Python_workshop_2017.pdf  Scripting_course_2016.pdf
-
-$ # single column listing
-$ ls -1 backups/
-chrome_bookmarks_02_07_2018.html
-dot_files
-
-    -F appends a character to each file name indicating the file type (other than regular files)
-        / for directories
-        * for executable files
-        @ for symbolic links
-        | for FIFOs
-        = for sockets
-        > for doors
-        the indicator details are described in info ls, not in man ls
-
-$ ls -F
-backups/  hello_world.py*  palindrome.py*  projects@   todo
-ch.sh*    ip.txt           power.log       report.log  workshop_brochures/
-
-$ # if you just need to distinguish file and directory, use -p
-$ ls -p
-backups/  hello_world.py  palindrome.py  projects    todo
-ch.sh     ip.txt          power.log      report.log  workshop_brochures/
-
-    or use the color option
-
-ls color output
-
-    long listing format
-    shows details like file permissions, ownership, size, timestamp, etc
-        See chmod section for details on permissions, groups, etc
-    file types are distinguished as d for directories, - for regular files, l for symbolic links, etc
-
-$ ls -l
-total 84
-drwxrwxr-x 3 learnbyexample eg  4096 Jul  4 18:23 backups
--rwxr-xr-x 1 learnbyexample eg  2746 Mar 30 11:38 ch.sh
--rwxrwxr-x 1 learnbyexample eg    41 Aug 21  2017 hello_world.py
--rw-rw-r-- 1 learnbyexample eg    34 Jul  4 09:01 ip.txt
--rwxrwxr-x 1 learnbyexample eg  1236 Aug 21  2017 palindrome.py
--rw-r--r-- 1 learnbyexample eg 10449 Mar  8  2017 power.log
-lrwxrwxrwx 1 learnbyexample eg    12 Jun 21 12:08 projects -> ../projects/
--rw-rw-r-- 1 learnbyexample eg 39120 Feb 25  2017 report.log
--rw-rw-r-- 1 learnbyexample eg  5987 Apr 11 11:06 todo
-drwxrwxr-x 2 learnbyexample eg  4096 Jul  5 12:05 workshop_brochures
-
-$ # to show size in human readable format instead of byte count
-$ ls -lh power.log
--rw-r--r-- 1 learnbyexample eg 11K Mar  8  2017 power.log
-
-$ # use -s option instead of -l if only size info is needed
-$ ls -1sh power.log report.log
-12K power.log
-40K report.log
-
-    changing sorting criteria
-    use -t to sort by timestamp, often combined with -r to reverse the order so that most recently modified file shows as last item
-    -S option sorts by file size (not suitable for directories)
-    -v option does version sorting (suitable for filenames with numbers in them)
-    -X option allows to sort by file extension (i.e characters after the last . in filename)
-
-$ ls -lhtr
-total 84K
--rw-rw-r-- 1 learnbyexample eg  39K Feb 25  2017 report.log
--rw-r--r-- 1 learnbyexample eg  11K Mar  8  2017 power.log
--rwxrwxr-x 1 learnbyexample eg 1.3K Aug 21  2017 palindrome.py
--rwxrwxr-x 1 learnbyexample eg   41 Aug 21  2017 hello_world.py
--rwxr-xr-x 1 learnbyexample eg 2.7K Mar 30 11:38 ch.sh
--rw-rw-r-- 1 learnbyexample eg 5.9K Apr 11 11:06 todo
-lrwxrwxrwx 1 learnbyexample eg   12 Jun 21 12:08 projects -> ../projects/
--rw-rw-r-- 1 learnbyexample eg   34 Jul  4 09:01 ip.txt
-drwxrwxr-x 3 learnbyexample eg 4.0K Jul  4 18:23 backups
-drwxrwxr-x 2 learnbyexample eg 4.0K Jul  5 12:05 workshop_brochures
-
-$ ls -X
-backups   todo                power.log   hello_world.py  ch.sh
-projects  workshop_brochures  report.log  palindrome.py   ip.txt
-
-    filenames starting with . are considered as hidden files
-
-$ # -a option will show hidden files too
-$ ls -a backups/dot_files/
-.  ..  .bashrc  .inputrc  .vimrc
-
-$ # . and .. are special directories pointing to current and parent directory
-$ # if you recall, we have used them in specifying relative paths
-$ # so, 'ls', 'ls .' and 'ls backups/..' will give same result
-$ ls -aF backups/dot_files/
-./  ../  .bashrc  .inputrc  .vimrc
-
-$ # use -A option to show hidden files excluding . and .. special directories
-$ ls -A backups/dot_files/
-.bashrc  .inputrc  .vimrc
-
-    use -R option to recursively list sub-directories too
-
-$ ls -ARF
-.:
-backups/  hello_world.py*  palindrome.py*  projects@   todo
-ch.sh*    ip.txt           power.log       report.log  workshop_brochures/
-
-./backups:
-chrome_bookmarks_02_07_2018.html  dot_files/
-
-./backups/dot_files:
-.bashrc  .inputrc  .vimrc
-
-./workshop_brochures:
-Python_workshop_2017.pdf  Scripting_course_2016.pdf
-
-    tree command displays contents of a directory recursively as a tree like structure
-    you might have to install this command or have an equivalent command like gvfs-tree
-
-$ # -h option will show hidden files
-$ gvfs-tree -h
-file:///home/learnbyexample/ls_ex
-|-- backups
-|   |-- chrome_bookmarks_02_07_2018.html
-|   `-- dot_files
-|       |-- .bashrc
-|       |-- .inputrc
-|       `-- .vimrc
-|-- ch.sh
-|-- hello_world.py
-|-- ip.txt
-|-- palindrome.py
-|-- power.log
-|-- projects -> ../projects/
-|-- report.log
-|-- todo
-`-- workshop_brochures
-    |-- Python_workshop_2017.pdf
-    `-- Scripting_course_2016.pdf
-
-    often, we want to prune which files/directories are to be listed
-    commands like find provide extensive features in this regard
-    the shell itself provides a matching technique called glob/wildcards
-        see Shell wildcards section for more examples and details
-    beginners incorrectly associate globbing with ls command, so globbing results are shown below using echo command as a demonstration
-
-$ # all unquoted arguments are subjected to shell globbing interpretation
-$ echo *.py *.log
-hello_world.py palindrome.py power.log report.log
-$ echo '*.py' *.log
-*.py power.log report.log
-
-$ # long list only files ending with .py
-$ ls -l *.py
--rwxrwxr-x 1 learnbyexample eg   41 Aug 21  2017 hello_world.py
--rwxrwxr-x 1 learnbyexample eg 1236 Aug 21  2017 palindrome.py
-
-$ # match all filenames starting with alphabets c/d/e/f/g/h/i
-$ echo [c-i]*
-ch.sh hello_world.py ip.txt
-$ ls -sh [c-i]*
-4.0K ch.sh  4.0K hello_world.py  4.0K ip.txt
-
-    use -d option to not show directory contents
-
-$ echo b*
-backups
-$ # since backups is a directory, ls will list its contents
-$ ls b*
-chrome_bookmarks_02_07_2018.html  dot_files
-$ # -d option will show the directory entry instead of its contents
-$ ls -d b*
-backups
-
-$ # a simple way to get only the directory entries
-$ # assuming simple filenames without spaces/newlines/etc
-$ echo */
-backups/ projects/ workshop_brochures/
-$ ls -d */
-backups/  projects/  workshop_brochures/
+> clear the terminal screen
 
 
 
-mkdir
+## ls
 
-    make directories
+> list directory contents
 
-    Linux filenames can use any character other than / and the ASCII NUL character
-    quote the arguments if name contains characters like space, *, etc to prevent shell interpretation
-        shell considers space as argument separator, * is a globbing character, etc
-    unless otherwise needed, try to use only alphabets, numbers and underscores for filenames
 
+
+## mkdir
+
+> make directories
+
+```bash
 $ # one or more absolute/relative paths can be given to create directories
 $ mkdir reports 'low power adders'
 
@@ -355,30 +137,26 @@ c
 
 a/b/c:
 
+```
 
+## touch
 
-touch
+> Usually files are created using a text editor or by redirecting output of a command to a file.But sometimes, for example to test file renaming, creating empty files comes in handy the touch command is primarily used to change timestamp of a file.
 
-    Usually files are created using a text editor or by redirecting output of a command to a file
-    But sometimes, for example to test file renaming, creating empty files comes in handy
-    the touch command is primarily used to change timestamp of a file (see touch section of next chapter)
-    if a filename given to touch doesn't exist, an empty file gets created with current timestamp
-
-$ touch ip.txt
+```bash
+$ touch test.txt
 $ ls -1F
 a/
-ip.txt
+test.txt
 low power adders/
 reports/
+```
 
+## rm
 
-rm
+> remove files and directories
 
-    remove files and directories
-
-    to delete files, specify them as separate arguments
-    to delete directories as well, use -r option (deletes recursively)
-    use -f option to force remove without prompt for non-existing files and write protected files (provided user has appropriate permissions)
+```bash
 
 $ ls
 a  ip.txt  low power adders  reports
@@ -416,14 +194,14 @@ rm: remove directory 'a'? y
 $ ls
 low power adders
 
+```
 
-cp
+## cp
 
-    copy files and directories
+> copy files and directories
 
-    to copy a single file or directory, specify the source as first argument and destination as second argument
-    similar to rm command, use -r for directories
 
+```bash
 $ # when destination is a directory, specified sources are placed inside that directory
 $ # recall that . is a relative path referring to current directory
 $ cp /usr/share/dict/words .
@@ -438,9 +216,7 @@ dict/
 low power adders/
 words
 
-    often, we want to copy for the purpose of modifying it
-    in such cases, a different name can be given while specifying the destination
-    if the destination filename already exists, it will be overwritten (see options -i and -n to avoid this)
+often, we want to copy for the purpose of modifying it in such cases, a different name can be given while specifying the destination if the destination filename already exists, it will be overwritten (see options -i and -n to avoid this)
 
 $ cp /usr/share/dict/words words_ref.txt
 $ cp -r /usr/share/dict word_lists
@@ -452,15 +228,15 @@ word_lists/
 words
 words_ref.txt
 
-    multiple files and directories can be copied at once if the destination is a directory
-    using -t option, one could specify destination directory first followed by sources (this is helpful with find command and other places)
+multiple files and directories can be copied at once if the destination is a directoryusing -t option, one could specify destination directory first followed by sources (this is helpful with find command and other places)
 
 $ mkdir bkp_dot_files
 
 $ # here, ~ will get expanded to user's home directory
 $ cp ~/.bashrc ~/.bash_profile bkp_dot_files/
 $ ls -A bkp_dot_files
-.bash_profile  .bashrc
+.bash_profile  .bashrc\
+```
 
     see man cp and info cp for more options and complete documentation
     some notable options are
@@ -468,7 +244,7 @@ $ ls -A bkp_dot_files
         -b and --backup for back up options if file with same name already exists in destination location
         --preserve option to copy files along with source file attributes like timestamp
 
-Further Reading
+## Further Reading
 
     cp Q&A on unix stackexchange
     cp Q&A on stackoverflow
@@ -478,15 +254,11 @@ Further Reading
         rsync Q&A on stackoverflow
 
 
-mv
+## mv
 
-    move (rename) files
+> move (rename) files
 
-    as name suggests, mv can move files from one location to another
-    if multiple files need to be moved, destination argument should be a directory (or specified using -t option)
-    unlike rm and cp, both files and directories have same syntax, no additional option required
-    use -i option to be prompted instead of overwriting file of same name in destination location
-
+```bash
 $ ls
 bkp_dot_files  dict  low power adders  word_lists  words  words_ref.txt
 $ mkdir backups
@@ -509,19 +281,21 @@ bkp_dot_files/  dict/  words
 $ mv backups/bkp_dot_files backups/dot_files
 $ ls -F backups/
 dict/  dot_files/  words
+```
 
-Further Reading
+## Further Reading
 
-    mv Q&A on unix stackexchange
-    mv Q&A on stackoverflow
+- [mv Q&A on unix stackexchange]
+- [mv Q&A on stackoverflow]
 
 
-rename
+## rename
 
-    renames multiple files
+> renames multiple files
 
-Note: The perl based rename is presented here which is different from util-linux-ng version. Check man rename for details
 
+
+```bash
 $ ls
 backups  low power adders  word_lists  words_ref.txt
 $ # here, the * glob will expand to all non-hidden files in current directory
@@ -534,24 +308,22 @@ $ rename 's/ /_/g' *
 $ ls
 backups  low_power_adders  word_lists  words_ref.txt
 
-Further Reading
+```
 
-    rename Q&A on unix stackexchange
-    See Perl one liners for examples and details on Perl substitution command
-    Some more rename examples - unix.stackexchange: replace dots except last one and stackoverflow: change date format
+## Further Reading
+
+- [rename Q&A on unix stackexchange]()
+- [See Perl one liners for examples and details on Perl substitution command]()
+- [Some more rename examples - unix.stackexchange: replace dots except last one and stackoverflow: change date format]()
 
 
-ln
+## ln
 
-    make links between files
+> make links between files
 
-    there are two types of links - symbolic and hard links
-    symbolic links is like a pointer/shortcut to another file or directory
-        if the original file is deleted or moved to another location, symbolic link will no longer work
-        if the symbolic link is moved to another location, it will still work if the link was done using absolute path (for relative path, it will depend on whether or not there's another file with same name in that location)
-        a symbolic link file has its own inode, permissions, timestamps, etc
-        most commands will work the same when original file or the symbolic file is given as command line argument, see their documentation for details
+> there are two types of links - symbolic and hard links symbolic links is like a pointer/shortcut to another file or directory if the original file is deleted or moved to another location, symbolic link will no longer work if the symbolic link is moved to another location, it will still work if the link was done using absolute path (for relative path, it will depend on whether or not there's another file with same name in that location)a symbolic link file has its own inode, permissions, timestamps, etc most commands will work the same when original file or the symbolic file is given as command line argument, see their documentation for details
 
+```bash
 $ # similar to cp, a different name can be specified if needed
 $ ln -s /usr/share/dict/words .
 $ ls -F
@@ -566,13 +338,11 @@ $ # the linked file may be another link
 $ # use -f option to get original file
 $ readlink -f words
 /usr/share/dict/english
+```
 
-    hard link can only point to another file (not a directory, and restricted to within the same filesystem)
-        the . and .. special directories are the exceptions, they are hard links which are automatically created
-    once a hard link is created, there is no distinction between the two files other than different filename/location - they have same inode, permissions, timestamps, etc
-    any of the hard link will continue working even if all the other hard links are deleted
-    if a hard link is moved to another location, the links will still be in sync - any change in one of them will be reflected in all the other links
+> hard link can only point to another file (not a directory, and restricted to within the same filesystem) the . and .. special directories are the exceptions, they are hard links which are automatically created once a hard link is created, there is no distinction between the two files other than different filename/location - they have same inode, permissions, timestamps, etc any of the hard link will continue working even if all the other hard links are deleted if a hard link is moved to another location, the links will still be in sync - any change in one of them will be reflected in all the other links
 
+```bash
 $ touch foo.txt
 $ ln foo.txt baz.txt
 
@@ -580,23 +350,24 @@ $ # the -i option gives inode
 $ ls -1i foo.txt baz.txt
 649140 baz.txt
 649140 foo.txt
+```
 
-Further Reading
+## Further Reading
 
-    unlink command to delete links (rm can be used as well)
-    ln Q&A on unix stackexchange
-    ln Q&A on stackoverflow
-    askubuntu: What is the difference between a hard link and a symbolic link?
-    unix.stackexchange: What is the difference between symbolic and hard links?
-    unix.stackexchange: What is a Superblock, Inode, Dentry and a File?
+- [unlink command to delete links (rm can be used as well)]()
+- [ln Q&A on unix stackexchange]()
+- [ln Q&A on stackoverflow]()
+- [askubuntu: What is the difference between a hard link and a symbolic link?]()
+      - [unix.stackexchange: What is the difference between symbolic and hard links?]()
+      - [unix.stackexchange: What is a Superblock, Inode, Dentry and a File?]()
 
 
-tar and gzip
+## tar and gzip
 
-    tar is an archiving utility
-    first, lets see an example of creating single archive file from multiple input files
-    note that the archive file so created is a new file and doesn't overwrite input files
+> tar is an archiving utility first, lets see an example of creating single archive file from multiple input files note that the archive file so created is a new file and doesn't overwrite input files
 
+
+```bash
 $ ls -F
 backups/  low_power_adders/  word_lists/  words_ref.txt
 
@@ -644,7 +415,7 @@ bkp_words.tar  word_lists/  words_ref.txt
 $ cd ..
 $ rm -r test_extract/
 
-    the GNU version of tar supports compressing/uncompressing options as well
+- the GNU version of tar supports compressing/uncompressing options as well
 
 $ ls -F
 backups/  low_power_adders/  word_lists/  words_ref.txt
@@ -654,21 +425,22 @@ $ # reverse would be: tar -zxf bkp_words.tar.gz
 $ tar -zcf bkp_words.tar.gz word_lists words_ref.txt
 $ ls -sh bkp_words.tar.gz
 652K bkp_words.tar.gz
+```
+- there are loads of options for various needs, see documentation for details
+    - -v for verbose option
+    - -r to append files to archive
+    - -t to list contents of archive
+    - --exclude= to specify files to be ignored from archiving
+    - -j and -J to use bzip2 or xz compression technique instead of -z which uses gzip
+- there are commands starting with z to work with compressed files
+    - zcat to display file contents of compressed file on standard output
+    - zless to display file contents of compressed file one screenful at a time
+    - zgrep to search compressed files and so on...
 
-    there are loads of options for various needs, see documentation for details
-        -v for verbose option
-        -r to append files to archive
-        -t to list contents of archive
-        --exclude= to specify files to be ignored from archiving
-        -j and -J to use bzip2 or xz compression technique instead of -z which uses gzip
-    there are commands starting with z to work with compressed files
-        zcat to display file contents of compressed file on standard output
-        zless to display file contents of compressed file one screenful at a time
-        zgrep to search compressed files and so on...
 
-Further Reading
+## Further Reading
 
-    tar Q&A on unix stackexchange
-    tar Q&A on stackoverflow
-    superuser: gzip without tar? Why are they used together?
-    zip and unzip commands
+- [tar Q&A on unix stackexchange]()
+- [tar Q&A on stackoverflow]()
+- [superuser: gzip without tar? Why are they used together?]()
+- [zip and unzip commands]()
