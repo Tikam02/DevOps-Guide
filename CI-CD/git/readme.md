@@ -2,5 +2,5 @@
 ****************************
 
 - Directories
-  - [Git basics]()
+  - [Git basics](git-basic-commands.md)
   - [Git advanced]()
