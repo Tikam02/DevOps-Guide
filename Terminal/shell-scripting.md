@@ -56,3 +56,4 @@
 ## Original Content and Authors
 
 - [Shell - learnbyexample.gitbooks.io](https://learnbyexample.gitbooks.io/linux-command-line/content/Shell.html)
+- [github.com/learnbyexample/Linux_command_line](https://github.com/learnbyexample/Linux_command_line/blob/master/Shell_Scripting.md) - Shell Scripting Cheatsheet
