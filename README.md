@@ -130,6 +130,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://www.linkedin.com/in/rodrigofazenda/"><img src="https://avatars2.githubusercontent.com/u/12849476?v=4" width="100px;" alt=""/><br /><sub><b>Rodrigo Fazenda</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=rodrigofazenda" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nkstanchev"><img src="https://avatars0.githubusercontent.com/u/22329266?v=4" width="100px;" alt=""/><br /><sub><b>Nikolay Stanchev</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=nkstanchev" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/meet59patel"><img src="https://avatars2.githubusercontent.com/u/45785817?v=4" width="100px;" alt=""/><br /><sub><b>Meet Patel</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=meet59patel" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
