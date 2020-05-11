@@ -80,14 +80,15 @@
 ### Getting Started DevOps Links:
 
 - [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
-- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
+- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png
+- [Devops Roadmap by Nguyen Truong Duong](https://github.com/raycad/devops-roadmap)
+- [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [r/devops](https://www.reddit.com/r/devops/)
 - [IBM Kubernetes Handson Labs](https://github.com/IBM/kube101/tree/master/workshop)
 - [Getting Started With Azure DevOps](https://github.com/microsoft/azuredevopslabs)
 - [Getting started with Google Cloud Platform](https://cloud.google.com/gcp/getting-started/)
 - [Freecodecamp Devops Getting Started Articles](https://www.freecodecamp.org/news/tag/devops/)
 - [The-devops-roadmap-for-programmers](https://dzone.com/articles/the-devops-roadmap-for-programmers)
-- [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
 - [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
 - [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
@@ -101,7 +102,7 @@
 - [ ] Kubernetes Monitoring - Prometheus and Grafana
 - [ ] Add IaC concepts and Tools
 - [ ] Add - AWS CloudFormation,Terraform,Chef,Ansible,Puppet
-
+- [ ] Helm - charts
 **************************
 
 ## Contributors ✨
