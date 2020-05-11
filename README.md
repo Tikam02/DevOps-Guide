@@ -80,7 +80,7 @@
 ### Getting Started DevOps Links:
 
 - [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
-- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png
+- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
 - [Devops Roadmap by Nguyen Truong Duong](https://github.com/raycad/devops-roadmap)
 - [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [r/devops](https://www.reddit.com/r/devops/)
