@@ -1,4 +1,0 @@
-# Replicated Kots
-
-
-## Introduction 
