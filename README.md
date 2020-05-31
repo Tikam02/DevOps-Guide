@@ -4,7 +4,7 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Tikam02/DevOps_Cheatsheet?style=for-the-badge)   ![Devops](https://img.shields.io/badge/Development-Operations-blue?style=for-the-badge) ![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/devops?style=for-the-badge) ![GitHub contributors](https://img.shields.io/github/contributors/Tikam02/DevOps-Guide?style=for-the-badge)
 
-<p>
+<!-- <p>
 		<a href="https://triplebyte.com/a/UEmYALe/d">
 		<b>Looking for a job?</b> 
 			<br>
@@ -15,10 +15,9 @@
 				<img src="https://github.com/Tikam02/DevOps-Guide/blob/master/img/logo/Triplebyte_Logo_Default.png" width="500" hieght="400"  alt="Tripblebyte" align="middle">
 			</div>
 		</a>
-		<!-- <sub><i>Clicking this helps fund the DevOps Guide project</i></sub> -->
 	</p>
 	
-	
+	 -->
 	
 *******************
 
@@ -26,12 +25,12 @@
 <center>
 <table>
  <tr>
-<td align="center"><a href="./Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br/><b>Docker</b></a><br /><sub><a href="./Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="./Docker/docker-notes.md">Docker Notes</a></sub><br><sub><a href="./Docker">Docker Tutorial</a></sub></td>
-     <td align="center"><a href="./kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="./kubernetes/kuber-concepts.md">Kubernetes Concepts</a></sub><br><sub><a href="./kubernetes/kubernetes-commands.md">Kubernetes Commands</a></sub></td>
-    <td align="center"><a href="./IaC/Prometheus"><img src="img/logo/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="./IaC/Prometheus/prometheus-concepts.md">Prometheus Concepts</a></sub><br><sub><a href="./IaC/Prometheus/prometheus-tutorials.md">Prometheus Tutorial</a></sub></td>
+<td align="center"><a href="./Container-orchestration/Docker"><img src="img/docker.png" width="75px;" height="75px;" alt="Docker"/><br/><b>Docker</b></a><br /><sub><a href="./Docker/docker-concepts.md">Docker Concepts</a></sub><br><sub><a href="./Container-orchestration/Docker/docker-notes.md">Docker Notes</a></sub><br><sub><a href="./Container-orchestration/Docker">Docker Tutorial</a></sub></td>
+     <td align="center"><a href="./Container-orchestration/kubernetes"><img src="img/logo/kubernetes.png" width="75px;" height="75px;" alt="kubernetes"/><br /><b>Kubernetes</b></a><br /><sub><a href="./Container-orchestration/kubernetes/kuber-concepts.md">Kubernetes Concepts</a></sub><br><sub><a href="./Container-orchestration/kubernetes/kubernetes-commands.md">Kubernetes Commands</a></sub></td>
+    <td align="center"><a href="./observability/Prometheus"><img src="img/logo/prometheus.png" width="75px;" height="75px;" alt="Prometheus"/><br /><b>Prometheus</b></a><br /><sub><a href="./observability/Prometheus/prometheus-concepts.md">Prometheus Concepts</a></sub><br><sub><a href="./observability/Prometheus/prometheus-tutorials.md">Prometheus Tutorial</a></sub></td>
     <td align="center"><a href="./CI-CD/git"><img src="img/logo/git.png" width="90px;" height="75px;" alt="Git"/><br /><b>Git</b></a><br/><sub><a href="./CI-CD/git">Git concepts</a></sub><br><sub><a href="./CI-CD/git/git-advanced.md">Git Advanced</a></sub></td>
-    <td align="center"><a href="./IaC/Ansible"><img src="img/logo/ansible.png" width="70px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="./IaC/Ansible/ansible-concepts.md"> Ansible Concepts</a></sub><br><sub><a href="./IaC/Ansible/ansible-tutorials.md"> Ansible Tutorials</a></sub></td>
-    <td align="center"><a href="./IaC/Terraform"><img src="img/logo/terraform.png" width="65px;" height="75px;" alt="Terraform"/><br /><b>Terraform </b></a><br /><sub><a href="./IaC/Terraform/terraform-concepts.md">Terraform Concepts</a></sub><br><sub><a href="./IaC/Terraform/terraform-tutorials.md"> Terraform Tutorials</a></sub></td>
+    <td align="center"><a href="./Infrastructure-provisioning/Ansible"><img src="img/logo/ansible.png" width="70px;" height="75px;" alt="Ansible"/><br /><b>Ansible</b></a><br /><sub><a href="./Infrastructure-provisioning/Ansible/ansible-concepts.md"> Ansible Concepts</a></sub><br><sub><a href="./Infrastructure-provisioning/Ansible/ansible-tutorials.md"> Ansible Tutorials</a></sub></td>
+    <td align="center"><a href="./Infrastructure-provisioning/Terraform"><img src="img/logo/terraform.png" width="65px;" height="75px;" alt="Terraform"/><br /><b>Terraform </b></a><br /><sub><a href="./Infrastructure-provisioning/Terraform/terraform-concepts.md">Terraform Concepts</a></sub><br><sub><a href="./Infrastructure-provisioning/Terraform/terraform-tutorials.md"> Terraform Tutorials</a></sub></td>
     <td align="center"><a href="./CI-CD/jenkins"><img src="img/logo/jenkins.png" width="100x;" height="75px;" alt="Jenkins"/><br /><b>Jenkins</b></a><br /><sub><a href="./CI-CD/jenkins/jenkins-concepts.md">Jenkins Concepts</a></sub><br><sub><a href="./CI-CD/jenkins/jenkins-tutorials.md">Jenkins Tutorials</a></sub></td>
   </tr>
    
@@ -48,8 +47,8 @@
     <td align="center"><a href="./Books"><img src="img/logo/books.png" width="80x;" height="75px;" alt="Books"/><br /><b>Books</b></a><br /><sub></td>
     <td align="center"><a href="./Interview"><img src="img/logo/interview.png" width="80x;" height="75px;" alt="Interview"/><br /><b>Interview </b></a><br /><sub><a href="./Interview/Dev-ops-Interview.md">Interview Questions</a></sub></td>
     <td align="center"><a href="./CI-CD/GitlabCi"><img src="img/logo/gitlab.png" width="80x;" height="75px;" alt="Gitlab"/><br /><b>Gitlab</b></a><br /><sub><a href="./CI-CD/GitlabCi/gitlab-concepts.md">Gitlab Concepts</a></sub><br><sub><a href="./CI-CD/GitlabCi/gitlab-commands.md">Gitlab Commands</a></sub></td>
-    <td align="center"><a href="./IaC/Puppet"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Puppet"/><br /><b>Puppet</b></a><br /><sub><a href="./IaC/Puppet/puppet-concepts.md">Puppet Concepts</a></sub><br><sub><a href="./IaC/Puppet/puppet-commands.md">Puppet Commands</a></sub></td>
-    <td align="center"><a href="./IaC/Chef"><img src="img/logo/chef.jpg" width="80x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./IaC/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./IaC/Chef/chef-commands.md">Chef Commands</a></sub></td>
+    <td align="center"><a href="./Infrastructure-provisioning/Puppet"><img src="img/logo/puppet.png" width="100x;" height="75px;" alt="Puppet"/><br /><b>Puppet</b></a><br /><sub><a href="./Infrastructure-provisioning/Puppet/puppet-concepts.md">Puppet Concepts</a></sub><br><sub><a href="./Infrastructure-provisioning/Puppet/puppet-commands.md">Puppet Commands</a></sub></td>
+    <td align="center"><a href="./Infrastructure-provisioning/Chef"><img src="img/logo/chef.jpg" width="80x;" height="75px;" alt="Chef"/><br /><b>Chef</b></a><br /><sub><a href="./Infrastructure-provisioning/Chef/chef-concepts.md">Chef Concepts</a></sub><br><sub><a href="./Infrastructure-provisioning/Chef/chef-commands.md">Chef Commands</a></sub></td>
    
   </tr>
   
