@@ -140,6 +140,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "shenxianpeng",
+      "name": "shenxianpeng",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/3353385?v=4",
+      "profile": "https://shenxianpeng.github.io",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
