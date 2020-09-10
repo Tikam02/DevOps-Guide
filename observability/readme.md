@@ -11,3 +11,18 @@
   - Structured Logging
   - Metrics
   - Traces
+
+
+
+## Observabilty
+
+> Observabilty stack
+
+```yaml
+    Monitoring     -    Metrics     - Prometheus 
+    Monitoring     -    Dashboard   - Grafana
+    Logging        -    Logs        - Loki
+    Logging        -    Log Shipping    - Fluentd 
+    Monitoring     -    Metrics Shipping - Thanos
+    Monitoring     -    Grafana Backup   - Wizzy
+```

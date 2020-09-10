@@ -79,6 +79,187 @@
 
 ``` for i in 0 1; do kubectl exec foo-$i -- sh -c 'echo $(hostname) > /usr/share/nginx/html/index.html'; done ```
 
+
+
+### Explain a resource
+
+``` kubectl explain hpa ```
+
+
+```kubectl explain svc```
+
+### Get nodes region and zone
+
+### kubectl get nodes
+```--label-columns failure-domain.beta.kubernetes.io/region,failure-domain.beta.kubernetes.io/zone```
+
+### Get Arch, OS, Instance type and node type if kops
+
+```kubectl get nodes -o wide -L beta.kubernetes.io/arch -L beta.kubernetes.io/os -L beta.kubernetes.io/instance-type -L  kops.k8s.io/instancegroupkubectl get nodes -L beta.kubernetes.io/arch -L beta.kubernetes.io/os -L beta.kubernetes.io/instance-type -L  kops.k8s.io/instancegroup```
+
+### Get node version and name only
+
+```kubectl get nodes -o custom-columns=NAME:.metadata.name,VER:.status.nodeInfo.kubeletVersion```
+
+### Get scheduleable nodes
+
+```kubectl get nodes --output 'jsonpath={range $.items[*]}{.metadata.name} {.spec.taints[*].effect}{"\n"}{end}' | awk '!/NoSchedule/{print $1}'```
+
+### Get all deployments nameonly
+
+```kubectl get deployment -o=jsonpath={.items[*].metadata.name}```
+
+### Get one deployment only (first one)
+
+```kubectl get deployment -o=jsonpath={.items[0].metadata.name}```
+
+### Get all pods statuses only
+
+```kubectl get pods -o=jsonpath=‘{.items[*].status.phase}’ --all-namespaces```
+
+### Get pods qos
+
+```kubectl get pods --all-namespaces -o custom-columns=NAME:.metadata.name,NAMESPACE:.metadata.namespace,QOS-CLASS:.status.qosClass```
+
+### Get images running
+
+```kubectl get pod -o=jsonpath='{.spec.containers[*].image}' --all-namespaces```
+
+```kubectl get pod -o=custom-columns=NAME:.metadata.name,IMAGE:.spec.containers[*].image --all-namespaces```
+
+### Where is my pod running
+
+```kubectl get pods -n sock-shop -l name=carts -o wide```
+
+### Check node/pod usage memory and cpu
+
+```kubectl top nodes```
+```kubectl top pods```
+
+### Check health of etcd
+
+```kubectl get --raw=/healthz/etcd```
+
+### Check status of node autoscaler
+
+```kubectl describe configmap cluster-autoscaler-status -n kube-system```
+
+### Get where pods are running from nodenames
+
+```kubectl get pod -o=custom-columns=NAME:.metadata.name,STATUS:.status.phase,NODE:.spec.nodeName --all-namespaceskubectl get pod -o=custom-columns=NODE:.spec.nodeName,NAME:.metadata.name --all-namespaces```
+
+### Example sorting pods by nodeName:
+
+```kubectl get pods -o wide --sort-by="{.spec.nodeName}"```
+
+### Example of getting pods on nodes using label filter:
+
+```bash
+for n in $(kubectl get nodes -l your_label_key=your_label_value --no-headers | cut -d " " -f1); do 
+        kubectl get pods --all-namespaces  --no-headers --field-selector spec.nodeName=${n} 
+  done
+```
+
+- or by number of restarts
+
+```kubectl get pods --sort-by="{.status.containerStatuses[:1].restartCount}"```
+
+
+### get containers name inside pod
+
+```kubectl get pods prometheus-prometheus-operator-prometheus-0 -o jsonpath='{.spec.containers[*].name}'```
+
+### get disk space 
+```kubectl exec -i -t prometheus-prometheus-operator-prometheus-0 -c thanos-sidecar -n monitoring -- df -h```
+
+### Example filtering by nodeName using — template flag:
+
+```bash
+$ kubectl get nodes  NAME                         STATUS                     AGE
+  ip-254-0-90-30.ec2.internal   Ready                      2d
+  ip-254-0-90-35.ec2.internal   Ready                      2d
+  ip-254-0-90-50.ec2.internal   Ready,SchedulingDisabled   2d
+  ip-254-0-91-60.ec2.internal   Ready                      2d
+  ip-254-0-91-65.ec2.internal   Ready                      2d
+  $ kubectl get pods --template '{{range .items}}{{if eq .spec.nodeName "ip-254-0-90-30.ec2.internal"}}{{.metadata.name}}{{"\n"}}{{end}}}{{end}}'  filebeat-000
+  app-0000
+  node-exporter-0000
+  prometheus-000
+```
+
+### Check pods which are not Runnning
+
+```kubectl get pods --field-selector=status.phase!=Running --all-namespaces```
+
+### Sort Nodes by Role, Age and kubelet version
+
+```kubectl get nodes --sort-by={.metadata.labels."kubernetes\.io\/role"}kubectl get node --sort-by={.status.nodeInfo.kubeletVersion}watch kubectl get node --sort-by={.status.nodeInfo.kubeletVersion}   watch "kubectl get nodes --sort-by={.metadata.labels.\"kubernetes\.io\/role\"}"kubectl get nodes --sort-by=".status.conditions[?(@.reason == 'KubeletReady' )].lastTransitionTime"```
+
+### Query apiservers
+
+```kubectl get --raw=/apis```
+```kubectl get --raw=/logs/kube-apiserver.log```
+
+### Setup a deployment with limits and requests
+
+```kubectl run ken-test --image=kenichishibata/docker-curl -i --tty --limits='cpu=50m,memory=128Mi' --requests='cpu=50m,memory=128Mi'```
+```kubectl delete deployment ken-test```
+
+### Get events for an individual resource
+
+```kubectl get event --field-selector=involvedObject.name =foo -w```
+
+### Get apiresources
+
+#### Check for an api resources available, this should show your crd api endpoints as well
+    
+```kubectl api-resources```
+```kubectl api-versions```
+    
+#### Check apiservices added (registered)
+    
+```kubectl get apiservices.apiregistration.k8s.io```
+```kubectl get apiservices.apiregistration.k8s.io v1beta1.metrics.k8s.io -o yaml```
+
+### Check hpa (maybe because you have custom metrics enabled in prometheus)?
+```kubectl get hpa```
+```kubectl get hpa --all-namespaces kubectl get --raw /apis/metrics.k8s.io```
+
+### Kube Diff
+
+```kubectl alpha diff -h```
+
+
+
+### Run pod shell
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: testing
+  namespace: monitoring
+spec:
+  serviceAccountName: build-robot
+  automountServiceAccountToken: false
+  containers:
+  - image: alpine:3.2
+    command:
+      - /bin/sh
+      - "-c"
+      - "sleep 60m"
+    imagePullPolicy: IfNotPresent
+    name: alpine
+  restartPolicy: Always
+```
+
+> kubectl apply -f testing.yaml --namespace=monitoring 
+
+> kubectl exec -ti testing --namespace=monitoring  -- sh
+
+or
+
+> kubectl run -it testing --image testing --namespace monitoring /bin/sh
 ****************************************************
 
 ### MANAGE RESOURCES
