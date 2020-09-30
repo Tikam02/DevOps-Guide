@@ -183,4 +183,7 @@
       - Layered systems offer two main benefits:
           - 1. Duplication-free: layers help avoid duplicating a complete set of files every time you use an image to create and run a new container, making instantiation of docker containers very fast and cheap.
           - 2. Layer segregation: Making a change is much faster — when you change an image, Docker only propagates the updates to the layer that was changed.
-
+    
+    
+    Basic commands for learning docker 
+    
