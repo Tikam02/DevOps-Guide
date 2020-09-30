@@ -185,5 +185,5 @@
           - 2. Layer segregation: Making a change is much faster — when you change an image, Docker only propagates the updates to the layer that was changed.
     
     
-    Basic commands for learning docker 
+
     
