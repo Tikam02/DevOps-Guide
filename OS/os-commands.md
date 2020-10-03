@@ -4,7 +4,7 @@
   - [top]()
   - [ps aux]()
   - [kill]()
-
+  - [df]()
 
 ***************
 
@@ -164,3 +164,46 @@
 - [A Guide to Kill, Pkill and Killall Commands to Terminate a Process in Linux](https://www.tecmint.com/how-to-kill-a-process-in-linux/)
 - [How To Use ps, kill, and nice to Manage Processes in Linux](https://www.digitalocean.com/community/tutorials/how-to-use-ps-kill-and-nice-to-manage-processes-in-linux)
 - [Linux / Unix: killall Command Examples](https://www.cyberciti.biz/faq/unix-linux-killall-command-examples-usage-syntax/)
+
+**************************
+## df 
+
+- `df` (abbreviated disk **d**isk **f**ree) is a standard Unix command used to display the amount of available disk space for file systems on which the invoking user has appropriate write access.
+- `df` for Unix-like and Linux systems is a part of X/Open portability guide since issue 2 of 1987.
+- Syntax:
+
+```$ df```
+
+```bash
+Filesystem    1024-blocks      Free %Used    Iused %Iused Mounted on
+/dev/hd4            32768     16016   52%     2271    14% /
+/dev/hd2          4587520   1889420   59%    37791     4% /usr
+/dev/hd9var         65536     12032   82%      518     4% /var
+/dev/hd3           819200    637832   23%     1829     1% /tmp
+/dev/hd1           524288    395848   25%      421     1% /home
+/proc                   -         -    -         -     -  /proc
+/dev/hd10opt        65536     26004   61%      654     4% /opt
+```
+
+- To get a more readable format we can pass the `-h` argument which displays in more human readable formats like `KB, MB, GB, or TB`
+
+`$ df -h or df --human-redable`
+
+```
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       3.0G  2.3G  720M  77% /
+devtmpfs        123M     0  123M   0% /dev
+```
+
+- Other useful arguments include
+  - `-a or --all`: List all dummy, duplicate, or inaccessible files which are ommited by default.
+  - `-k`: Use 1024-byte units, instead of default 512-byte units, when writing large figures.
+  - `-P or --portabilty`: Use a POSIX portable output format, when writing to files.
+  - `-t fstype or --type=fstype`: Limit the listing of the fstype. By default nothing is ommited.
+
+### Resources:
+
+- [Manual Page from GNU Coreutils](https://www.gnu.org/software/coreutils/manual/html_node/df-invocation.html)
+- [Linux General Commands Manual](https://www.mankier.com/1/df)
+- [FreeBSD General Commands Manual](https://www.freebsd.org/cgi/man.cgi?query=df&sektion=1)
+- [df commands examples](https://www.tecmint.com/how-to-check-disk-space-in-linux/)
