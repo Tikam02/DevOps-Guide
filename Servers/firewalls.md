@@ -146,6 +146,7 @@ A fundamental ufw command may look like `ufw [--dry-run] [option] [rule syntax]`
 
 > ufw will not work if iptables is enabled.
 
+---
 
 ##### Resources I used to write this
 
