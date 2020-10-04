@@ -11,7 +11,7 @@ A few types of firewalls:
   - Threat-focused Firewall
   - Virtual Firewall
 
-Firewalls can be implemented both at hardware and software level. For the sake of this article we will only focus on the software part.
+Firewalls can be implemented both at hardware and software level. For the sake of this example we will only focus on the software part.
 
 ## Window Firewall
 
