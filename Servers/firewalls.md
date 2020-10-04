@@ -23,7 +23,7 @@ An official link to Microsoft Defender's manual can be found at the bottom.
 
 Firewall in Linux can be implemented in different ways. These are only few of those.
 
-#### Using IPTables
+### Using IPTables
 
 IPTables is a rule based firewall and comes pre-installed on most Linux distributions. By default it runs without any rules and has been a part of the Linux kernel since version 2.4
 
@@ -94,7 +94,7 @@ or
 /etc/init.d/iptables save
 ```
 
-#### Using Firewalld
+### Using Firewalld
 
 IPTables was superseded as firewalld was introduced by Red Hat Enterprise Linux 7.0. Firewalld is a zone-based firewall. A zone is associated with at least one network interface (eth0 for instance). Firewalld provides different levels of security for different connection zones.
 
@@ -120,7 +120,7 @@ For example `$ firewall-cmd --zone=external --list-all` can be used to see the `
 
   Similar to removing services, ports can be removed using `--remove-port` option. For example `# firewall-cmd --permanent --zone=external --remove-port=60001/udp`
 
-#### Using the UFW or the Uncomplicated Firewall
+### Using the UFW or the Uncomplicated Firewall
 
 As the name suggests ufw provides us with a much user friendly approach to managing firewall on Linux. ufw also has an GUI interface named gufw.
 
@@ -147,7 +147,7 @@ A fundamental ufw command may look like `ufw [--dry-run] [option] [rule syntax]`
 > ufw will not work if iptables is enabled.
 
 
-### Resources I used to write this
+##### Resources I used to write this
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Firewall_(computing))
 - [Cisco](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html)
