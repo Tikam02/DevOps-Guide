@@ -148,7 +148,7 @@ A fundamental ufw command may look like `ufw [--dry-run] [option] [rule syntax]`
 
 ---
 
-##### Resources I used to write this
+##### Resources used to write this
 
 - [Wikipedia](https://en.wikipedia.org/wiki/Firewall_(computing))
 - [Cisco](https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html)
