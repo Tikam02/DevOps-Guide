@@ -54,7 +54,7 @@
   
  </table>
 </center>
-
+<p> TO learn OS concepts you can check this curated course for FREE: https://uaceit.com/courses/operating-systems-a-quick-revision-for-interviews/ </p>
  <center>
 <table>
 
