@@ -53,7 +53,7 @@ IPTables main config files
 IPTables chains
   
   - **Input**: Used to control the behavior of input traffic. For example if you want to match an incoming SSH IP and port to a rule in the input chain.
-  - **Forward**: Used for incoming connections that aren't being delivered locally. `$ iptables -L -v` is a way of checking. For example in router data is always sent to it but rarely is destined for the router itself; the data is just forwarded to the target.
+  - **Forward**: Used for incoming connections that aren't being delivered locally. `$ iptables -L -v` can be used to check this. For example in router data is always sent to it but rarely is destined for the router itself; the data is just forwarded to the target.
   - **Output**: Used for outgoing connections. For example if we want to ping a certain IP or site IPTables will check it's output chain to see if there exist any rule for that IP or site before making the decision to allow or deny the ping.
 
 Connection Specific Response
