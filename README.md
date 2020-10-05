@@ -135,6 +135,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://shenxianpeng.github.io"><img src="https://avatars1.githubusercontent.com/u/3353385?v=4" width="100px;" alt=""/><br /><sub><b>shenxianpeng</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=shenxianpeng" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Umang2002"><img src="https://avatars3.githubusercontent.com/u/56287922?v=4" width="100px;" alt=""/><br /><sub><b>Umang Dobariya</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Umang2002" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Revenge-Rakesh"><img src="https://avatars2.githubusercontent.com/u/36032275?v=4" width="100px;" alt=""/><br /><sub><b>Rakesh .B</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Revenge-Rakesh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/fedGL"><img src="https://avatars3.githubusercontent.com/u/30448072?v=4" width="100px;" alt=""/><br /><sub><b>Federico Garcia-Lorca</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=fedGL" title="Documentation">📖</a></td>
   </tr>
 </table>
 
