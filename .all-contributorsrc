@@ -185,6 +185,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "listout",
+      "name": "Brahmajit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/66715002?v=4",
+      "profile": "https://listout.github.io/mysite/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
