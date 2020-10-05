@@ -13,7 +13,7 @@ A few types of firewalls:
 
 Firewalls can be implemented both at hardware and software level. For the sake of this example we will only focus on the software part.
 
-## Window Firewall
+## Windows Firewall
 
 Windows Firewall (called Windows Defender in Windows 10) is a firewall component provided in Microsoft Windows.
 
@@ -59,7 +59,7 @@ IPTables chains
 Connection Specific Response
 
   - **Accept**: Allow the connection.
-  - **Drop**: Drop the connection and act as if it never happened. Best if you don't want source to know of your systems existence.
+  - **Drop**: Drop the connection and act as if it never happened. Best if you don't want the source to know of your systems existence.
   - **Reject**: Don't allow the connection but send back an error. Best if you want don't want the source to connect to your system, but don't want them to learn that a firewall blocked their request.
 
 Allowing or Blocking specific connections
@@ -114,7 +114,7 @@ For example `$ firewall-cmd --zone=external --list-all` can be used to see the `
 
 * **Allow and Deny by port**
 
-  `# firewall-cmd --permanent --zone=external --add-port=60001/udp` can be used to add a dedicated `UDP` port to your external zone.
+  `# firewall-cmd --permanent --zone=external --add-port=60001/udp` can be used to add a dedicated `UDP` port to your external zone, where 60001 is your port number.
 
   `# firewall-cmd --zone=external --list-ports` can be used to check the allowed ports in the given zone. For some other zone `--zone` should be changed.
 
@@ -136,15 +136,17 @@ A fundamental ufw command may look like `ufw [--dry-run] [option] [rule syntax]`
 
 **Few useful commands**:
 
+  > Change the port number (here 22, 8 and 25), I.P. ( here 192.168.2.100 or 192.168.2.100 ), protocol and services (here TCP, UDP and SSH) according to your requirement.
+
   - `$ sudo ufw allow 22` can be used to allow traffic on port 22.
   - `$ sudo ufw deny 22` can be used to deny traffic on port 22.
-  - `$ sudo ufw deny 22/tcp` can be used to deny traffic and tcp protocol on port 22, same goes for `allow`.
+  - `$ sudo ufw deny 22/tcp` can be used to deny traffic and TCP protocol on port 22, same goes for `allow`.
   - `$ sudo ufw allow ssh` can be used to allow ssh traffic. This is done by defining a rule using a service and ufw will run against `/etc/services`. Same applies for `deny`
   - `$ sudo ufw allow ssh/tcp` can be used to add protocols on top of services.
   - `$ sudo ufw deny from 192.168.2.100/8 to 192.168.2.101 port 25`, this will deny 192.168.2.100 from gaining access (through any port) to 192.168.2.101's port 25.
   - `$ sudo ufw limit 80/tcp` can be used to limit connections to that port.
 
-> ufw will not work if iptables is enabled.
+  > ufw will not work if iptables is enabled.
 
 ---
 
