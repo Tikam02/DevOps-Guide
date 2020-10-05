@@ -136,7 +136,7 @@ A fundamental ufw command may look like `ufw [--dry-run] [option] [rule syntax]`
 
 **Few useful commands**:
 
-  > Change the port number (here 22, 8 and 25), I.P. ( here 192.168.2.100 or 192.168.2.100 ), protocol and services (here TCP, UDP and SSH) according to your requirement.
+  > Change the port number (here 22, 8 and 25), I.P. ( here 192.168.2.100 or 192.168.2.101 ), protocol and services (here TCP, UDP and SSH) according to your requirement.
 
   - `$ sudo ufw allow 22` can be used to allow traffic on port 22.
   - `$ sudo ufw deny 22` can be used to deny traffic on port 22.
