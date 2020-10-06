@@ -5,7 +5,7 @@
 - [Reverse Proxy | Proxy | Forward Proxy](#proxy-servers)
 - [Caching Servers](#caching-servers)
 - [Load Balancer](#load-balancers)
-- Firewall
+- [Firewall](./firewalls.md)
 - Webservers
   - Python : WSGI | uWSGI | Tornado
   - Nginx
