@@ -289,3 +289,17 @@ Information:
     Allows an alternate shell be used such as zsh, csh, tcsh, powershell, and others.
 
 
+
+
+Basic Docker Commands
+
+1) Docker run - Start a Container
+2) Docker ps - List all the running Container
+3) Docker ps -a - List all the running as well as stoped docker container
+4) Docker stop <container-id> or <container-name> - to stop container
+5) Docker rm <container-id> or <container-name> - to remove the containner
+6) Docker images - show all the images find locally or downloaded
+7) Docker rmi <image-name> - remove the image that is specified
+8) Docker pull <image-name> - to pull image but not run
+9) Docker exec - to see what inside running container
+10) Docker run -d <image-name> - run image in the background mode

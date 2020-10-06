@@ -108,7 +108,33 @@ traceroute to google.com (216.58.198.78), 128 hops max, 72 byte packets
 tracepath performs a very simlar function to traceroute the main difference is that tracepath doesn't take complicated options.
 
 ### nmap
-“ network exploration tool and security scanner”. nmap is a very advanced network tool used to query machines (local or remote) as to whether they are up and what ports are open on these machines.
+“ network exploration tool and security scanner”. nmap is a very advanced network tool used to query machines (local or remote) as to whether they are up and what ports are open on these machines. Some features only activate when Nmap is run with privileges. More information: <https://nmap.org>.
+```
+# Try to determine whether the specified hosts are up and what are their names:
+nmap -sn {{ip_or_hostname}} {{optional_another_address}}
+
+# Like above, but also run a default 1000-port TCP scan if host seems up:
+nmap {{ip_or_hostname}} {{optional_another_address}}
+
+# Also enable scripts, service detection, OS fingerprinting and traceroute:
+nmap -A {{address_or_addresses}}
+
+# Assume good network connection and speed up execution:
+nmap -T4 {{address_or_addresses}}
+
+# Scan a specific list of ports (use -p- for all ports 1-65535):
+nmap -p {{port1,port2,…,portN}} {{address_or_addresses}}
+
+# Perform TCP and UDP scanning (use -sU for UDP only, -sZ for SCTP, -sO for IP):
+nmap -sSU {{address_or_addresses}}
+
+# Perform TLS cipher scan against a host to determine supported ciphers and SSL/TLS protocols:
+nmap --script ssl-enum-ciphers {{address_or_addresses}} -p 443
+
+# Perform full port, service, version detection scan with all default NSE scripts active against a host to determin weaknesses and info:
+nmap -sC -sV {{address_or_addresses}}
+
+```
 
 
 ### dig

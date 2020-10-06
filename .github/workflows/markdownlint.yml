@@ -1,0 +1,23 @@
+jobs:
+  lint-changelog:
+    name: Lint changelog file
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Lint changelog file
+      uses: docker://avtodev/markdown-lint:v1
+      with:
+        rules: '/lint/rules/changelog.js'
+        config: '/lint/config/changelog.yml'
+        args: './CHANGELOG.md'
+
+    # Or using current repository as action:
+
+    - name: Lint changelog file
+      uses: avto-dev/markdown-lint@v1
+      with:
+        rules: '/lint/rules/changelog.js'
+        config: '/lint/config/changelog.yml'
+        args: './CHANGELOG.md'

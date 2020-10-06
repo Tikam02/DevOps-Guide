@@ -149,6 +149,52 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Umang2002",
+      "name": "Umang Dobariya",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/56287922?v=4",
+      "profile": "https://github.com/Umang2002",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Revenge-Rakesh",
+      "name": "Rakesh .B",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/36032275?v=4",
+      "profile": "https://github.com/Revenge-Rakesh",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fedGL",
+      "name": "Federico Garcia-Lorca",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/30448072?v=4",
+      "profile": "https://github.com/fedGL",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "kawaiipantsu",
+      "name": "Dave",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/12233528?v=4",
+      "profile": "https://github.com/kawaiipantsu",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "listout",
+      "name": "Brahmajit",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/66715002?v=4",
+      "profile": "https://listout.github.io/mysite/",
+      "contributions": [
+        "doc",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
