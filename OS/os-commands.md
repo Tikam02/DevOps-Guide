@@ -2,7 +2,7 @@
 
 - [Linux Performance monitoring]()
   - [top](#top)
-  - [ps aux]()
+  - [ps aux](#ps)
   - [kill](#kill)
   - [df](#df)
   - [ss](#ss)
@@ -167,7 +167,7 @@
 - [Linux / Unix: killall Command Examples](https://www.cyberciti.biz/faq/unix-linux-killall-command-examples-usage-syntax/)
 
 **************************
-## df 
+# df 
 
 - `df` (abbreviated disk **d**isk **f**ree) is a standard Unix command used to display the amount of available disk space for file systems on which the invoking user has appropriate write access.
 - `df` for Unix-like and Linux systems is a part of X/Open portability guide since issue 2 of 1987.
@@ -211,7 +211,7 @@ devtmpfs        123M     0  123M   0% /dev
 
 ---
 
-## ss
+# ss
 
 * The `ss` command is a tool used to dump socket statistics and display information in a similar fashion as `netstat`.
 * The `ss` command can display stats for `PACKETS, TCP, UDP, DCCP, RAW` and `Unix Domain Sockets`.
