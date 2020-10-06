@@ -1,10 +1,11 @@
 # OS commands
 
 - [Linux Performance monitoring]()
-  - [top]()
+  - [top](#top)
   - [ps aux]()
-  - [kill]()
-  - [df]()
+  - [kill](#kill)
+  - [df](#df)
+  - [ss](#ss)
 
 ***************
 
@@ -207,3 +208,28 @@ devtmpfs        123M     0  123M   0% /dev
 - [Linux General Commands Manual](https://www.mankier.com/1/df)
 - [FreeBSD General Commands Manual](https://www.freebsd.org/cgi/man.cgi?query=df&sektion=1)
 - [df commands examples](https://www.tecmint.com/how-to-check-disk-space-in-linux/)
+
+---
+
+## ss
+
+* The `ss` command is a tool used to dump socket statistics and display information in a similar fashion as `netstat`.
+* The `ss` command can display stats for `PACKETS, TCP, UDP, DCCP, RAW` and `Unix Domain Sockets`.
+* Usage:
+  * `$ ss` will list all the connections regardless of the state they are in.
+  * `$ ss -a` will list all the listening and not listening ports.
+  * `$ ss -l` will display only the listening ports.
+  * `$ ss -t` will display only the TCP connections.
+  * `$ ss -lt` will display the listening TCP ports.
+  * `$ ss -ua` will display all the UDP ports.
+  * `$ ss -lu` will display all the listening UDP ports.
+  * `$ ss -p` will display all the PID (Process IDs) of the sockets.
+  * `$ ss -s` will display all the summary statistics.
+  * `$ ss -4` and `$ ss -6` will display the ipv4 and ipv6 connections respectively.
+  * `$ ss  -at '(dport = :22 or sport = :22)'`, will filter all socket connections with a given destination port (dport) and source port (sport).
+  * alternatively `$ ss  -at '(dport = :ssh or sport = :ssh)'`, will filter all socket connections with a given destination port (dport) and source port (sport), but here the port is given as a service.
+
+### Resources
+
+- [linux.com's ss resource](https://www.linux.com/topic/networking/introduction-ss-command/)
+- [techmint's ss resource](https://www.tecmint.com/ss-command-examples-in-linux/)
