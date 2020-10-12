@@ -6,6 +6,7 @@
   - [kill](#kill)
   - [df](#df)
   - [ss](#ss)
+  - [lsof](#lsof)
 
 ***************
 
@@ -233,3 +234,28 @@ devtmpfs        123M     0  123M   0% /dev
 
 - [linux.com's ss resource](https://www.linux.com/topic/networking/introduction-ss-command/)
 - [techmint's ss resource](https://www.tecmint.com/ss-command-examples-in-linux/)
+
+**************************
+
+# lsof
+
+* lsof is a command meaning `list open files`, which is used in many Unix-like systems to report a list of all open files and the processes that opened them.
+* In linux/unix, everything is treated as files (pipes, sockets, directories, devices etc). Hence `lsof` is very handy tool in analyzing these resources.
+* Usage:
+  * `$ lsof` will list all open files.
+  * `$ lsof -u username` will list files opened by specific user.
+  * `$ lsof -i TCP:22` will list processes running on specific port.
+  * `$ lsof -i 4` or `$ lsof -i 6` will list IPv4 and IPv6 network files.
+  * `$ lsof -i TCP:1-1024` will list processes running on specific range of port.
+  * `$ lsof -i -u^username` will list open files not owned by specific user.
+  * `$ lsof -i` will shows the list of all network connections `LISTENING & ESTABLISHED`.
+  * `$ lsof -p 1` will show open files owned by specific process id.
+  * `$ lsof -c process-name` will list out all the files opened by a particular process.
+
+### Resources
+
+- [lsof wikipedia](https://en.wikipedia.org/wiki/Lsof)
+- [lsof tecmint doc](https://www.tecmint.com/10-lsof-command-examples-in-linux/)
+- [lsof geeksforgeeks doc](https://www.geeksforgeeks.org/lsof-command-in-linux-with-examples/)
+- [lsof man page](https://man7.org/linux/man-pages/man8/lsof.8.html)
+
