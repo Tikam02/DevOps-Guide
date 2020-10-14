@@ -1,4 +1,5 @@
-# Git Commands
+# Git Basic Commands
+
 ### Getting & Creating Projects
 
 | Command | Description |
