@@ -4,7 +4,7 @@ VirtualBox is a hypervisor used to run operating systems in special environment,
 
 ## Installation Procedure
 
-* Make sure have the host modules are installed for your distribution. You may also need to install the kernel headers if your operating system does not come with by default.
+* Make sure the host modules are installed for your distribution. Kernel headers may also be needed if your operating system does not come with one by default.
 * Install the virtualbox package. Use your distributions package manager.
     - For `apt` use `$ sudo apt install virtualbox`
     - For `pacman` user `$ sudo pacman -Syu virtualbox`
