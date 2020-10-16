@@ -30,4 +30,4 @@ For accessing USB devices inside guest, the authorized users must be in the `vbo
 
 ---
 
-More detailed instructions, common problem and their solutions can be found at the [Arch Wiki for VirtualBox](https://wiki.archlinux.org/index.php/VirtualBox)
+> More detailed instructions, common problem and their solutions can be found at the [Arch Wiki for VirtualBox](https://wiki.archlinux.org/index.php/VirtualBox)
