@@ -3,7 +3,7 @@
 ## How to setup local kuberenetes cluster?
 
 1. Install Docker
-2. Install Virtualbox
+2. [Install Virtualbox](install_virtualbox.md)
 3. Install minikube
 4. Install kubectl
 5. Install helm
@@ -18,7 +18,7 @@
 
 ## How to setup ssh and clone github repository through ssh?
 
-1. Create ssh - key 
+1. Create ssh - key
 ``` ssh-keygen -t rsa ```
 2. copy the generated RSA content to ssh settings in github dashboard.
 3. eval `ssh-agent`
