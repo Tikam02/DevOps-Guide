@@ -139,6 +139,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/kawaiipantsu"><img src="https://avatars0.githubusercontent.com/u/12233528?v=4" width="100px;" alt=""/><br /><sub><b>Dave</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=kawaiipantsu" title="Documentation">📖</a></td>
     <td align="center"><a href="https://listout.github.io/mysite/"><img src="https://avatars1.githubusercontent.com/u/66715002?v=4" width="100px;" alt=""/><br /><sub><b>Brahmajit</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=listout" title="Documentation">📖</a> <a href="https://github.com/Tikam02/DevOps-Guide/commits?author=listout" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://milindchawre.github.io/"><img src="https://avatars0.githubusercontent.com/u/21288765?v=4" width="100px;" alt=""/><br /><sub><b>Milind Chawre</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milindchawre" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
