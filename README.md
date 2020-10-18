@@ -142,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://milindchawre.github.io/"><img src="https://avatars0.githubusercontent.com/u/21288765?v=4" width="100px;" alt=""/><br /><sub><b>Milind Chawre</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milindchawre" title="Code">💻</a></td>
     <td align="center"><a href="http://lnfnunes.com.br"><img src="https://avatars1.githubusercontent.com/u/2450417?v=4" width="100px;" alt=""/><br /><sub><b>Leandro Nunes</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=lnfnunes" title="Code">💻</a></td>
+    <td align="center"><a href="./CI-CD/CircleCI"><img src="img/logo/circleci.png" width="70x;" height="75px;" alt="CircleCI"/><br /><b>CircleCI</b></a><br /><sub><a href="./CI-CD/CircleCI/circleci-concepts.md">CircleCI Concepts</a></sub><br><sub><a href="./CI-CD/CircleCI/circleci-commands.md">CircleCI Commands</a></sub></td>
   </tr>
 </table>
 
