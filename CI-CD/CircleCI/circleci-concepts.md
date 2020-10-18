@@ -7,11 +7,11 @@ With CircleCI, you can automate your software’s build, test, and deployment an
 # CircleCI Features:
 Following are the most popular features CircleCI offers
 
-SSH into Builds
-Parallelism
-Resource Class
-Cache
-Workflows
-Monitoring
-Nomad Cluster
-APIs
+* SSH into Builds
+* Parallelism
+* Resource Class
+* Cache
+* Workflows
+* Monitoring
+* Nomad Cluster
+* APIs
