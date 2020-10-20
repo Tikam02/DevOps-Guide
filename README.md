@@ -94,16 +94,7 @@
 - [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
   
 **************************
-## To Do
 
-- [ ] Add More Notes on OS/Linux
-- [ ] Add more concepts of CI/CD
-- [ ] Add more interview Question about OS and Networking
-- [ ] Kubernetes Monitoring - Prometheus and Grafana
-- [ ] Add IaC concepts and Tools
-- [ ] Add - AWS CloudFormation,Terraform,Chef,Ansible,Puppet
-- [ ] Helm - charts
-**************************
 
 ## Contributors ✨
 
