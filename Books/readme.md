@@ -18,6 +18,7 @@
 16. [Research Guide Containers](research-guide-containers.pdf)
 17. [Research Guide Devops](research-guide-devops.pdf)
 18. [Trend Reports Kubernetes in the Enterprise](trend-report-kubernetes-in-the-enterprise.pdf)
+19. [Securing DevOps] (securing-devops.pdf)
 
 ******
 ## Resources : 
