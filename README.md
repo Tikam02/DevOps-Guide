@@ -143,6 +143,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://milindchawre.github.io/"><img src="https://avatars0.githubusercontent.com/u/21288765?v=4" width="100px;" alt=""/><br /><sub><b>Milind Chawre</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=milindchawre" title="Code">💻</a></td>
     <td align="center"><a href="http://lnfnunes.com.br"><img src="https://avatars1.githubusercontent.com/u/2450417?v=4" width="100px;" alt=""/><br /><sub><b>Leandro Nunes</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=lnfnunes" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/creativeyashi"><img src="https://avatars2.githubusercontent.com/u/56039343?v=4" width="100px;" alt=""/><br /><sub><b>Yashika Gupta</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=creativeyashi" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/victor-da-silva-a75951138/"><img src="https://avatars3.githubusercontent.com/u/40555247?v=4" width="100px;" alt=""/><br /><sub><b>Victor da Silva</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictordaSiIva" title="Code">💻</a></td>
   </tr>
 </table>
 
