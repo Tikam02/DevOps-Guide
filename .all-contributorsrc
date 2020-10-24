@@ -249,6 +249,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "petemadis",
+      "name": "petemadis",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44151476?v=4",
+      "profile": "https://github.com/petemadis",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
