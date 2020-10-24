@@ -19,8 +19,12 @@
 17. [Research Guide Devops](research-guide-devops.pdf)
 18. [Trend Reports Kubernetes in the Enterprise](trend-report-kubernetes-in-the-enterprise.pdf)
 19. [Securing DevOps] (securing-devops.pdf)
+20. [Agile Conversations: Transform Your Conversations, Transform Your Culture](https://www.amazon.com/Agile-Conversations-Transform-Your-Culture/dp/1942788975)
+21. [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
+22. [Cloud Native DevOps With Kubernetes](https://www.amazon.com/Cloud-Native-DevOps-Kubernetes-Applications/dp/1492040762)
 
 ******
 ## Resources : 
 
 - [10+ Great Books For Aspiring DevOps & SRE Engineers](https://medium.com/faun/10-great-books-for-aspiring-devops-sre-engineers-76536c7c4909)
+- [Top DevOps Books to Read in 2020](https://www.bmc.com/blogs/devops-books)
