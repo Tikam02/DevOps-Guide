@@ -140,6 +140,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/waniniraj"><img src="https://avatars0.githubusercontent.com/u/20483354?v=4" width="100px;" alt=""/><br /><sub><b>Niraj</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=waniniraj" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/petemadis"><img src="https://avatars1.githubusercontent.com/u/44151476?v=4" width="100px;" alt=""/><br /><sub><b>petemadis</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=petemadis" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="http://onaopewapo.wordpress.com"><img src="https://avatars1.githubusercontent.com/u/64684770?v=4" width="100px;" alt=""/><br /><sub><b>Onaopemipo</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Onaope" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-enable -->
