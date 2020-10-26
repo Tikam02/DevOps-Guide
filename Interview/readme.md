@@ -10,3 +10,9 @@
 - [Tech Interview Handbook](https://github.com/yangshun/tech-interview-handbook)
 
 - [Best Website a Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#interview-preparation)
+
+- [https://dzone.com/articles/how-to-prepare-for-your-devops-interview](How to Prepare for Your DevOps Interview)
+
+- [Top 20 Latest DevOps Interview Questions And Answers For 2020](https://www.softwaretestinghelp.com/devops-interview-questions)
+
+- [Top DevOps Interview Questions and Answers](https://hackr.io/blog/devops-interview-questions)
