@@ -314,6 +314,15 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "yenyl",
+      "name": "yenyl",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/57047995?v=4",
+      "profile": "https://github.com/yenyl",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
