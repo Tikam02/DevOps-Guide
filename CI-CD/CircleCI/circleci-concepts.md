@@ -18,3 +18,26 @@ Following are the most popular features CircleCI offers
 
 # CircleCI Project:
 A CircleCI project shares the name of the associated code repository in your VCS (GitHub or Bitbucket). Select Add Project from the CircleCI application to enter the Projects dashboard, from where you can set up and follow the projects you have access to.
+
+# Orbs:
+Orbs are packages of config that you either import by name or configure inline to simplify your config, share, and reuse config within and across projects. 
+
+# Jobs:
+Jobs are collections of steps. All of the steps in the job are executed in a single unit, either within a fresh container or VM.
+Visit the [Orbs Registry](https://circleci.com/developer/orbs) to search for orbs to help simplify your config.
+
+# Steps:
+Steps are a collection of executable commands which are run during a job.
+
+# Caching:
+Caching persists data between the same job in different Workflow builds, allowing you to reuse the data from expensive fetch operations from previous jobs. 
+
+# Workspace :
+When a workspace is declared in a job, files and directories can be added to it. Each addition creates a new layer in the workspace filesystem.
+
+# Artifacts :
+Artifacts are used for longer-term storage of the outputs of your pipelines. Artifacts are stored for up to 30 days.
+
+# CircleCI Config :
+CircleCI believes in configuration as code. As a result, the entire delivery process from build to deploy is orchestrated through a single file called config.yml.
+The config.yml file is located in a folder called .circleci at the top of your project. CircleCI uses the YAML syntax for config.
