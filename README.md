@@ -145,6 +145,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/mygwen"><img src="https://avatars2.githubusercontent.com/u/56973180?v=4" width="100px;" alt=""/><br /><sub><b>mygwen</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=mygwen" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/cjjp-sushi"><img src="https://avatars2.githubusercontent.com/u/44535517?v=4" width="100px;" alt=""/><br /><sub><b>peachybutt</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=cjjp-sushi" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/jenistenxavier"><img src="https://avatars1.githubusercontent.com/u/43406772?v=4" width="100px;" alt=""/><br /><sub><b>Jenisten Xavier</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=jenistenxavier" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/sahid1486"><img src="https://avatars1.githubusercontent.com/u/60508279?v=4" width="100px;" alt=""/><br /><sub><b>sahid1486</b></sub></a><br /><a href="#content-sahid1486" title="Content">🖋</a> <a href="https://github.com/Tikam02/DevOps-Guide/commits?author=sahid1486" title="Code">💻</a></td>
   </tr>
 </table>
 
