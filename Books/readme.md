@@ -28,3 +28,6 @@
 
 - [10+ Great Books For Aspiring DevOps & SRE Engineers](https://medium.com/faun/10-great-books-for-aspiring-devops-sre-engineers-76536c7c4909)
 - [Top DevOps Books to Read in 2020](https://www.bmc.com/blogs/devops-books)
+- [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
+- [Practical DevOps: Harness the power of DevOps to boost your skill set and make your IT organization perform better](https://www.amazon.com/Practical-DevOps-Joakim-Verona/dp/1785882872)
+
