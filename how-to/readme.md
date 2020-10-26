@@ -6,7 +6,7 @@
 2. [Install Virtualbox](install_virtualbox.md)
 3. Install minikube
 4. Install kubectl
-5. Install helm
+5. [Install helm](instal-helm.md))
 
 
 ## How to setup basic monitoring in cloud?
