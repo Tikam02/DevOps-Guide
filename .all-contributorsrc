@@ -304,6 +304,16 @@
         "content",
         "code"
       ]
+    },
+    {
+      "login": "ThorstenHans",
+      "name": "Thorsten Hans",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/357884?v=4",
+      "profile": "https://thorsten-hans.com",
+      "contributions": [
+        "content",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
