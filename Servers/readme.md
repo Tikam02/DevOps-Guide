@@ -2,9 +2,9 @@
 
 
 - [Servers introduction](https://github.com/Onaope/DevOps-Guide/blob/master/Servers/All%20about%20Servers.pdf "All about Servers")
-- [Reverse Proxy | Proxy | Forward Proxy](#proxy-servers)
+- [Reverse Proxy | Proxy | Forward Proxy](./proxy-servers.md)
 
-- [Caching Servers](#caching-servers)
+- [Caching Servers](.caching-servers.md)
 - [Load Balancer](#load-balancers)
 - [Firewall](./firewalls.md)
 - Webservers
