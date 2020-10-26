@@ -142,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://onaopewapo.wordpress.com"><img src="https://avatars1.githubusercontent.com/u/64684770?v=4" width="100px;" alt=""/><br /><sub><b>Onaopemipo</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Onaope" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mygwen"><img src="https://avatars2.githubusercontent.com/u/56973180?v=4" width="100px;" alt=""/><br /><sub><b>mygwen</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=mygwen" title="Documentation">📖</a></td>
   </tr>
 </table>
 
