@@ -6,7 +6,7 @@ A Proxy server is like an app or a software that makes a specific or pre-defined
 
 The forward proxy server acts like an intermediate server and all the incoming requests from clients is configured to be handled by the Proxy server which inturn sends the request to the destination server. Similarly when the destination server gives the response, the proxy server receives the response and sends it back to the client. In this case client's information is completely hidden from the server as the proxy server masks the incoming requests and tansmits them over the Internet. 
 
-![Forward Proxy Server](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/ForwardProxyServer.png)
+![Forward Proxy Server](https://github.com/Tikam02/DevOps-Guide/blob/master/img/ForwardProxyServer.png)
 
 For example - Imagine an organisation wants to prevent users from accessing Facebook, they have to get all the incoming requests from their employees and send it to their own proxy server where they have configured to block requests coming for Facebook urls and allow all other requests to reach their designated locations. 
 
@@ -22,7 +22,7 @@ For example - Imagine an organisation wants to prevent users from accessing Face
 
 Reverse proxy server is a type of server that requests network resources on behalf of a client from one or more destination servers. Here the client has no clue on which server is serving its request as the data from the server is configured to serve the response via the reverse proxy server. The Reverse proxy server also adds and extra layer of security to Internet facing services. 
 
-![Reverse Proxy Server](https://github.com/Tikam02/DevOps_Cheatsheet/blob/master/img/ReverseProxy.jpeg)
+![Reverse Proxy Server](https://github.com/Tikam02/DevOps-Guide/blob/master/img/ReverseProxy.jpeg)
 
 For example - Imagine if an organisation wants to stream data to the outside world, they can configure the reverse proxy server to handle the requests from clients. 
 
