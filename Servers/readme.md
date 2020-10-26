@@ -2,7 +2,7 @@
 
 
 - [Servers introduction](#servers-introduction)
-- [Reverse Proxy | Proxy | Forward Proxy](#proxy-servers)
+- [Reverse Proxy | Proxy | Forward Proxy](./proxy-servers.md)
 - [Caching Servers](#caching-servers)
 - [Load Balancer](#load-balancers)
 - [Firewall](./firewalls.md)
