@@ -15,3 +15,6 @@ Following are the most popular features CircleCI offers
 * Monitoring
 * Nomad Cluster
 * APIs
+
+# CircleCI Project:
+A CircleCI project shares the name of the associated code repository in your VCS (GitHub or Bitbucket). Select Add Project from the CircleCI application to enter the Projects dashboard, from where you can set up and follow the projects you have access to.
