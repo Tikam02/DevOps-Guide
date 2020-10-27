@@ -41,3 +41,9 @@ Artifacts are used for longer-term storage of the outputs of your pipelines. Art
 # CircleCI Config :
 CircleCI believes in configuration as code. As a result, the entire delivery process from build to deploy is orchestrated through a single file called config.yml.
 The config.yml file is located in a folder called .circleci at the top of your project. CircleCI uses the YAML syntax for config.
+
+# Commands  :
+A command definition defines a sequence of steps as a map to be executed in a job, enabling you to reuse a single command definition across multiple jobs.
+
+# Executors   :
+Executors define the environment in which the steps of a job will be run, allowing you to reuse a single executor definition across multiple jobs.
