@@ -1,6 +1,6 @@
 # Caching Server
 
-**What is a Caching ?**
+**What is Caching ?**
 
 Caching is the process of storing copies of files in multiple temporary locations to help users access access the data faster. This process speeds up the process of accesing web content over the Internet. A Cache server by default allows all outgoing requests and monitors all incoming requets. 
 
