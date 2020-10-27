@@ -66,11 +66,17 @@ Google Cloud APIs are a key part of Google Cloud. Like services, the 200+ APIs i
 
 Most Cloud APIs provide you with detailed information on your project’s usage of that API, including traffic levels, error rates, and even latencies, helping you to quickly triage problems with applications that use Google services. You can view this information by opening the navigation menu and clicking on APIs & Services > Library:
 
+![GCP Explaination Image](https://cdn.qwiklabs.com/IhN1xAfMsp0KrMIwX50LGtlzcsup%2BfK45UA1wseaaa4%3D)
+
 If you take a look at the left-hand menu with the header "CATEGORY", you will see all the different type of categories offered. In the API search bar, type in Dialogflow and select the Dialogflow API. You should now be on the following page:
+
+![GCP Explaination Image](https://cdn.qwiklabs.com/TJxda7OL7Z8mAPtAWRFkf16dH2KSGWP%2FS0cEvzofT%2Fw%3D)
 
 The Dialogflow API allows you to build rich conversational applications (e.g. for Google Assistant) without having to worry about the underlying machine learning and natural language understanding schema.
 
 Now click Enable. This will take you to a new page, hit the back button in your browser and you will see that the API is now enabled:
+
+![GCP Explaination Image](https://cdn.qwiklabs.com/eTgnbsNvLaqrex7qumvUuzQEc114GwncM%2FV8xL4j594%3D)
 
 Now click on Try this API. This will open a new tab that will reveal the documentation for the Dialogflow API and will specify the methods available to you. Examine some of these and close the tab when you're finished.
 
@@ -83,9 +89,21 @@ Cloud Shell lets you run all of your shell commands without leaving the console 
 
 In the top-right corner of the console, click on the Activate Cloud Shell button and then click Start Cloud Shell if prompted:
 
+![GCP Explaination Image](https://cdn.qwiklabs.com/RuUJsmCzDpq4kWuMpt4yXLfoj6kH3MGYNcI0DE3ipB0%3D)
+
 A new, black window should appear at the bottom of the console with messages and prompts that resemble the following:
 
+'''
+Welcome to Cloud Shell! Type "help" to get started.
+Your Cloud Platform project in this session is set to qwiklabs-gcp-76ad0f1342e20013.
+Use "gcloud config set project [PROJECT_ID]" to change to a different project.
+gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$
+'''
+
 You now have a Cloud Shell session up and running. Type in the following command:
+
+
+
 You will get an output similar to this:
 As mentioned earlier, Cloud Shell comes preinstalled with specific command line tools. The main Google Cloud toolkit is gcloud, which is used for many tasks on the platform, like resource management and user authentication.
 
