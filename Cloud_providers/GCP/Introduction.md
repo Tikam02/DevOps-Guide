@@ -13,14 +13,18 @@ Google Cloud Platform is a part of Google Cloud, which includes the Google Cloud
 2. This will open the Google Cloud sign in page
  ![Google Login Page](https://cdn.qwiklabs.com/zET9RtU1aN7f3FhNhhUNe7%2BPbBtgwz4fTUO3E86m8m0%3D)
 3. Your page should now resemble the following:
+![GCP Explaination Image](https://cdn.qwiklabs.com/vPsOw690IZhUlPPxZk3asDaXQBRVZRiyr%2B6nBXCqEf4%3D)
 ## Projects in Google Cloud Console
 A Google Cloud Project is an organizing entity for your Google Cloud resources. It often times contains resources and services—for example, it may hold a pool of virtual machines, a set of databases, and a network that connects them with one another. Projects also contain settings and permissions, which specify security rules and who has access to what resources.
 If you look in the top-left side of the console, you will see a panel called Project info which should resemble the following:
+![GCP Explaination Image](https://cdn.qwiklabs.com/kaHKc2t7OyP7YUPOj4Eqw0nuUXQvt0iUypsuaeqkzKw%3D)
 As you see, your project has a name, ID, and number. These identifiers are frequently used when interacting with Google Cloud services. You are working out of one project so you can get practice with a specific service or feature of Google Cloud.
 It's not uncommon for large enterprises or experienced users of Google Cloud to have dozens to thousands of Google Cloud projects. Organizations use Google Cloud in different ways, so projects are a good way to separate cloud-computing services (by team or product for example.
 ## Navigation Menu and Services
 * In the top-left corner, you will notice a three-line icon that resembles the following:
+![GCP Explaination Image](https://cdn.qwiklabs.com/jNaEVX1xXeOOasukmY%2B9mcktmn9gjkwgNAJEkBlIYbI%3D)
 * Clicking on this will reveal (or hide) a Navigation menu that points to Google Cloud's core services. If the menu isn't exposed, click on the icon now and scroll through to see the types of services offered:
+![GCP Explaination Image](https://cdn.qwiklabs.com/gk6CVCz3LGXvViYQ%2FZUp%2Bu1VqI0DBrDAZh7kToRN20Q%3D)
 The Navigation menu is an important component of the Cloud Console—it offers quick access to the platform's services and also outlines its offerings. If you scroll through the menu, you will see that there are seven categories of Google Cloud services:
 
 * Compute: houses a variety of machine types that support any type of workload. The different computing options let you decide how involved you want to be with operational details and infrastructure amongst other things.
