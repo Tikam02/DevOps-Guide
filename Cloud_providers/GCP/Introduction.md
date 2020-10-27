@@ -17,7 +17,9 @@ Google Cloud Platform is a part of Google Cloud, which includes the Google Cloud
 ## Projects in Google Cloud Console
 A Google Cloud Project is an organizing entity for your Google Cloud resources. It often times contains resources and services—for example, it may hold a pool of virtual machines, a set of databases, and a network that connects them with one another. Projects also contain settings and permissions, which specify security rules and who has access to what resources.
 If you look in the top-left side of the console, you will see a panel called Project info which should resemble the following:
+
 ![GCP Explaination Image](https://cdn.qwiklabs.com/kaHKc2t7OyP7YUPOj4Eqw0nuUXQvt0iUypsuaeqkzKw%3D)
+
 As you see, your project has a name, ID, and number. These identifiers are frequently used when interacting with Google Cloud services. You are working out of one project so you can get practice with a specific service or feature of Google Cloud.
 It's not uncommon for large enterprises or experienced users of Google Cloud to have dozens to thousands of Google Cloud projects. Organizations use Google Cloud in different ways, so projects are a good way to separate cloud-computing services (by team or product for example.
 ## Navigation Menu and Services
