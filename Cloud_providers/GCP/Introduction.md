@@ -9,7 +9,7 @@ In April 2008, Google announced App Engine, a platform for developing and hostin
 Google Cloud Platform is a part of Google Cloud, which includes the Google Cloud Platform public cloud infrastructure, as well as Google Workspace (formerly G Suite[5]), enterprise versions of Android and Chrome OS, and application programming interfaces (APIs) for machine learning and enterprise mapp
 
 ## Accessing the Cloud Console
-1. Go to this link to open cloud console
+1. Go to this link to open cloud console [link](https://accounts.google.com/AddSession/signinchooser?service=accountsettings&continue=https%3A%2F%2Fconsole.cloud.google.com%2Fhome%2Fdashboard%3Fproject%3Dqwiklabs-gcp-00-f55253468191&flowName=GlifWebSignIn&flowEntry=AddSession)
 2. This will open the Google Cloud sign in page
 3. Your page should now resemble the following:
 ## Projects in Google Cloud Console
