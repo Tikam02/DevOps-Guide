@@ -11,6 +11,7 @@ Google Cloud Platform is a part of Google Cloud, which includes the Google Cloud
 ## Accessing the Cloud Console
 1. Go to this link to open cloud console [link](https://accounts.google.com/AddSession/signinchooser?service=accountsettings&continue=https%3A%2F%2Fconsole.cloud.google.com%2Fhome%2Fdashboard%3Fproject%3Dqwiklabs-gcp-00-f55253468191&flowName=GlifWebSignIn&flowEntry=AddSession)
 2. This will open the Google Cloud sign in page
+ ![Google Login Page](https://cdn.qwiklabs.com/zET9RtU1aN7f3FhNhhUNe7%2BPbBtgwz4fTUO3E86m8m0%3D)
 3. Your page should now resemble the following:
 ## Projects in Google Cloud Console
 A Google Cloud Project is an organizing entity for your Google Cloud resources. It often times contains resources and services—for example, it may hold a pool of virtual machines, a set of databases, and a network that connects them with one another. Projects also contain settings and permissions, which specify security rules and who has access to what resources.
