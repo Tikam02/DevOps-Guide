@@ -113,9 +113,9 @@ You will get an output similar to this:
 
 _Credentialed Accounts
 ACTIVE  ACCOUNT
-*       gcpstaging23396_student@qwiklabs.net
+\*       gcpstaging23396_student@qwiklabs.net
 To set the active account, run:
-    $ gcloud config set account `ACCOUNT`_
+    $ gcloud config set account \`ACCOUNT\`_
     
     
     
