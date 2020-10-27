@@ -93,17 +93,32 @@ In the top-right corner of the console, click on the Activate Cloud Shell button
 
 A new, black window should appear at the bottom of the console with messages and prompts that resemble the following:
 
-'''Welcome to Cloud Shell! Type "help" to get started.
+
+_Welcome to Cloud Shell! Type "help" to get started.
 Your Cloud Platform project in this session is set to qwiklabs-gcp-76ad0f1342e20013.
 Use "gcloud config set project [PROJECT_ID]" to change to a different project.
-gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$'''
+gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$_
+
 
 
 You now have a Cloud Shell session up and running. Type in the following command:
 
 
+_gcloud auth list_
+
+
 
 You will get an output similar to this:
+
+
+_Credentialed Accounts
+ACTIVE  ACCOUNT
+*       gcpstaging23396_student@qwiklabs.net
+To set the active account, run:
+    $ gcloud config set account `ACCOUNT`_
+    
+    
+    
 As mentioned earlier, Cloud Shell comes preinstalled with specific command line tools. The main Google Cloud toolkit is gcloud, which is used for many tasks on the platform, like resource management and user authentication.
 
 You just ran a gcloud command—auth list—which lists the credentialed account(s) in your Google Cloud project. 
