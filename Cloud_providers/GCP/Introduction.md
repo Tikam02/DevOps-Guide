@@ -93,12 +93,11 @@ In the top-right corner of the console, click on the Activate Cloud Shell button
 
 A new, black window should appear at the bottom of the console with messages and prompts that resemble the following:
 
-'''
-Welcome to Cloud Shell! Type "help" to get started.
+'''Welcome to Cloud Shell! Type "help" to get started.
 Your Cloud Platform project in this session is set to qwiklabs-gcp-76ad0f1342e20013.
 Use "gcloud config set project [PROJECT_ID]" to change to a different project.
-gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$
-'''
+gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$'''
+
 
 You now have a Cloud Shell session up and running. Type in the following command:
 
