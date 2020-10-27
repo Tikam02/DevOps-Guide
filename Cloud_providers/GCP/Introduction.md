@@ -27,6 +27,7 @@ It's not uncommon for large enterprises or experienced users of Google Cloud to 
 ![GCP Explaination Image](https://cdn.qwiklabs.com/jNaEVX1xXeOOasukmY%2B9mcktmn9gjkwgNAJEkBlIYbI%3D)
 * Clicking on this will reveal (or hide) a Navigation menu that points to Google Cloud's core services. If the menu isn't exposed, click on the icon now and scroll through to see the types of services offered:
 ![GCP Explaination Image](https://cdn.qwiklabs.com/gk6CVCz3LGXvViYQ%2FZUp%2Bu1VqI0DBrDAZh7kToRN20Q%3D)
+
 The Navigation menu is an important component of the Cloud Console—it offers quick access to the platform's services and also outlines its offerings. If you scroll through the menu, you will see that there are seven categories of Google Cloud services:
 
 * Compute: houses a variety of machine types that support any type of workload. The different computing options let you decide how involved you want to be with operational details and infrastructure amongst other things.
@@ -40,11 +41,24 @@ This link will take you to documentation that covers each of these categories in
 ## Roles and Permissions
 Earlier we mentioned that besides cloud computing services, Google Cloud also houses a collection of permissions and roles that define who has access to what resources. We can use the Cloud Identity and Access Management (Cloud IAM) service to inspect and modify such roles and permissions.
 
+![GCP Explaination Image](https://cdn.qwiklabs.com/v5er%2BfG4yURAeD9YUOKNuDgtD9KdMi9Sg2Ph9XThkZA%3D)
+
 If closed, open up the navigation menu. Then near the top click IAM & admin. This will take you to a page that contains a list of users, which specifies permissions and roles granted to certain accounts. Try to sift through these and find the "@qwiklabs" username you signed in with:
 
+
 You should find something similar:
+
+![GCP Explaination Image](https://cdn.qwiklabs.com/2DMzLfj5mYLyzliG6TBp9A0PoW1PHzDXVffA%2FwbL%2BiQ%3D)
+
 You will see that the Role field is set to "Editor", which is one of three primitive roles offered by Google Cloud. Primitive roles set project-level permissions and unless otherwise specified, they control access and management to all Google Cloud services.
 The following table pulls definitions from the roles documentation, which gives a brief overview of viewer, editor, and owner role permissions:
+
+Role Name | Permissions
+--------- | -----------
+roles/viewer | Permissions for read-only actions that do not affect state, such as viewing (but not modifying) existing resources or data.
+roles/editor | All viewer permissions, plus permissions for actions that modify state, such as changing existing resources.
+roles/owner | All editor permissions and permissions for the following actions: Manage roles and permissions for a project and all resources within the project; Set up billing for a project.
+
 So as an editor you will be able to create, modify, and delete Google Cloud resources. However, you won't be able to add or delete members from Google Cloud projects.
 
 ## APIs and Services
