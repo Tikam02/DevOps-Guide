@@ -94,28 +94,28 @@ In the top-right corner of the console, click on the Activate Cloud Shell button
 A new, black window should appear at the bottom of the console with messages and prompts that resemble the following:
 
 
-_Welcome to Cloud Shell! Type "help" to get started.
+Welcome to Cloud Shell! Type "help" to get started.
 Your Cloud Platform project in this session is set to qwiklabs-gcp-76ad0f1342e20013.
 Use "gcloud config set project [PROJECT_ID]" to change to a different project.
-gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$_
+gcpstaging23396_student@cloudshell:~ (qwiklabs-gcp-76ad0f1342e20013)$
 
 
 
 You now have a Cloud Shell session up and running. Type in the following command:
 
 
-_gcloud auth list_
+gcloud auth list
 
 
 
 You will get an output similar to this:
 
 
-_Credentialed Accounts
+Credentialed Accounts
 ACTIVE  ACCOUNT
 \*       gcpstaging23396_student@qwiklabs.net
 To set the active account, run:
-    $ gcloud config set account \`ACCOUNT\`_
+    $ gcloud config set account \`ACCOUNT\`
     
     
     
@@ -127,17 +127,60 @@ Besides pre-installed toolkits, Cloud Shell also comes with the standard unix co
 
 Run the following touch command to create a file called test.txt:
 
+
+touch test.txt
+
+
+
 touch won't generate any output. Run the unix command ls to list the files in our current directory:
+
+
+ls
+
+
+
 You should receive the following output:
+
+
+README-cloudshell.txt  test.txt
+
+
+
 We see our new test.txt file added to our working directory. Let's make some edits to it using the nano text editor that we referenced earlier. To edit a file, type in nano followed by the filename you want to edit in Cloud Shell:
+
+
+README-cloudshell.txt  test.txt
+
+
+
 This will open the blank file with the Nano text editor:
+
+
+![GCP Explaination Image](https://cdn.qwiklabs.com/xvq7XWdjSMm7k8g3pdSchB70h3IKQtgT4frc3fBWkzU%3D)
+
+
 Go ahead and type in a message, like the following:
+
+
+Google Cloud is the best!
+
+
 
 Once you have that written in, hold the CNTRL+X keys. Then type in Y followed by the Enter key to save the file with the new message.
 
 Another helpful command is cat, which will output the contents of a file. Run the following command to make sure that our file was updated correctly:
 
+
+cat test.txt
+
+
+
 You should see the following output in your Cloud Shell session:
+
+
+Google Cloud is the best!
+
+
 
 And just like that, you were able to create, edit, and output the contents of a file all in Cloud Shell (all without having to leave your browser.)
 
