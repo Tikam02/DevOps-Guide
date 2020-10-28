@@ -77,6 +77,10 @@
 
 ``` docker network ls ```
 
+- Access an already container
+
+``` docker exec -it <containerId> bash ```
+
 
 *********************************************
 
@@ -221,3 +225,6 @@ foreach ($image in $images) { docker image rm $image -f }
 
 ### Docker run bash shell of image
 ```docker run -it --entrypoint bash <image-name>```
+
+### Docker list of commands available
+```docker --help```
