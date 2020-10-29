@@ -1,0 +1,26 @@
+Configuration of Master( Name Node )
+STEP I:  Download and install jdk-8u171-linux-x64.rpm& hadoop-1.2.1-
+1.x86_64.rpm
+STEP II :Check installed versions of  java & hadoop .
+STEP 3 :Create a directory for example “/nameNode”.
+STEP 4 :  Go to hadoop directory by following command.
+# cd/etc/hadoop/
+Now edit hdfs-site.xmlfile presentin hadoop directory.
+# vim hdfs-site.xml
+Save and exit from hdfs-site.xmlfile
+STEP 5 :  Go to hadoop directory by following command.
+# cd/etc/hadoop/
+Now edit hdfs-site.xmlfile present in hadoop directory.
+# vimcore-site.xml
+Enter Your master ip address here…
+Enterthe port number here that you want to set
+-
+Save and Exit 
+STEP 6 :  Format the file system by following command.
+# hadoop namenode –format
+STEP 7: Now start the namenode.
+STEP 8:Check whether the master is running or not.
+STEP 9 :Now disable the firewall of master node.
+STEP 10 :   After configuring the slave node run this command to check whether 
+data node is connected to master or not.
+Master/Namenode is Successfully Configured
