@@ -341,6 +341,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "genepride",
+      "name": "genepride",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44505677?v=4",
+      "profile": "https://github.com/genepride",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
