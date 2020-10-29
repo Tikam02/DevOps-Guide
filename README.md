@@ -153,6 +153,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/tiramisubliss"><img src="https://avatars2.githubusercontent.com/u/17046296?v=4" width="100px;" alt=""/><br /><sub><b>Wasisto</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=tiramisubliss" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/Sakura74"><img src="https://avatars0.githubusercontent.com/u/62328534?v=4" width="100px;" alt=""/><br /><sub><b>Muskan Rathore</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Sakura74" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/Ebennetteng"><img src="https://avatars0.githubusercontent.com/u/60264726?v=4" width="100px;" alt=""/><br /><sub><b>Ebennetteng</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=Ebennetteng" title="Documentation">📖</a></td>
   </tr>
 </table>
 
