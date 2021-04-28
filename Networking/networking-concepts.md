@@ -223,7 +223,7 @@
    
    - Authoritative nameserver - This final nameserver can be thought of as a dictionary on a rack of books, in which a specific name can be translated into its definition. The authoritative nameserver is the last stop in the nameserver query. If the authoritative name server has access to the requested record, it will return the IP address for the requested hostname back to the DNS Recursor (the librarian) that made the initial request.
 
-- dns records
+- DNS Records
 
     - A record:
         - The A record, which is also called a host record contains the ipv4-address of a computer.When a DNS client queries a DNS server for an A record, then the DNS server will resolve the hostname in the query to an ip address. An AAAA record is similar but contains an ipv6 address instead of ipv4.
