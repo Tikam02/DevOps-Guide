@@ -11,7 +11,7 @@
 
 - [Best Website a Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#interview-preparation)
 
-- [https://dzone.com/articles/how-to-prepare-for-your-devops-interview](How to Prepare for Your DevOps Interview)
+- [How to Prepare for Your DevOps Interview](https://dzone.com/articles/how-to-prepare-for-your-devops-interview)
 
 - [Top 20 Latest DevOps Interview Questions And Answers For 2020](https://www.softwaretestinghelp.com/devops-interview-questions)
 
