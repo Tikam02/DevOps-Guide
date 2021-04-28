@@ -1,4 +1,4 @@
-# Networking :
+# Networking:
 
 - Networking Commands
 - Networking Concepts
