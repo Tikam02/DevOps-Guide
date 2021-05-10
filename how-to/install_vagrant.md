@@ -2,7 +2,7 @@
 Vagrant is a tool for building and managing virtual machine environments in a single workflow which lowers development environment setup time and increases production parity. 
 
 ## Notice
-The Package Manager method's explanation is based on Ubuntu distribution of GNU/Linux. For more distributions explanations, please visit [Vagrant's Original Website](https://www.vagrantup.com).
+The Package Manager method's explanation is based on Ubuntu distribution of GNU/Linux. For more distributions explanations, please visit [Vagrant's Official Website](https://www.vagrantup.com).
 
 ## Installation Guide
 You can either download the latest version from [Vagrant](https://www.vagrantup.com/downloads) and install it, or use your package manager instead.
@@ -28,7 +28,7 @@ You can confirm the installation by checking the version:
 vagrant version
 ```
 ### Using Package Manager
-In this method, as the [Vagrant's Official](https://www.vagrantup.com/downloads)download page mentions, you need to run these commands in order:
+In this method, as the [Vagrant's Official](https://www.vagrantup.com/downloads) download page mentions, you need to run these commands in order:
 ```
 curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
