@@ -94,6 +94,16 @@ vagrant suspend
 vagrant validate
 ```
 
+* To provision your VM:
+```
+vagrant provision
+```
+
+* To run your VM without provisioning:
+```
+vagrant up --no-provision
+```
+
 * To SSH into your VM:
 ```
 vagrant ssh
@@ -123,3 +133,6 @@ vagrant global-status
 ```
 vagrant reload
 ```
+
+# References
+* [Vagrant Docs](https://www.vagrantup.com/docs)
