@@ -5,13 +5,13 @@ Vagrant is a tool for building and managing virtual machine environments in a si
 The Package Manager method's explanation is based on Ubuntu distribution of GNU/Linux. For more distributions explanations, please visit [Vagrant's Official Website](https://www.vagrantup.com).
 
 ## Installation Guide
-You can either download the latest version from [Vagrant](https://www.vagrantup.com/downloads) and install it, or use your package manager instead.
+You can either download the latest version from [Vagrant](https://www.vagrantup.com/downloads) website and install it, or use your package manager instead.
 Here's an explanation of both methods:
 * #### Using Zip File
 * #### Using Package Manager
 
 ### Using Zip File
-First, download the Vagrant latest zip file on your host using:
+First, download the Vagrant's latest zip file on your host using:
 ```
 wget https://releases.hashicorp.com/vagrant/2.2.16/vagrant_2.2.16_linux_amd64.zip
 ```
