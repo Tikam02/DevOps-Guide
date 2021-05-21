@@ -18,7 +18,7 @@
 16. [Research Guide Containers](research-guide-containers.pdf)
 17. [Research Guide Devops](research-guide-devops.pdf)
 18. [Trend Reports Kubernetes in the Enterprise](trend-report-kubernetes-in-the-enterprise.pdf)
-19. [Securing DevOps] (securing-devops.pdf)
+19. [Securing DevOps](securing-devops.pdf)
 20. [Agile Conversations: Transform Your Conversations, Transform Your Culture](https://www.amazon.com/Agile-Conversations-Transform-Your-Culture/dp/1942788975)
 21. [The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592)
 22. [Cloud Native DevOps With Kubernetes](https://www.amazon.com/Cloud-Native-DevOps-Kubernetes-Applications/dp/1492040762)
@@ -29,6 +29,9 @@
 27. [Effective DevOps with AWS: Ship faster, scale better, and deliver incredible productivity](https://www.amazon.com/Effective-DevOps-AWS-incredible-productivity-ebook/dp/B01N4EREO3)
 28. [Ansible for DevOps: Server and configuration management for humans](https://www.amazon.com/Ansible-DevOps-Server-configuration-management/dp/098639341X)
 29. [DevOps for Developers (Expert's Voice in Web Development](https://www.amazon.com/DevOps-Developers-Experts-Voice-Development/dp/1430245697)
+30. [Python sheet](python%20sheet%20.pdf)
+31. [Kubernetes sheet](kubernetes%20sheet%20.pdf)
+32. [DevOps interview questions with answers](DevOps%20interview%20questions%20with%20answers.pdf)
 
 
 
@@ -40,6 +43,6 @@
 - [Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at Scale](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
 - [Practical DevOps: Harness the power of DevOps to boost your skill set and make your IT organization perform better](https://www.amazon.com/Practical-DevOps-Joakim-Verona/dp/1785882872)
 - [Practice of System and Network Administration, The: Volume 1: DevOps and other Best Practices for Enterprise IT](https://www.amazon.com/Practice-System-Network-Administration-Enterprise/dp/0321919165)
-
+- [Interactive Browser Based Labs, Courses & Playgrounds](https://www.katacoda.com/learn)
 
 
