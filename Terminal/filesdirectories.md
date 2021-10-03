@@ -447,4 +447,4 @@ $ ls -sh bkp_words.tar.gz
 
 - [tar Q&A on unix stackexchange](https://unix.stackexchange.com/questions/tagged/tar?sort=votes&pageSize=15)
 - [tar Q&A on stackoverflow](https://stackoverflow.com/questions/tagged/tar?sort=votes&pageSize=15)
-- [superuser: gzip without tar? Why are they used together?]https://superuser.com/questions/252065/gzip-without-tar-why-are-they-used-together()
+- [superuser: gzip without tar? Why are they used together?](https://superuser.com/questions/252065/gzip-without-tar-why-are-they-used-together)
