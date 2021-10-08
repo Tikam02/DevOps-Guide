@@ -386,6 +386,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "darostegui",
+      "name": "Diego Arostegui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61184284?v=4",
+      "profile": "https://github.com/darostegui",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
