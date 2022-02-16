@@ -134,4 +134,4 @@ How to update the read,write & execute permissions for a file/dir
     	chmod 777 file/dir -- rwx for root, rwx for owner, rwx for others
     	chmod 764 file/dir -- rwx for root, rw for owner, r for others
     	chmod 755 fire/dir -- rwx for root, rw for owner, rw for others
-v
+---
