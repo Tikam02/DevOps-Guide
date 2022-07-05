@@ -390,7 +390,7 @@
 
 - Q3) How do you start/stop services?
   - (deprecated) service start/stop service_name
-  - systemctl strat/stop service_name
+  - systemctl start/stop service_name
 
 - Q4) How do you display the shell’s environment variables?
   - env
