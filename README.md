@@ -81,7 +81,7 @@
 
 - [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
 - [What is DevOps - Logit.io](https://logit.io/blog/post/what-is-devops)
-- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
+- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/public/roadmaps/devops.png)
 - [Devops Roadmap by Nguyen Truong Duong](https://github.com/raycad/devops-roadmap)
 - [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [r/devops](https://www.reddit.com/r/devops/)
@@ -93,6 +93,8 @@
 - [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
 - [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
 - [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
+- [How to Become a DevOps Engineer in Six Months](https://spacelift.io/blog/how-to-become-devops-engineer)
+- [Who is DevOps? Is it Worth it to Become a DevOps Engineer?](https://spacelift.io/blog/who-is-devops-engineer)
   
 **************************
 

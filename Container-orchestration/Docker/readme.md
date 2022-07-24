@@ -1,7 +1,7 @@
 ## Docker Tutorial
 **********
 ### Table of Contents:
-1. [Basic Concept of Images and Containers](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
+1. [Basic Concept of Images and Containers](https://github.com/Tikam02/DevOps-Guide/blob/master/Container-orchestration/Docker/docker-concepts.md)
 2. [Docker Setup](#2-setting-up-docker)
 3. [Developing Fullstack WebApp With Node-js](#3-flask-web-app)
 4. [Writing Dockerfile](#4-writing-dockerfile)
@@ -13,7 +13,7 @@
 
 ## 1. Basic concepts of docker - Containers and Images 
 
-- Detailed Docker concepts and notes from here - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Docker/docker-concepts.md)
+- Detailed Docker concepts and notes from here - [Docker Concepts](https://github.com/Tikam02/DevOps-Guide/blob/master/Container-orchestration/Docker/docker-concepts.md)
 
 - Introduction to Docker:
 
