@@ -1,4 +1,4 @@
-## Operting System
+## Operating System
 
 - [OS Concepts for DevOps](#os-concepts-for-devops)
 - [Operating System](#operating-system)
@@ -37,6 +37,6 @@
   - [Concepts](#concepts-8)
   - [Resources:](#resources-9)
 - [Cloud Computing](#cloud-computing)
-  - [concepts](#concepts)
+  - [Concepts](#concepts)
   - [Resources:](#resources-10)
 - [References:](#references)
