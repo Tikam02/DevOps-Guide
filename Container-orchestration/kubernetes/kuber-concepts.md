@@ -11,7 +11,7 @@
 
 *****************
 
-## Introdution
+## Introduction
  - What is Kubernetes?
 
     - Kubernetes, at its basic level, is a system for running and coordinating containerized applications across a cluster of machines. It is a platform designed to completely manage the life cycle of containerized applications and services using methods that provide predictability, scalability, and high availability.
