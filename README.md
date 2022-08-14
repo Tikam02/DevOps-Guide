@@ -81,7 +81,7 @@
 
 - [What is Devops - AWS](https://aws.amazon.com/devops/what-is-devops/)
 - [What is DevOps - Logit.io](https://logit.io/blog/post/what-is-devops)
-- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/img/devops.png)
+- [DevOps Roadmap by kamranahmedse](https://github.com/kamranahmedse/developer-roadmap/blob/master/public/roadmaps/devops.png)
 - [Devops Roadmap by Nguyen Truong Duong](https://github.com/raycad/devops-roadmap)
 - [Roadmap To devops](https://medium.com/faun/the-roadmap-to-become-a-devops-dude-from-server-to-serverless-dd97420f640e)
 - [r/devops](https://www.reddit.com/r/devops/)
@@ -93,6 +93,8 @@
 - [DevOps Getting Started](https://medium.com/@devfire/how-to-become-a-devops-engineer-in-six-months-or-less-366097df7737)
 - [How-to-get-started-with-devops](https://dev.to/liquid_chickens/how-to-get-started-with-devops)
 - [Going-from-it-to-devops](https://medium.com/better-programming/going-from-it-to-devops-996192520331)
+- [How to Become a DevOps Engineer in Six Months](https://spacelift.io/blog/how-to-become-devops-engineer)
+- [Who is DevOps? Is it Worth it to Become a DevOps Engineer?](https://spacelift.io/blog/who-is-devops-engineer)
   
 **************************
 
@@ -138,7 +140,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/creativeyashi"><img src="https://avatars2.githubusercontent.com/u/56039343?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yashika Gupta</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=creativeyashi" title="Code">💻</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/victor-da-silva-a75951138/"><img src="https://avatars3.githubusercontent.com/u/40555247?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor da Silva</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=VictordaSiIva" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/errazudin"><img src="https://avatars2.githubusercontent.com/u/539687?v=4?s=100" width="100px;" alt=""/><br /><sub><b>errazudin ishak</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=errazudin" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/waniniraj"><img src="https://avatars0.githubusercontent.com/u/20483354?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niraj</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=waniniraj" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/waniniraj"><img src="https://avatars0.githubusercontent.com/u/20483354?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Niraj</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=waniniraj" title="Code">💻</a> <a href="https://github.com/Tikam02/DevOps-Guide/commits?author=waniniraj" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/petemadis"><img src="https://avatars1.githubusercontent.com/u/44151476?v=4?s=100" width="100px;" alt=""/><br /><sub><b>petemadis</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=petemadis" title="Documentation">📖</a></td>
   </tr>
   <tr>
@@ -157,6 +159,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/ShvetaVasisht"><img src="https://avatars.githubusercontent.com/u/74658760?v=4?s=100" width="100px;" alt=""/><br /><sub><b>ShvetaVasisht</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=ShvetaVasisht" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/franciosi"><img src="https://avatars.githubusercontent.com/u/123564?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Franciosi</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=franciosi" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/s403o"><img src="https://avatars.githubusercontent.com/u/38042656?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eslam Adel</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=s403o" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/mahmoodahmad100"><img src="https://avatars.githubusercontent.com/u/24311652?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mahmood Ahmad</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=mahmoodahmad100" title="Documentation">📖</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/darostegui"><img src="https://avatars.githubusercontent.com/u/61184284?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Arostegui</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=darostegui" title="Code">💻</a></td>
   </tr>
 </table>
 

@@ -3,7 +3,7 @@
 
 ### Contents:
 
-- [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/notes/Dev-ops-Interview.md)
+- [DevOps Interview Questions](https://github.com/Tikam02/DevOps-Guide/blob/master/Interview/Dev-ops-Interview.md)
 
 - [Awesome Interview Questions](https://github.com/MaximAbramchuck/awesome-interview-questions#docker)
 

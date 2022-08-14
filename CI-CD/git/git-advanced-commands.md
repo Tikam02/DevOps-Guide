@@ -22,5 +22,5 @@
 | `git revert HEAD~1` | Create a new commit undoing the last commit's changes. |
 | `git reflog` | List all the git actions that were executed before. Useful to find a lost commit, then you can try to recover it. |
 | `git bisect start` | Useful to find the buggy commit (that possible introduces some bug). After this, you use `git bisect [good|bad]` indicating when the suggested commit is in a `good` or `bad` state. When the issue is found, use `git bisect reset` to reset back to the original state before using the git bisect command.|
-| `git branch --merged | egrep -v "(*|master|dev)" | xargs git branch -d` | Delete already merged branches but `master` and `dev` in this example.
+| ```git branch --merged \| egrep -v "(*\|master\|dev)" \| xargs git branch -d``` | Delete already merged branches but `master` and `dev` in this example.
 | `git clean -df` | Remove untracked files and directories from the working tree. Add `n` to the flags to list all files that would be removed. |

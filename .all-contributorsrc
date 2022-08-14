@@ -247,7 +247,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/20483354?v=4",
       "profile": "https://github.com/waniniraj",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -376,6 +377,24 @@
       "profile": "https://github.com/s403o",
       "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "mahmoodahmad100",
+      "name": "Mahmood Ahmad",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24311652?v=4",
+      "profile": "https://github.com/mahmoodahmad100",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "darostegui",
+      "name": "Diego Arostegui",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61184284?v=4",
+      "profile": "https://github.com/darostegui",
+      "contributions": [
+        "code"
       ]
     }
   ],

@@ -20,7 +20,7 @@
 - Q1) Can you tell us the fundamental differences between DevOps & Agile?
   - A: Although DevOps shares some similarities with the Agile methodology, which is one of the most popular SDLC methodologies, both are fundamentally different approaches to software development. Following are the various fundamental differences between the two:
 
-    - Agile Approach – The agile approach is only meant for development in Agile while the agile approach is meant for both development and operations in DevOps.
+    - Agile Approach – The agile approach is only meant for development in Agile while the Devops approach is meant for both development and operations in DevOps.
 
     - Practices and Processes – While agile involves practices such as Agile Scrum and Agile Kanban, DevOps involves processes such as CD (Continuous Delivery), CI (Continuous Integration), and CT (Continuous Testing).
 
@@ -390,7 +390,7 @@
 
 - Q3) How do you start/stop services?
   - (deprecated) service start/stop service_name
-  - systemctl strat/stop service_name
+  - systemctl start/stop service_name
 
 - Q4) How do you display the shell’s environment variables?
   - env
