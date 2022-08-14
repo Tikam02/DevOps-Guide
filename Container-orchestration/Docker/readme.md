@@ -7,6 +7,7 @@
 4. [Writing Dockerfile](#4-writing-dockerfile)
 5. [Running Docker Image](#5-runnig-up-the-docker-image)
 6. [Push to Docker-hub](#6-pushing-image-to-dockerhub)
+7. [Use multi-stage builds](#7-Use-multi-stage-builds)
 
 
 *****************
@@ -244,4 +245,44 @@ sudo apt-get install docker.io
 ``` $ docker run --name nodejs-image-demo -p 80:8080 -d your_dockerhub_username/nodejs-image-demo ```
 
 
+## 7 Use multi-stage builds
+ - With multi-stage builds, you use multiple ``` FROM ``` statements in your Dockerfile. Each ``` FROM ``` instruction can use a different base, and each of them begins a new stage of the build. You can selectively copy artifacts from one stage to another, leaving behind everything you don’t want in the final image, also you can name your stages, by adding an ```AS <NAME>``` to the ```FROM``` instruction To show how this works, let’s adapt the Dockerfile to use multi-stage builds.
 
+
+[Dockerfile](https://github.com/s403o/GoViolin/blob/master/Dockerfile):
+```
+### stage 1 (build) ###
+FROM golang:alpine3.15 as build
+
+# set working directory
+RUN mkdir -p /app
+WORKDIR /app
+
+# install app dependencies
+RUN go mod init github.com/Rosalita/GoViolin
+
+# add app
+COPY . /app
+
+# listener port at runtime
+EXPOSE 3000
+
+# build
+RUN go build -o go
+
+# test
+HEALTHCHECK --interval=1m --timeout=20s --start-period=30s --retries=3 \  
+    CMD go test || exit 1
+
+### stage 2 (run) ###
+FROM alpine as production
+
+WORKDIR /app
+COPY --from=build /app .
+
+# run
+ENTRYPOINT [ "./go" ]
+```
+  - The end result is the same tiny production image as before, with a significant reduction in complexity.
+How does it work? The second ```FROM``` instruction starts a new build stage with the ```alpine as production``` image as its base. The ```COPY --from=build /app .``` line copies just the built artifact from the previous stage into this new stage. The Go SDK and any intermediate artifacts are left behind, and not saved in the final image.
+ - You can check the final image from this link [s403o/goapp](https://hub.docker.com/r/s403o/goapp/tags) the final size is 50MB! :)
