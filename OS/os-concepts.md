@@ -577,6 +577,7 @@ The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, 
 - [ What is Cloud Computing? - AWS](https://aws.amazon.com/what-is-cloud-computing/)
 - [What is cloud computing? - Salesforce](https://www.salesforce.com/products/platform/best-practices/cloud-computing/)
 - [What is cloud computing? - Azure](https://azure.microsoft.com/en-in/overview/what-is-cloud-computing/)
+- [Understanding the Virtualization in Cloud Computing](https://www.scaler.com/topics/virtualization-in-cloud-computing/)
 
 
 ********************
