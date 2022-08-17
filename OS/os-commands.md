@@ -29,6 +29,7 @@
 - [Linux CPU Performance Monitoring Tutorial](https://www.slashroot.in/linux-cpu-performance-monitoring-tutorial)
 - [20 Command Line Tools to Monitor Linux Performance](https://www.tecmint.com/command-line-tools-to-monitor-linux-performance/)
 - [How to Use the Linux Top command](https://vitux.com/how-to-use-the-ubuntu-linux-top-command/)
+- [Process Scheduling in Linux](https://www.scaler.com/topics/operating-system/process-scheduling/)
 
 ****************
 
