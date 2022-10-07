@@ -36,6 +36,7 @@
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash pop` | Apply the last stashed state on the working directory |
+| `git stash apply` | Like `git stash pop`, but do not remove last state from stash list. |
 | `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
@@ -59,3 +60,11 @@
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Tagging
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag` | List existing tags |
+| `git tag -a [tag name] -m [tag description]` | Creating an annotated tag |
+| `git push origin [tag name]` | Sharing tags to remote server |
