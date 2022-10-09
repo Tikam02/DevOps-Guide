@@ -8,4 +8,4 @@ Apache Storm integrates with the queueing and database technologies you already 
 
 Apache Storm integrates with any queueing system and any database system. Apache Storm's spout abstraction makes it easy to integrate a new queuing system. Likewise, integrating Apache Storm with database systems is easy.
 
-For more info: [https://storm.apache.org/] (https://storm.apache.org/)
+For more info: [https://storm.apache.org/](https://storm.apache.org/)
