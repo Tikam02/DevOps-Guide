@@ -14,4 +14,4 @@ Capabilities:
 - Amazon Kinesis Data Analytics is the easiest way to process data streams in real time with SQL or Apache Flink without having to learn new programming languages or processing frameworks.
 
 
-For more info: [https://aws.amazon.com/kinesis/] (https://aws.amazon.com/kinesis/)
+For more info: [https://aws.amazon.com/kinesis/](https://aws.amazon.com/kinesis/)
