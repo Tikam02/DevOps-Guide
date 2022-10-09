@@ -5,10 +5,10 @@ The term "streaming" is used to describe continuous, never-ending data streams w
 
 ****
 
-- Amazon Kinesis
-- Apache Kafka
-- Apache Storm
-- Spark streaming
-- IBM Stream analytics
-- Azure Stream Analytics
-- Google Cloud DataFlow
+- [Amazon Kinesis] (amazon-kinesis.md)
+- [Apache Kafka] (apache-kafka.md)
+- [Apache Storm] (apache-storm.md)
+- [Spark streaming] (spark-streaming.md)
+- [IBM Stream analytics] (ibm-stream-analytics.md)
+- [Azure Stream Analytics] (azure-stream-analytics.md)
+- [Google Cloud DataFlow] (gcloud-dataflow.md)
