@@ -16,4 +16,4 @@ Ecosystem:
 - Large ecosystem of open source tools: Leverage a vast array of community-driven tooling.
 
 
-For more info: [https://kafka.apache.org/] (https://kafka.apache.org/)
+For more info: [https://kafka.apache.org/](https://kafka.apache.org/)
