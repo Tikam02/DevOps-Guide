@@ -32,6 +32,7 @@
 30. [Python sheet](python%20sheet%20.pdf)
 31. [Kubernetes sheet](kubernetes%20sheet%20.pdf)
 32. [DevOps interview questions with answers](DevOps%20interview%20questions%20with%20answers.pdf)
+33. [Pro Git](progit.pdf)
 
 
 
