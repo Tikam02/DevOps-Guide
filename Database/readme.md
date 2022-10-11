@@ -29,17 +29,14 @@ Most databases use ***Structured Query Language (SQL)*** for writing and queryin
 ## Types of databases
 There are many different types of databases. The best database for a specific organization depends on how the organization intends to use the data.
 
-- Relational databases: Relational databases became dominant in the 1980s. Items in a relational database are organized as a set of tables with columns and rows. Relational database technology provides the most efficient and flexible way to access structured information.
-- Object-oriented databases: Information in an object-oriented database is represented in the form of objects, as in object-oriented programming.
-- Distributed databases: A distributed database consists of two or more files located in different sites. The database may be stored on multiple computers, located in the same physical location, or scattered over different networks.
-- Data warehouses: A central repository for data, a data warehouse is a type of database specifically designed for fast query and analysis.
-- NoSQL databases: A NoSQL, or nonrelational database, allows unstructured and semistructured data to be stored and manipulated (in contrast to a relational database, which defines how all data inserted into the database must be composed). NoSQL databases grew popular as web applications became more common and more complex.
-- Graph databases: A graph database stores data in terms of entities and the relationships between entities.
-- OLTP databases: An OLTP database is a speedy, analytic database designed for large numbers of transactions performed by multiple users.
+- **Relational databases:** Relational databases became dominant in the 1980s. Items in a relational database are organized as a set of tables with columns and rows. Relational database technology provides the most efficient and flexible way to access structured information.
+- **Object-oriented databases:** Information in an object-oriented database is represented in the form of objects, as in object-oriented programming.
+- **Distributed databases:** A distributed database consists of two or more files located in different sites. The database may be stored on multiple computers, located in the same physical location, or scattered over different networks.
+- **Data warehouses:** A central repository for data, a data warehouse is a type of database specifically designed for fast query and analysis.
+- **NoSQL databases:** A NoSQL, or nonrelational database, allows unstructured and semistructured data to be stored and manipulated (in contrast to a relational database, which defines how all data inserted into the database must be composed). NoSQL databases grew popular as web applications became more common and more complex.
+- **Graph databases:** A graph database stores data in terms of entities and the relationships between entities.
+- **OLTP databases:** An OLTP database is a speedy, analytic database designed for large numbers of transactions performed by multiple users.
 
 
-
-
-
-
+For more info: [https://www.oracle.com/in/database/what-is-database/#relational](https://www.oracle.com/in/database/what-is-database/#relational)
 
