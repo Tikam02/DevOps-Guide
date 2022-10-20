@@ -163,6 +163,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/darostegui"><img src="https://avatars.githubusercontent.com/u/61184284?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Diego Arostegui</b></sub></a><br /><a href="https://github.com/Tikam02/DevOps-Guide/commits?author=darostegui" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/relativvv"><img src="https://avatars.githubusercontent.com/u/52501124?s=400&u=65c9b54a550063e6bd3b4fb36f0ed7c9ac80bde5&v=4" alt=""/><br /><sub><b>relativvv</b></sub></a><br /><a href="https://github.com/relativvv/DevOps-Guide/commits?author=relativvv" title="Code">💻</a></td>
   </tr>
 </table>
 
