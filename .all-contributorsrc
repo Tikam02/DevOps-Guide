@@ -396,6 +396,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "TimGoldbach",
+      "name": "Tim Goldbach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74297098?v=4",
+      "profile": "https://github.com/TimGoldbach",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
