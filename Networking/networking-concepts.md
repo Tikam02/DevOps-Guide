@@ -278,6 +278,33 @@ Internally (within a network), it can be very useful for caching proxy(Squid). F
 **********************************************
 
 ## Routing Bridging and NAT
+### NAT
+ The motivation behind NAT or Network Address Translation comes from the continuously increasing number of network applications and users along with the limited pool of public IPv4 addresses.
+
+
+NAT enables hosts on an internal network to access an external network. NAT not only solves the problem of IPv4 address shortage but it also solves security loopholes since NAT prevents devices on the external network from directly communicating with hosts on the internal network that use private addresses.
+
+#### Private IP Addresses
+While public IP addresses are used for direct communication on the internet and are handled and distributed by dedicated organizations, private IP addresses are not used for direct communication on the internet and can be used by anyone randomly on an internal network. So a private IP address can be assigned to multiple machines as long as they don't belong to the same internal network.
+
+- Reserved private IP addresses 
+
+    - Class A:
+        - 10.0.0.0 - 10.255.255.255
+    - Class B:
+        -  172.16.0.0 – 172.31.255.255
+    - Class C:
+        -  192.168.0.0 – 192.168.255.255
+
+NAT is usually implemented on network egress devices such as routers or firewalls. An internal network can be an entreprise or a home. So, when you are using your computer at home and you want to access the internet to chat with some friends, a packet is sent to your home router where there is a NAT configured. For a traffic coming from an internal network (home) and going to an external network (internet), the NAT will translate the source IP address (private) which is in this case your computer's, into a specific public IP address so you can communicate with the public or external network. And vice versa, when a traffic is coming from an external network and going to an internal network, the NAT will translate the destination IP address (public) into a specific private IP address.
+
+#### Static NAT vs Dynamic NAT
+When a private IP address is linked to a fixed IP address, this is called static NAT because it is one-to-one mode. Whereas in dynamic NAT, a private IP address is mapped to a group of public IP addresses. Static NAT could result in wasting IP addresses because the public IP address is always reserved for a specific host whether they are online or offline. However, dynamic NAT temporarily assigns a random IP address in the pool of addresses to the host. When the latter is no longer online, dynamic NAT frees that formerly claimed IP address and it is then available for other users.
+
+#### NAPT and Easy IP
+Despite that, dynamic NAT is far from perfect because it does not handle port numbers translation. This is where NAPT or Network Address and Port Translation comes to the rescue because it enables a public IP address to map multiple private IP addresses through ports. In this mode, both IP addresses and transport-layer ports are translated so that different private addresses with different source port numbers are mapped to the same public address with different source port numbers.
+
+Easy IP also translates both IP addresses and transport-layer port numbers. However, Easy IP applies to scenarios where public IP addresses are not fixed, such as scenarios where public IP addresses are dynamically obtained by egress devices on private networks through DHCP (Dynamic Host Configuration Protocol) for example.
 
 *********************************************
 
