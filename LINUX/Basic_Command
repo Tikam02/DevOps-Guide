@@ -81,6 +81,21 @@ COPY/RENAME/MOVE/OPERATION
 
 ---
 
+##Linux pipes
+
+    cat test.txt | grep 'searchkey' ---> Only gives lines from that file thant contains the key in ''
+
+    cat test.txt | less ---> Prints out file content, but you have the possibility to scroll
+                             Quit the reading with 'q'
+
+    cat test.txt | uniq ---> This will sort the given file and print the unique values only.
+
+    cat test.txt | head -4 ---> Only prints out the last 4 lines of the command before the pipe, you can specify any number you want
+
+    ls | wc -l ---> prints out the linenumber of the command before the pipe
+
+---
+
 ##PERMISSION
 
 Observe the output of ls:
