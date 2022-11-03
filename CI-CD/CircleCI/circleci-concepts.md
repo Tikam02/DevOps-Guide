@@ -51,4 +51,6 @@ Executors define the environment in which the steps of a job will be run, allowi
 # Pipeline   : 
 A CircleCI pipeline is the full set of processes you run when you trigger work on your projects. Pipelines encompass your workflows, which in turn coordinate your jobs. 
 
+# Data Persistence   : 
+Data persistence allows you to move data between jobs and speed up your build. There are three main methods for persisting data in CircleCI: caches, workspaces, and artifacts.
 
