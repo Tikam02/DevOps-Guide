@@ -53,6 +53,10 @@ There are 2 operating system design principles, which are: (1) Separation of mec
 
 The 3 types of Operating Systems commonly used nowadays are: (1) Monolithic OS, where the entire OS is working in kernel space and is alone in supervisor mode; (2) Modular OS, in which some part of the system core will be located in independent files called modules that can be added to the system at run time; and (3) Micro OS, where the kernel is broken down into separate processes, known as servers. Some of the servers run in kernel space and some run in user-space.
 
+#### Resources:
+
+- [Operating System Tutorial](https://www.scaler.com/topics/operating-system/)
+
 **************
 
 ## Boot Process
