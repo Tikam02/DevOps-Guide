@@ -33,7 +33,11 @@
 31. [Kubernetes sheet](kubernetes%20sheet%20.pdf)
 32. [DevOps interview questions with answers](DevOps%20interview%20questions%20with%20answers.pdf)
 33. [Pro Git](progit.pdf)
-
+34. [Building Secure and Reliable Systems](building_secure_and_reliable_systems.pdf)
+35. [Case Studies in Infrastructure Change Management](case-studies-infrastructure-change-management.pdf)
+36. [Google SRE](google-site-reliability-engineering.pdf)
+37. [Practical Guide To Cloud Migration](practical-guide-to-cloud-migration.pdf)
+38. [Training SRE](Training_Site_Reliability_Engineers.pdf)
 
 
 ******
