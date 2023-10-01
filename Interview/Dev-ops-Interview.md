@@ -652,6 +652,45 @@ Scheduler:
 
 ## Architecture:
 
+-1. Question: Explain the components of Kubernetes architecture and their roles.
+Solution:
+Kubernetes architecture consists of several key components:
+
+Master Node: Manages the cluster and its components.
+API Server: Exposes the Kubernetes API.
+Controller Manager: Ensures the desired state of the cluster.
+Scheduler: Assigns nodes to newly created pods.
+etcd: Consistent and highly-available key-value store used as Kubernetes' backing store.
+Node (Minion) Nodes: Where containers are launched.
+Kubelet: Ensures that containers are running in a Pod.
+Kube Proxy: Maintains network rules for Pod communication.
+Container Runtime: Software responsible for running containers.
+
+-2. Question: What is a Kubernetes Pod and how does it work in a cluster?
+Solution:
+A Pod is the smallest deployable unit in Kubernetes, representing a single instance of a running process in a cluster. Pods can contain multiple containers that share the same network namespace, allowing them to communicate with each other using localhost. Pods are scheduled to run on nodes and can be horizontally scaled by creating multiple replicas managed by Controllers like Deployments.
+
+-3. Question: How does Kubernetes ensure high availability and fault tolerance?
+Solution:
+Kubernetes achieves high availability through:
+
+Replication: Replicating applications across multiple nodes.
+Self-healing: Automatically replaces failed containers or reschedules Pods.
+Load Balancing: Distributes network traffic across multiple Pods.
+Additionally, Kubernetes ensures fault tolerance through features like node monitoring, automatic scaling, and rolling updates, which allow applications to be updated without downtime.
+
+-4. Question: Explain the concept of Kubernetes Services and their types.
+Solution:
+Kubernetes Services provide stable endpoints for Pods. There are several types of Services:
+
+ClusterIP: Exposes the Service on a cluster-internal IP.
+NodePort: Exposes the Service on each Node's IP at a static port.
+LoadBalancer: Exposes the Service externally using a cloud provider's load balancer.
+ExternalName: Maps the Service to the contents of the externalName field (e.g., a DNS name).
+
+-5. Question: What are Kubernetes Deployments, and how do they manage application updates?
+Solution:
+Deployments in Kubernetes describe an application’s life cycle, enabling declarative updates for Pods and ReplicaSets. They provide a way to describe an application’s desired state. When a Deployment’s Pod template (e.g., container image version) is updated, it triggers a rolling update, ensuring zero-downtime updates. Old Pods are replaced by new ones gradually, minimizing disruptions.
 
 ******************
 
