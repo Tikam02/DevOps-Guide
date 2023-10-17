@@ -1,4 +1,4 @@
-# Google Cloud Platform (GCP) Concepts
+# 1. Google Cloud Platform (GCP) Concepts
 
 Google Cloud Platform is a suite of cloud computing services offered by Google. Here are some fundamental concepts to understand when working with GCP:
 
@@ -123,3 +123,60 @@ Google Cloud Platform is a suite of cloud computing services offered by Google. 
 - **Apache Beam:** Dataflow is based on the Apache Beam open-source project.
 
 These advanced concepts and services in Google Cloud Platform expand its capabilities for building scalable, secure, and data-driven cloud solutions.
+
+
+# 2. Basic Commands
+These are only basic commands for more you can consider https://cloud.google.com/docs
+
+### 1. Login to GCP Account:
+```gcloud auth login```
+
+### 2. Set Project: (arduino)
+```gcloud config set project PROJECT_ID```
+
+### 3. List Projects:
+```gcloud projects list```
+
+### 4. Create a New VM Instance:
+```gcloud compute instances create INSTANCE_NAME --machine-type MACHINE_TYPE --image IMAGE```
+
+### 5. SSH into a VM Instance:
+```gcloud compute ssh INSTANCE_NAME```
+
+### 6. List VM Instances:
+```gcloud compute instances list```
+
+### 7. Create a Cloud Storage Bucket:
+```gsutil mb -p PROJECT_ID gs://BUCKET_NAME/```
+
+### 8. Upload a File to Cloud Storage:
+```gsutil cp FILE_PATH gs://BUCKET_NAME/```
+
+### 9. List Files in Cloud Storage Bucket:
+```gsutil ls gs://BUCKET_NAME/```
+
+### 10. Create a Pub/Sub Topic:
+```gcloud pubsub topics create TOPIC_NAME```
+
+### 11. Publish a Message to Pub/Sub Topic:
+```gcloud pubsub topics publish TOPIC_NAME --message "MESSAGE"```
+
+### 12. Create a Cloud SQL Instance (MySQL):
+```gcloud sql instances create INSTANCE_NAME --database-version=MYSQL_5_7 --tier=db-n1-standard-1```
+
+### 13. List Cloud SQL Instances:
+```gcloud sql instances list```
+
+### 14. Deploy App Engine Application:
+```gcloud app deploy app.yaml```
+
+### 15. List App Engine Services:
+```gcloud app services list```
+
+### 16. Create a Kubernetes Cluster:
+```gcloud container clusters create CLUSTER_NAME --num-nodes=1 --zone=COMPUTE_ZONE```
+
+### 17. List Kubernetes Clusters:
+```gcloud container clusters list```
+
+As said you can always official documentation for more commands and concepts https://cloud.google.com/docs 
