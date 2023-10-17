@@ -60,6 +60,7 @@ Absolutely, diving into AWS can be an adventure! Here are some handy commands to
 **Tips:**
    - Leverage AWS documentation and AWS forums for detailed information.
    - Use AWS SDKs for specific programming languages for more complex automation.
+   - Create custom AMIs with pre-installed software, configurations, and security settings to speed up instance launches and ensure consistency.
 
 Remember to replace placeholder values like `bucket`, `path`, `your-cluster-name`, etc., with your actual resource names. And always be cautious with powerful commands, especially when it comes to resource deletion. Happy exploring in the AWS cloud!
 
