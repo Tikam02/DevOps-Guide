@@ -1,4 +1,4 @@
-# Microsoft Azure Concepts
+# 1. Microsoft Azure Concepts
 
 Microsoft Azure is a comprehensive cloud computing platform provided by Microsoft. Here are some fundamental concepts to understand when working with Azure:
 
@@ -98,3 +98,56 @@ Microsoft Azure is a comprehensive cloud computing platform provided by Microsof
 - **Azure Sentinel:** Azure Sentinel is a cloud-native Security Information and Event Management (SIEM) service that provides intelligent security analytics for threat detection and response across your organization's resources.
 
 - **Security Connectors:** Sentinel integrates with a wide range of Microsoft and third-party security solutions to collect and analyze security data.
+
+# 2. Basic Commands
+These are only basic commands for more you can consider https://learn.microsoft.com/en-us/azure/?product=popular
+
+### 1. Login to Azure Account:
+```az login```
+
+### 2. List Subscriptions:
+```az account list```
+
+### 3. Set Active Subscription:
+```az account set --subscription "Subscription Name or ID"```
+
+### 4. List Resource Groups:
+```az group list```
+
+### 5. Create a Resource Group:
+```az group create --name "ResourceGroupName" --location "East US"```
+
+### 6. Deploy a Virtual Machine:
+```az vm create --resource-group "ResourceGroupName" --name "VMName" --image "UbuntuLTS" --admin-username "azureuser" --admin-password "Password123"```
+
+### 7. Start/Stop/Restart a Virtual Machine:
+```az vm start --resource-group ResourceGroupName" --name "VMName" az vm stop --resource-group "ResourceGroupName" --name "VMName" az vm restart --resource-group "ResourceGroupName" --name "VMName"```
+
+### 8. List Virtual Machines:
+```az vm list --resource-group "ResourceGroupName"```
+
+### 9. Delete a Virtual Machine:
+```az vm delete --resource-group "ResourceGroupName" --name "VMName" --yes --no-wait```
+
+### 10. Create a Storage Account:
+```az storage account create --name "storageaccountname" --resource-group "ResourceGroupName" --location "East US" --sku "Standard_LRS"```
+
+### 11. List Storage Accounts:
+```az storage account list --resource-group "ResourceGroupName"```
+
+### 12. Create a Blob Container:
+```az storage container create --name "containername" --account-name "storageaccountname" --account-key "accountkey"```
+
+### 13. List Blob Containers:
+```az storage container list --account-name "storageaccountname" --account-key "accountkey"```
+
+### 14. Deploy Azure Web App:
+```az webapp create --resource-group "ResourceGroupName" --plan "AppServicePlanName" --name "WebAppName" --runtime "DOTNET|10.0" --deployment-local-git```
+
+### 15. List Azure Web Apps:
+```az webapp list --resource-group "ResourceGroupName"```
+
+For more can check out : https://learn.microsoft.com/en-us/azure/?product=popular
+
+Happy Learning ! 
+
