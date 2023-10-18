@@ -104,7 +104,8 @@ Google Cloud Platform is a suite of cloud computing services offered by Google. 
 
 - **Vulnerability Scanning:** It includes vulnerability scanning for GCP assets.
 
-## 18. **Google Cloud AutoML**
+## 18. **Google Cloud AutoML** 
+
 
 - **Google Cloud AutoML:** AutoML is a suite of machine learning products that enables developers with limited ML expertise to build custom machine learning models for specific use cases.
 
