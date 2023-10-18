@@ -238,7 +238,7 @@ Red Hat offers a cloud platform known as Red Hat OpenShift, which is a Kubernete
 **1. Red Hat CLI:**
 Red Hat provides a command-line interface (CLI) tool called ```rhel-osp-director``` for managing Red Hat OpenStack Platform environments. 
 
-1. General steps for installing Red Hat CLI: 
+## 1. General steps for installing Red Hat CLI: 
 
 - ***Ensure You Have Red Hat Subscription:***
 To install Red Hat CLI tools, you need a valid Red Hat subscription. Make sure you have access to the Red Hat repositories.
@@ -265,6 +265,74 @@ After installation is complete, you can verify that the CLI tool has been instal
 
 This command should display the installed version of the Red Hat CLI tool, confirming a successful installation.
 
+
+<!-- start -->
+## 2 . Commands:
+Red Hat-based Linux distributions like Red Hat Enterprise Linux (RHEL), CentOS, and Fedora use the yum package manager (and more recently dnf in newer versions of RHEL and Fedora) to manage software packages.
+
+- ***Update the System:***
+```sudo yum update```
+
+or with `dnf`:
+```sudo dnf update```
+
+- ***Install a Package:***
+```sudo yum install package_name```
+
+or with `dnf`:
+```sudo dnf install package_name```
+
+Replace package_name with the name of the package you want to install.
+
+- ***Remove a Package:***
+```sudo yum remove package_name```
+
+or with `dnf`:
+```sudo dnf remove package_name```
+
+- ***Search for a Package:***
+```sudo yum search keyword```
+
+or with `dnf`:
+```sudo dnf search keyword```
+
+- ***List Installed Packages:***
+```sudo yum list installed```
+
+or with `dnf`:
+```sudo dnf list installed```
+
+- ***Enable a Service (Start at Boot):***
+```bash :sudo systemctl enable service_name```
+   Enables a service to start automatically at boot.
+
+- ***Start/Stop/Restart a Service:***
+```sudo systemctl start service_name sudo systemctl stop service_name sudo systemctl restart service_name```
+   Manages services (replace service_name with the actual service name).
+
+- ***Check System Logs:***
+```journalctl```
+   Displays the system journal and logs.
+
+- ***Check Disk Space:***
+```bash : df -h```
+
+- ***Check Memory and CPU Usage:***
+```c: free -h```
+
+- ***Network Configuration:***
+```ip addr show```
+
+- ***Firewall Configuration:***
+```sudo firewall-cmd --list-all```
+
+## Note: 
+Remember to replace package_name and service_name with the actual names of packages and services you want to interact with. Always use sudo to execute administrative commands to ensure proper permissions.
+ Additionally, consult the man pages (```man command_name```) for more detailed information about specific commands and their options.
+
+
+
+<!-- end -->
 For further more details : 
 - Redhat Openshift Documentation : https://docs.openshift.com/
 - Redhat customer portal: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8
