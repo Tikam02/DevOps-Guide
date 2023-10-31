@@ -227,3 +227,113 @@ Certainly! DigitalOcean is known for its simplicity and developer-friendly featu
    - Take advantage of DigitalOcean's tutorials and community resources.
 
 These commands provide a foundation for managing resources on DigitalOcean. For further details, refer to the [DigitalOcean CLI Documentation](https://www.digitalocean.com/docs/apis-clis/doctl/) and [DigitalOcean Documentation](https://www.digitalocean.com/docs/).
+
+
+
+
+# Red Hat 
+Red Hat is a well-known software company that provides open-source solutions, primarily focused on enterprise-level applications and services, including Linux-based operating systems, middleware, and cloud technologies.
+
+Red Hat offers a cloud platform known as Red Hat OpenShift, which is a Kubernetes-based container platform. OpenShift enables developers to build, deploy, and scale applications quickly and efficiently. It supports a variety of cloud providers, including public clouds like AWS (Amazon Web Services), Azure, and Google Cloud Platform, making it easier for organizations to deploy applications on their preferred cloud infrastructure.
+
+**1. Red Hat CLI:**
+Red Hat provides a command-line interface (CLI) tool called ```rhel-osp-director``` for managing Red Hat OpenStack Platform environments. 
+
+## 1. General steps for installing Red Hat CLI: 
+
+- ***Ensure You Have Red Hat Subscription:***
+To install Red Hat CLI tools, you need a valid Red Hat subscription. Make sure you have access to the Red Hat repositories.
+
+- ***Access the Command Line:***
+Open a terminal or command prompt on your system where you want to install the Red Hat CLI tool. 
+
+- ***Update Your System:***
+It's always a good practice to update your system's package repository before installing new software. Run the following command: 
+```sudo yum update```
+If you're using a different package manager like dnf, use dnf update instead.
+
+- ***Install Red Hat CLI:***
+You can install the Red Hat CLI tool using the package manager (yum or dnf). The exact command can vary based on your system configuration, but it should be something like:
+```sudo yum install rhel-osp-director```
+or for `dnf`: 
+```sudo dnf install rhel-osp-director```
+
+Follow the prompts to confirm the installation. The package manager will download and install the necessary files.
+
+- ***Verify the Installation:***
+After installation is complete, you can verify that the CLI tool has been installed by running:
+```rhel-osp-director --version```
+
+This command should display the installed version of the Red Hat CLI tool, confirming a successful installation.
+
+
+<!-- start -->
+## 2 . Commands:
+Red Hat-based Linux distributions like Red Hat Enterprise Linux (RHEL), CentOS, and Fedora use the yum package manager (and more recently dnf in newer versions of RHEL and Fedora) to manage software packages.
+
+- ***Update the System:***
+```sudo yum update```
+
+or with `dnf`:
+```sudo dnf update```
+
+- ***Install a Package:***
+```sudo yum install package_name```
+
+or with `dnf`:
+```sudo dnf install package_name```
+
+Replace package_name with the name of the package you want to install.
+
+- ***Remove a Package:***
+```sudo yum remove package_name```
+
+or with `dnf`:
+```sudo dnf remove package_name```
+
+- ***Search for a Package:***
+```sudo yum search keyword```
+
+or with `dnf`:
+```sudo dnf search keyword```
+
+- ***List Installed Packages:***
+```sudo yum list installed```
+
+or with `dnf`:
+```sudo dnf list installed```
+
+- ***Enable a Service (Start at Boot):***
+```bash :sudo systemctl enable service_name```
+   Enables a service to start automatically at boot.
+
+- ***Start/Stop/Restart a Service:***
+```sudo systemctl start service_name sudo systemctl stop service_name sudo systemctl restart service_name```
+   Manages services (replace service_name with the actual service name).
+
+- ***Check System Logs:***
+```journalctl```
+   Displays the system journal and logs.
+
+- ***Check Disk Space:***
+```bash : df -h```
+
+- ***Check Memory and CPU Usage:***
+```c: free -h```
+
+- ***Network Configuration:***
+```ip addr show```
+
+- ***Firewall Configuration:***
+```sudo firewall-cmd --list-all```
+
+## Note: 
+Remember to replace package_name and service_name with the actual names of packages and services you want to interact with. Always use sudo to execute administrative commands to ensure proper permissions.
+ Additionally, consult the man pages (```man command_name```) for more detailed information about specific commands and their options.
+
+
+
+<!-- end -->
+For further more details : 
+- Redhat Openshift Documentation : https://docs.openshift.com/
+- Redhat customer portal: https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8
