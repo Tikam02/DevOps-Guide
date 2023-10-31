@@ -1,6 +1,6 @@
 # Devops Notes
 
-### Top 5 DevOps Tools You Should Know In 2019
+### Top 5 DevOps Tools You Should Know In 2023
 
 #### Ansible
 
@@ -53,3 +53,11 @@
     - Push work into background processes, freeing your web server up to handle more users.
     - Scale the most frequently used parts of your system, without having to scale everything.
     - Handling everything with ease even if it seems to be a huge crash.
+ 
+#### Git
+
+- Git is a widely adopted, distributed version control system (DVCS) that is fundamental to modern software development. It is considered an essential tool for source code management and collaborative software development.
+
+     -Distributed Version Control: Git follows a distributed version control model, which means that every developer has a full copy of the entire repository on their local machine. 
+     -Branching and Merging: Git excels in branching and merging capabilities.
+     -Lightweight and Fast: Git is known for its speed and efficiency. 
