@@ -1,6 +1,6 @@
 # Devops Notes
 
-### Top 5 DevOps Tools You Should Know In 2019
+### Top 5 DevOps Tools You Should Know In 2023
 
 #### Ansible
 
@@ -41,8 +41,10 @@
     - Open-source orchestrator.
     - Easy container management.
     - Horizontal autoscaling — If you get high loads, you can replicate your pods and balance the load across them to avoid downtime.
-    - Self-healing, Automated Rollouts and Rollbacks — If something goes wrong, you can automatically replace, restart, reschedule your containers or rollout/rollback to the desired state of the containerized application.
-    - Service Discovery — Kubernetes uses unique IP addresses and can put a set of containers behind a single DNS name. This allows you easily track and identify your across the cluster.
+    - Self-healing, Automated Rollouts and Rollbacks — If something goes wrong, you can automatically replace, restart, reschedule your containers or 
+      rollout/rollback to the desired state of the containerized application.
+    - Service Discovery — Kubernetes uses unique IP addresses and can put a set of containers behind a single DNS name. This allows you easily track and identify 
+      your across the cluster.
 
 
 ####  RabbitMQ
@@ -53,3 +55,19 @@
     - Push work into background processes, freeing your web server up to handle more users.
     - Scale the most frequently used parts of your system, without having to scale everything.
     - Handling everything with ease even if it seems to be a huge crash.
+ 
+#### GIT 
+
+-Git is a widely adopted, distributed version control system (DVCS) that is fundamental to modern software development. It is considered an essential tool for source code management and collaborative software development.Git's distributed and collaborative nature, along with its efficient branching and merging capabilities, makes it an indispensable tool for version control in software development. Whether you're working on small personal projects or contributing to large open-source endeavors, Git is a foundational component for managing source code and tracking changes.
+
+  -Git follows a distributed version control model, which means that every developer has a full copy of the entire repository on their local machine.
+  -Git excels in branching and merging capabilities. Developers can create branches to work on features or bug fixes independently.
+  -Git is known for its speed and efficiency. Operations such as committing changes, switching branches, and merging are typically lightning-fast, making it an 
+   ideal choice for developers working on large codebases.
+ 
+#### Prometheus
+-Prometheus is a leading open-source monitoring and alerting solution that holds a prominent place in the DevOps and Site Reliability Engineering (SRE) toolkit. It's highly regarded for its ability to monitor and maintain the health and performance of systems and services through time-series data collection.Prometheus is a favored choice for monitoring and observability in DevOps practices. Its scalability, powerful querying language, alerting capabilities, and wide range of integrations make it an indispensable tool for ensuring the reliability and performance of applications and infrastructure.
+
+   - Prometheus is known for its scalability and efficiency. It can efficiently handle large volumes of time-series data with minimal resource usage.
+   -Prometheus offers service discovery mechanisms, simplifying the dynamic monitoring of services as they come online.
+   -Prometheus provides built-in alerting capabilities.
