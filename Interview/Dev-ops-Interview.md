@@ -126,7 +126,7 @@
 
   - To shift left in DevOps simply means the necessity of taking as many tasks on the right i.e. that typically happens toward the end of the application development process and incorporate them into earlier stages of a DevOps methodology.
 
-    - There are several ways of accomplishing a shit left in DevOps, most notably:
+    - There are several ways of accomplishing a shift left in DevOps, most notably:
     - Create production-ready artifacts at the end of every Agile sprint 
     - Incorporating static code analysis routines in every build
 
