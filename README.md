@@ -8,7 +8,7 @@
 		<a href="https://triplebyte.com/a/UEmYALe/d">
 		<b>Looking for a job?</b> 
 			<br>
-			No resume needed. Just prove you can code. Take Triplebyte’s quiz 
+			No resume is needed. Could you just prove you can code? Take Triple byte’s quiz 
       and go straight to final onsite interviews!
 			<br>
 			<div>
