@@ -1,7 +1,7 @@
-                                                                              #Introduction
+#Introduction
 Microsoft Azure, commonly referred to as Azure, is a comprehensive cloud computing platform and infrastructure service offered by Microsoft. It provides a wide range of cloud-based services, including computing, storage, databases, networking, analytics, machine learning, and more.Microsoft Azure is widely used by businesses and developers for a variety of purposes, from hosting web applications to running large-scale data analytics. It provides a flexible and scalable cloud platform that can meet the diverse needs of both small startups and large enterprises.
 
-                                                                                #Azure History
+#Azure History
 Microsoft unveiled Windows Azure in early October 2008 but it went to live after February 2010. Later in 2014, Microsoft changed its name from Windows Azure to Microsoft Azure. Azure provided a service platform for .NET services, SQL Services, and many Live Services. Many people were still very skeptical about “the cloud”. As an industry, we were entering a brave new world with many possibilities. Microsoft Azure is getting bigger and better in coming days. More tools and more functionalities are getting added. It has two releases as of now. It’s famous version Micorosft Azure v1 and later Microsoft Azure v2. Microsoft Azure v1 was more like JSON script driven then the new version v2, which has interactive UI for simplification and easy learning. Microsoft Azure v2 is still in the preview version.
 
 Some of the features of Microsoft Azure:
